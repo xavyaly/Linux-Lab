@@ -1,0 +1,1285 @@
+_kadmin_changepw:*:219:-2:Kerberos Change Password Service:/var/empty:/usr/bin/false
+_devicemgr:*:220:220:Device Management Server:/var/empty:/usr/bin/false
+_webauthserver:*:221:221:Web Auth Server:/var/empty:/usr/bin/false
+_netbios:*:222:222:NetBIOS:/var/empty:/usr/bin/false
+_warmd:*:224:224:Warm Daemon:/var/empty:/usr/bin/false
+_dovenull:*:227:227:Dovecot Authentication:/var/empty:/usr/bin/false
+_netstatistics:*:228:228:Network Statistics Daemon:/var/empty:/usr/bin/false
+_avbdeviced:*:229:-2:Ethernet AVB Device Daemon:/var/empty:/usr/bin/false
+_krb_krbtgt:*:230:-2:Open Directory Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_krb_kadmin:*:231:-2:Open Directory Kerberos Admin Service:/var/empty:/usr/bin/false
+_krb_changepw:*:232:-2:Open Directory Kerberos Change Password Service:/var/empty:/usr/bin/false
+_krb_kerberos:*:233:-2:Open Directory Kerberos:/var/empty:/usr/bin/false
+_krb_anonymous:*:234:-2:Open Directory Kerberos Anonymous:/var/empty:/usr/bin/false
+_assetcache:*:235:235:Asset Cache Service:/var/empty:/usr/bin/false
+_coremediaiod:*:236:236:Core Media IO Daemon:/var/empty:/usr/bin/false
+_launchservicesd:*:239:239:_launchservicesd:/var/empty:/usr/bin/false
+_iconservices:*:240:240:IconServices:/var/empty:/usr/bin/false
+_distnote:*:241:241:DistNote:/var/empty:/usr/bin/false
+_nsurlsessiond:*:242:242:NSURLSession Daemon:/var/db/nsurlsessiond:/usr/bin/false
+_nsurlstoraged:*:243:243:NSURLStorage Daemon:/var/db/nsurlstoraged:/usr/bin/false
+_displaypolicyd:*:244:244:Display Policy Daemon:/var/empty:/usr/bin/false
+_astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
+_krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
+_gamecontrollerd:*:247:247:Game Controller Daemon:/var/empty:/usr/bin/false
+_mbsetupuser:*:248:248:Setup User:/var/setup:/bin/bash
+_ondemand:*:249:249:On Demand Resource Daemon:/var/db/ondemand:/usr/bin/false
+_xserverdocs:*:251:251:macOS Server Documents Service:/var/empty:/usr/bin/false
+_wwwproxy:*:252:252:WWW Proxy:/var/empty:/usr/bin/false
+_mobileasset:*:253:253:MobileAsset User:/var/ma:/usr/bin/false
+_findmydevice:*:254:254:Find My Device Daemon:/var/db/findmydevice:/usr/bin/false
+_datadetectors:*:257:257:DataDetectors:/var/db/datadetectors:/usr/bin/false
+_captiveagent:*:258:258:captiveagent:/var/empty:/usr/bin/false
+_ctkd:*:259:259:ctkd Account:/var/empty:/usr/bin/false
+_applepay:*:260:260:applepay Account:/var/db/applepay:/usr/bin/false
+_hidd:*:261:261:HID Service User:/var/db/hidd:/usr/bin/false
+_cmiodalassistants:*:262:262:CoreMedia IO Assistants User:/var/db/cmiodalassistants:/usr/bin/false
+_analyticsd:*:263:263:Analytics Daemon:/var/db/analyticsd:/usr/bin/false
+_fpsd:*:265:265:FPS Daemon:/var/db/fpsd:/usr/bin/false
+_timed:*:266:266:Time Sync Daemon:/var/db/timed:/usr/bin/false
+_reportmemoryexception:*:269:269:ReportMemoryException:/var/db/reportmemoryexception:/usr/bin/false
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ ls -l
+total 0
+-rw-r--r--  1 javedalam  staff  0 Sep 19 19:33 Lab-1
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ clear
+
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ cat /etc/passwd
+##
+# User Database
+# 
+# Note that this file is consulted directly only when the system is running
+# in single-user mode.  At other times this information is provided by
+# Open Directory.
+#
+# See the opendirectoryd(8) man page for additional information about
+# Open Directory.
+##
+nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+root:*:0:0:System Administrator:/var/root:/bin/sh
+daemon:*:1:1:System Services:/var/root:/usr/bin/false
+_uucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
+_taskgated:*:13:13:Task Gate Daemon:/var/empty:/usr/bin/false
+_networkd:*:24:24:Network Services:/var/networkd:/usr/bin/false
+_installassistant:*:25:25:Install Assistant:/var/empty:/usr/bin/false
+_lp:*:26:26:Printing Services:/var/spool/cups:/usr/bin/false
+_postfix:*:27:27:Postfix Mail Server:/var/spool/postfix:/usr/bin/false
+_scsd:*:31:31:Service Configuration Service:/var/empty:/usr/bin/false
+_ces:*:32:32:Certificate Enrollment Service:/var/empty:/usr/bin/false
+_appstore:*:33:33:Mac App Store Service:/var/empty:/usr/bin/false
+_mcxalr:*:54:54:MCX AppLaunch:/var/empty:/usr/bin/false
+_appleevents:*:55:55:AppleEvents Daemon:/var/empty:/usr/bin/false
+_geod:*:56:56:Geo Services Daemon:/var/db/geod:/usr/bin/false
+_devdocs:*:59:59:Developer Documentation:/var/empty:/usr/bin/false
+_sandbox:*:60:60:Seatbelt:/var/empty:/usr/bin/false
+_mdnsresponder:*:65:65:mDNSResponder:/var/empty:/usr/bin/false
+_ard:*:67:67:Apple Remote Desktop:/var/empty:/usr/bin/false
+_www:*:70:70:World Wide Web Server:/Library/WebServer:/usr/bin/false
+_eppc:*:71:71:Apple Events User:/var/empty:/usr/bin/false
+_cvs:*:72:72:CVS Server:/var/empty:/usr/bin/false
+_svn:*:73:73:SVN Server:/var/empty:/usr/bin/false
+_mysql:*:74:74:MySQL Server:/var/empty:/usr/bin/false
+_sshd:*:75:75:sshd Privilege separation:/var/empty:/usr/bin/false
+_qtss:*:76:76:QuickTime Streaming Server:/var/empty:/usr/bin/false
+_cyrus:*:77:6:Cyrus Administrator:/var/imap:/usr/bin/false
+_mailman:*:78:78:Mailman List Server:/var/empty:/usr/bin/false
+_appserver:*:79:79:Application Server:/var/empty:/usr/bin/false
+_clamav:*:82:82:ClamAV Daemon:/var/virusmails:/usr/bin/false
+_amavisd:*:83:83:AMaViS Daemon:/var/virusmails:/usr/bin/false
+_jabber:*:84:84:Jabber XMPP Server:/var/empty:/usr/bin/false
+_appowner:*:87:87:Application Owner:/var/empty:/usr/bin/false
+_windowserver:*:88:88:WindowServer:/var/empty:/usr/bin/false
+_spotlight:*:89:89:Spotlight:/var/empty:/usr/bin/false
+_tokend:*:91:91:Token Daemon:/var/empty:/usr/bin/false
+_securityagent:*:92:92:SecurityAgent:/var/db/securityagent:/usr/bin/false
+_calendar:*:93:93:Calendar:/var/empty:/usr/bin/false
+_teamsserver:*:94:94:TeamsServer:/var/teamsserver:/usr/bin/false
+_update_sharing:*:95:-2:Update Sharing:/var/empty:/usr/bin/false
+_installer:*:96:-2:Installer:/var/empty:/usr/bin/false
+_atsserver:*:97:97:ATS Server:/var/empty:/usr/bin/false
+_ftp:*:98:-2:FTP Daemon:/var/empty:/usr/bin/false
+_unknown:*:99:99:Unknown User:/var/empty:/usr/bin/false
+_softwareupdate:*:200:200:Software Update Service:/var/db/softwareupdate:/usr/bin/false
+_coreaudiod:*:202:202:Core Audio Daemon:/var/empty:/usr/bin/false
+_screensaver:*:203:203:Screensaver:/var/empty:/usr/bin/false
+_locationd:*:205:205:Location Daemon:/var/db/locationd:/usr/bin/false
+_trustevaluationagent:*:208:208:Trust Evaluation Agent:/var/empty:/usr/bin/false
+_timezone:*:210:210:AutoTimeZoneDaemon:/var/empty:/usr/bin/false
+_lda:*:211:211:Local Delivery Agent:/var/empty:/usr/bin/false
+_cvmsroot:*:212:212:CVMS Root:/var/empty:/usr/bin/false
+_usbmuxd:*:213:213:iPhone OS Device Helper:/var/db/lockdown:/usr/bin/false
+_dovecot:*:214:6:Dovecot Administrator:/var/empty:/usr/bin/false
+_dpaudio:*:215:215:DP Audio:/var/empty:/usr/bin/false
+_postgres:*:216:216:PostgreSQL Server:/var/empty:/usr/bin/false
+_krbtgt:*:217:-2:Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_kadmin_admin:*:218:-2:Kerberos Admin Service:/var/empty:/usr/bin/false
+_kadmin_changepw:*:219:-2:Kerberos Change Password Service:/var/empty:/usr/bin/false
+_devicemgr:*:220:220:Device Management Server:/var/empty:/usr/bin/false
+_webauthserver:*:221:221:Web Auth Server:/var/empty:/usr/bin/false
+_netbios:*:222:222:NetBIOS:/var/empty:/usr/bin/false
+_warmd:*:224:224:Warm Daemon:/var/empty:/usr/bin/false
+_dovenull:*:227:227:Dovecot Authentication:/var/empty:/usr/bin/false
+_netstatistics:*:228:228:Network Statistics Daemon:/var/empty:/usr/bin/false
+_avbdeviced:*:229:-2:Ethernet AVB Device Daemon:/var/empty:/usr/bin/false
+_krb_krbtgt:*:230:-2:Open Directory Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_krb_kadmin:*:231:-2:Open Directory Kerberos Admin Service:/var/empty:/usr/bin/false
+_krb_changepw:*:232:-2:Open Directory Kerberos Change Password Service:/var/empty:/usr/bin/false
+_krb_kerberos:*:233:-2:Open Directory Kerberos:/var/empty:/usr/bin/false
+_krb_anonymous:*:234:-2:Open Directory Kerberos Anonymous:/var/empty:/usr/bin/false
+_assetcache:*:235:235:Asset Cache Service:/var/empty:/usr/bin/false
+_coremediaiod:*:236:236:Core Media IO Daemon:/var/empty:/usr/bin/false
+_launchservicesd:*:239:239:_launchservicesd:/var/empty:/usr/bin/false
+_iconservices:*:240:240:IconServices:/var/empty:/usr/bin/false
+_distnote:*:241:241:DistNote:/var/empty:/usr/bin/false
+_nsurlsessiond:*:242:242:NSURLSession Daemon:/var/db/nsurlsessiond:/usr/bin/false
+_nsurlstoraged:*:243:243:NSURLStorage Daemon:/var/db/nsurlstoraged:/usr/bin/false
+_displaypolicyd:*:244:244:Display Policy Daemon:/var/empty:/usr/bin/false
+_astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
+_krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
+_gamecontrollerd:*:247:247:Game Controller Daemon:/var/empty:/usr/bin/false
+_mbsetupuser:*:248:248:Setup User:/var/setup:/bin/bash
+_ondemand:*:249:249:On Demand Resource Daemon:/var/db/ondemand:/usr/bin/false
+_xserverdocs:*:251:251:macOS Server Documents Service:/var/empty:/usr/bin/false
+_wwwproxy:*:252:252:WWW Proxy:/var/empty:/usr/bin/false
+_mobileasset:*:253:253:MobileAsset User:/var/ma:/usr/bin/false
+_findmydevice:*:254:254:Find My Device Daemon:/var/db/findmydevice:/usr/bin/false
+_datadetectors:*:257:257:DataDetectors:/var/db/datadetectors:/usr/bin/false
+_captiveagent:*:258:258:captiveagent:/var/empty:/usr/bin/false
+_ctkd:*:259:259:ctkd Account:/var/empty:/usr/bin/false
+_applepay:*:260:260:applepay Account:/var/db/applepay:/usr/bin/false
+_hidd:*:261:261:HID Service User:/var/db/hidd:/usr/bin/false
+_cmiodalassistants:*:262:262:CoreMedia IO Assistants User:/var/db/cmiodalassistants:/usr/bin/false
+_analyticsd:*:263:263:Analytics Daemon:/var/db/analyticsd:/usr/bin/false
+_fpsd:*:265:265:FPS Daemon:/var/db/fpsd:/usr/bin/false
+_timed:*:266:266:Time Sync Daemon:/var/db/timed:/usr/bin/false
+_reportmemoryexception:*:269:269:ReportMemoryException:/var/db/reportmemoryexception:/usr/bin/false
+Javeds-MacBook-Air:19092019 javedalam$ head /etc/passwd
+##
+# User Database
+# 
+# Note that this file is consulted directly only when the system is running
+# in single-user mode.  At other times this information is provided by
+# Open Directory.
+#
+# See the opendirectoryd(8) man page for additional information about
+# Open Directory.
+##
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ head -n 12 /etc/passwd
+##
+# User Database
+# 
+# Note that this file is consulted directly only when the system is running
+# in single-user mode.  At other times this information is provided by
+# Open Directory.
+#
+# See the opendirectoryd(8) man page for additional information about
+# Open Directory.
+##
+nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+root:*:0:0:System Administrator:/var/root:/bin/sh
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ cat /etc/passwd | grep -i "_datadetectors"
+_datadetectors:*:257:257:DataDetectors:/var/db/datadetectors:/usr/bin/false
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ tail /etc/passwd
+_datadetectors:*:257:257:DataDetectors:/var/db/datadetectors:/usr/bin/false
+_captiveagent:*:258:258:captiveagent:/var/empty:/usr/bin/false
+_ctkd:*:259:259:ctkd Account:/var/empty:/usr/bin/false
+_applepay:*:260:260:applepay Account:/var/db/applepay:/usr/bin/false
+_hidd:*:261:261:HID Service User:/var/db/hidd:/usr/bin/false
+_cmiodalassistants:*:262:262:CoreMedia IO Assistants User:/var/db/cmiodalassistants:/usr/bin/false
+_analyticsd:*:263:263:Analytics Daemon:/var/db/analyticsd:/usr/bin/false
+_fpsd:*:265:265:FPS Daemon:/var/db/fpsd:/usr/bin/false
+_timed:*:266:266:Time Sync Daemon:/var/db/timed:/usr/bin/false
+_reportmemoryexception:*:269:269:ReportMemoryException:/var/db/reportmemoryexception:/usr/bin/false
+Javeds-MacBook-Air:19092019 javedalam$ tail -n 20 /etc/passwd
+_displaypolicyd:*:244:244:Display Policy Daemon:/var/empty:/usr/bin/false
+_astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
+_krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
+_gamecontrollerd:*:247:247:Game Controller Daemon:/var/empty:/usr/bin/false
+_mbsetupuser:*:248:248:Setup User:/var/setup:/bin/bash
+_ondemand:*:249:249:On Demand Resource Daemon:/var/db/ondemand:/usr/bin/false
+_xserverdocs:*:251:251:macOS Server Documents Service:/var/empty:/usr/bin/false
+_wwwproxy:*:252:252:WWW Proxy:/var/empty:/usr/bin/false
+_mobileasset:*:253:253:MobileAsset User:/var/ma:/usr/bin/false
+_findmydevice:*:254:254:Find My Device Daemon:/var/db/findmydevice:/usr/bin/false
+_datadetectors:*:257:257:DataDetectors:/var/db/datadetectors:/usr/bin/false
+_captiveagent:*:258:258:captiveagent:/var/empty:/usr/bin/false
+_ctkd:*:259:259:ctkd Account:/var/empty:/usr/bin/false
+_applepay:*:260:260:applepay Account:/var/db/applepay:/usr/bin/false
+_hidd:*:261:261:HID Service User:/var/db/hidd:/usr/bin/false
+_cmiodalassistants:*:262:262:CoreMedia IO Assistants User:/var/db/cmiodalassistants:/usr/bin/false
+_analyticsd:*:263:263:Analytics Daemon:/var/db/analyticsd:/usr/bin/false
+_fpsd:*:265:265:FPS Daemon:/var/db/fpsd:/usr/bin/false
+_timed:*:266:266:Time Sync Daemon:/var/db/timed:/usr/bin/false
+_reportmemoryexception:*:269:269:ReportMemoryException:/var/db/reportmemoryexception:/usr/bin/false
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ wc /etc/passwd
+     108     292    6804 /etc/passwd
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ nano sample
+Javeds-MacBook-Air:19092019 javedalam$ ls -l
+total 8
+-rw-r--r--  1 javedalam  staff   0 Sep 19 19:33 Lab-1
+-rw-r--r--  1 javedalam  staff  41 Sep 19 19:42 sample1
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ cat sample1 
+flhfhfadjsh
+hfjlhsl
+
+hfjhlsfh
+
+hfhjhhfjk
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ wc sample1 
+       6       4      41 sample1
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ cat sample1 | grep -i "hfjhlsfh"
+hfjhlsfh
+Javeds-MacBook-Air:19092019 javedalam$ cat sample1 | grep -i "flhfhfadjsh"
+flhfhfadjsh
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ grep -i "flhfhfadjsh"
+^C
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ grep -i "flhfhfadjsh" * 
+sample1:flhfhfadjsh
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ ls -l
+total 8
+-rw-r--r--  1 javedalam  staff   0 Sep 19 19:33 Lab-1
+-rw-r--r--  1 javedalam  staff  41 Sep 19 19:42 sample1
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ nano sample2
+Javeds-MacBook-Air:19092019 javedalam$ ls -l
+total 16
+-rw-r--r--  1 javedalam  staff   0 Sep 19 19:33 Lab-1
+-rw-r--r--  1 javedalam  staff  41 Sep 19 19:42 sample1
+-rw-r--r--  1 javedalam  staff  33 Sep 19 19:45 sample2
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ cat sample1 
+flhfhfadjsh
+hfjlhsl
+
+hfjhlsfh
+
+hfhjhhfjk
+Javeds-MacBook-Air:19092019 javedalam$ cat sample2 
+hjhjadkfh
+
+hajhjkh
+hjahdj
+
+hladl
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ grep -i "hfjhlsfh"
+^C
+Javeds-MacBook-Air:19092019 javedalam$ grep -i "hfjhlsfh" * 
+sample1:hfjhlsfh
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ diff sample1 sample2
+1,2c1
+< flhfhfadjsh
+< hfjlhsl
+---
+> hjhjadkfh
+4c3,4
+< hfjhlsfh
+---
+> hajhjkh
+> hjahdj
+6c6
+< hfhjhhfjk
+---
+> hladl
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ nano sample2 
+Javeds-MacBook-Air:19092019 javedalam$ cat sample1 
+flhfhfadjsh
+hfjlhsl
+
+hfjhlsfh
+
+hfhjhhfjk
+Javeds-MacBook-Air:19092019 javedalam$ cat sample2
+hjhjadkfh
+
+hajhjkh
+hjahdj
+
+hladl
+hfjlhsl
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ diff sample1 sample2
+1,2c1
+< flhfhfadjsh
+< hfjlhsl
+---
+> hjhjadkfh
+4c3,4
+< hfjhlsfh
+---
+> hajhjkh
+> hjahdj
+6c6,7
+< hfhjhhfjk
+---
+> hladl
+> hfjlhsl
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ grep -i "hfjlhsl"
+^C
+Javeds-MacBook-Air:19092019 javedalam$ grep -i "hfjlhsl" * 
+sample1:hfjlhsl
+sample2:hfjlhsl
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ nano sample2
+Javeds-MacBook-Air:19092019 javedalam$ grep -i "hfjlhsl" * 
+sample1:hfjlhsl
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ cat sample2 
+hjhjadkfh
+
+hajhjkh
+hjahdj
+
+hladl
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ cat >> sample2
+hfjlhsl
+^C
+Javeds-MacBook-Air:19092019 javedalam$ cat sample2 
+hjhjadkfh
+
+hajhjkh
+hjahdj
+
+hladl
+hfjlhsl
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ grep -i "hfjlhsl" * 
+sample1:hfjlhsl
+sample2:hfjlhsl
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ vim sample3
+Javeds-MacBook-Air:19092019 javedalam$ cat sample3
+cat: sample3: No such file or directory
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ vim sample3
+Javeds-MacBook-Air:19092019 javedalam$ cat sample3
+afkak
+ahfjhjd
+hjahf
+
+
+ahfhjl
+
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ vim sample3
+Javeds-MacBook-Air:19092019 javedalam$ vim sample3
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ vim sample3
+Javeds-MacBook-Air:19092019 javedalam$ cat sample3
+afkak
+lahfjhjd
+hjahf
+
+
+ahfhjl
+ahfhjl
+
+ahfhjl
+ahfhjl
+ahfhjl
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ ls -l
+total 24
+-rw-r--r--  1 javedalam  staff   0 Sep 19 19:33 Lab-1
+-rw-r--r--  1 javedalam  staff  41 Sep 19 19:42 sample1
+-rw-r--r--  1 javedalam  staff  41 Sep 19 19:50 sample2
+-rw-r--r--  1 javedalam  staff  59 Sep 19 20:00 sample3
+Javeds-MacBook-Air:19092019 javedalam$ nano sample4
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ cat sample4
+ewfhskfhjks
+ahjh
+
+ajfhjk
+
+ajkhfjh
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ ls -l
+total 32
+-rw-r--r--  1 javedalam  staff   0 Sep 19 19:33 Lab-1
+-rw-r--r--  1 javedalam  staff  41 Sep 19 19:42 sample1
+-rw-r--r--  1 javedalam  staff  41 Sep 19 19:50 sample2
+-rw-r--r--  1 javedalam  staff  59 Sep 19 20:00 sample3
+-rw-r--r--  1 javedalam  staff  34 Sep 19 20:00 sample4
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ cat >> sample4
+ahjkfhjh
+^C
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ cat sample4
+ewfhskfhjks
+ahjh
+
+ajfhjk
+
+ajkhfjh
+ahjkfhjh
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ nano sample4
+Javeds-MacBook-Air:19092019 javedalam$ cat sample4
+ewfhskfhjks
+ahjh
+
+ajfhjk
+
+ajkhfjh
+ahjkfhjh
+ahjkfhjh
+ahjkfhjh
+ahjkfhjh
+ahjkfhjh
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ ls -l
+total 32
+-rw-r--r--  1 javedalam  staff   0 Sep 19 19:33 Lab-1
+-rw-r--r--  1 javedalam  staff  41 Sep 19 19:42 sample1
+-rw-r--r--  1 javedalam  staff  41 Sep 19 19:50 sample2
+-rw-r--r--  1 javedalam  staff  59 Sep 19 20:00 sample3
+-rw-r--r--  1 javedalam  staff  79 Sep 19 20:02 sample4
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ alias jd="ls -l"
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ ls -l
+total 32
+-rw-r--r--  1 javedalam  staff   0 Sep 19 19:33 Lab-1
+-rw-r--r--  1 javedalam  staff  41 Sep 19 19:42 sample1
+-rw-r--r--  1 javedalam  staff  41 Sep 19 19:50 sample2
+-rw-r--r--  1 javedalam  staff  59 Sep 19 20:00 sample3
+-rw-r--r--  1 javedalam  staff  79 Sep 19 20:02 sample4
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ jd
+total 32
+-rw-r--r--  1 javedalam  staff   0 Sep 19 19:33 Lab-1
+-rw-r--r--  1 javedalam  staff  41 Sep 19 19:42 sample1
+-rw-r--r--  1 javedalam  staff  41 Sep 19 19:50 sample2
+-rw-r--r--  1 javedalam  staff  59 Sep 19 20:00 sample3
+-rw-r--r--  1 javedalam  staff  79 Sep 19 20:02 sample4
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ w
+20:05  up 40 days, 18:25, 5 users, load averages: 4.79 3.89 4.02
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+javedalam console  -                10Aug19 40days -
+javedalam s000     -                10Aug19    40 -bash
+javedalam s001     -                10Aug19    40 -bash
+javedalam s003     -                08Sep19     - w
+javedalam s004     -                Wed19      40 -bash
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ last 
+javedalam  ttys004                   Wed Sep 18 19:55   still logged in
+javedalam  ttys003                   Sun Sep  8 16:07   still logged in
+javedalam  ttys001                   Sat Aug 10 01:53   still logged in
+javedalam  ttys000                   Sat Aug 10 01:53   still logged in
+javedalam  console                   Sat Aug 10 01:45   still logged in
+reboot    ~                         Sat Aug 10 01:44 
+shutdown  ~                         Sat Aug 10 01:24 
+root      console                   Sat Aug 10 01:20 - shutdown  (00:04)
+javedalam  ttys001                   Sun Jul  7 10:30 - 10:30  (00:00)
+javedalam  ttys000                   Fri Jul  5 00:35 - 00:35  (00:00)
+javedalam  console                   Wed May 29 20:03 - 01:16 (72+05:12)
+reboot    ~                         Wed May 29 20:03 
+javedalam  ttys000                   Wed Apr 17 13:42 - 13:42  (00:00)
+javedalam  console                   Wed Apr 17 13:42 - crash (42+06:20)
+reboot    ~                         Wed Apr 17 13:42 
+javedalam  ttys000                   Mon Apr  1 09:55 - crash (16+03:46)
+javedalam  console                   Mon Apr  1 09:55 - crash (16+03:46)
+reboot    ~                         Mon Apr  1 09:55 
+javedalam  ttys004                   Tue Feb 12 10:20 - crash (47+23:34)
+javedalam  ttys003                   Tue Feb 12 10:12 - crash (47+23:43)
+javedalam  ttys001                   Tue Feb 12 08:58 - crash (48+00:57)
+javedalam  ttys000                   Tue Feb 12 08:52 - 08:52  (00:00)
+javedalam  ttys001                   Mon Feb 11 10:32 - 10:32  (00:00)
+javedalam  ttys000                   Mon Feb 11 09:18 - 09:18  (00:00)
+javedalam  ttys003                   Fri Feb  8 08:41 - 08:41  (00:00)
+javedalam  ttys001                   Wed Feb  6 15:19 - 15:19  (00:00)
+javedalam  ttys000                   Wed Feb  6 15:19 - 15:19  (00:00)
+javedalam  console                   Wed Feb  6 15:19 - crash (53+18:36)
+reboot    ~                         Wed Feb  6 15:19 
+shutdown  ~                         Wed Feb  6 15:18 
+javedalam  ttys001                   Tue Feb  5 13:43 - 13:43  (00:00)
+javedalam  ttys000                   Tue Feb  5 13:43 - 13:43  (00:00)
+javedalam  console                   Tue Feb  5 13:43 - 15:18 (1+01:35)
+reboot    ~                         Tue Feb  5 13:42 
+shutdown  ~                         Tue Feb  5 13:42 
+javedalam  ttys001                   Tue Feb  5 13:42 - 13:42  (00:00)
+javedalam  ttys000                   Tue Feb  5 13:42 - 13:42  (00:00)
+javedalam  ttys001                   Tue Feb  5 09:12 - 09:12  (00:00)
+javedalam  ttys000                   Mon Feb  4 09:24 - 09:24  (00:00)
+javedalam  console                   Sat Feb  2 01:52 - 13:42 (3+11:50)
+reboot    ~                         Sat Feb  2 01:50 
+
+wtmp begins Sat Feb  2 01:50 
+Javeds-MacBook-Air:19092019 javedalam$ last | head
+javedalam  ttys004                   Wed Sep 18 19:55   still logged in
+javedalam  ttys003                   Sun Sep  8 16:07   still logged in
+javedalam  ttys001                   Sat Aug 10 01:53   still logged in
+javedalam  ttys000                   Sat Aug 10 01:53   still logged in
+javedalam  console                   Sat Aug 10 01:45   still logged in
+reboot    ~                         Sat Aug 10 01:44 
+shutdown  ~                         Sat Aug 10 01:24 
+root      console                   Sat Aug 10 01:20 - shutdown  (00:04)
+javedalam  ttys001                   Sun Jul  7 10:30 - 10:30  (00:00)
+javedalam  ttys000                   Fri Jul  5 00:35 - 00:35  (00:00)
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ lastb
+-bash: lastb: command not found
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ du /etc/passwd
+0	/etc/passwd
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ ls -l
+total 32
+-rw-r--r--  1 javedalam  staff   0 Sep 19 19:33 Lab-1
+-rw-r--r--  1 javedalam  staff  41 Sep 19 19:42 sample1
+-rw-r--r--  1 javedalam  staff  41 Sep 19 19:50 sample2
+-rw-r--r--  1 javedalam  staff  59 Sep 19 20:00 sample3
+-rw-r--r--  1 javedalam  staff  79 Sep 19 20:02 sample4
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ du sample1
+8	sample1
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ cat sample1
+flhfhfadjsh
+hfjlhsl
+
+hfjhlsfh
+
+hfhjhhfjk
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ df
+Filesystem                         512-blocks      Used Available Capacity iused               ifree %iused  Mounted on
+/dev/disk1s1                        236568496 163342112  63506760    73% 1436006 9223372036853339801    0%   /
+devfs                                     393       393         0   100%     680                   0  100%   /dev
+/dev/disk1s4                        236568496   8388792  63506760    12%       4 9223372036854775803    0%   /private/var/vm
+map -hosts                                  0         0         0   100%       0                   0  100%   /net
+map auto_home                               0         0         0   100%       0                   0  100%   /home
+/dev/disk4s1                           392984    386520      6464    99%     355          4294966924    0%   /Volumes/GlobalMeet
+/Volumes/GlobalMeet/GlobalMeet.app     392984    386520      6464    99%     355          4294966924    0%   /private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ du -hT
+du: illegal option -- T
+usage: du [-H | -L | -P] [-a | -s | -d depth] [-c] [-h | -k | -m | -g] [-x] [-I mask] [file ...]
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ df -Ht
+Filesystem                           Size   Used  Avail Capacity iused               ifree %iused  Mounted on
+/dev/disk1s1                         121G    84G    33G    73% 1436007 9223372036853339800    0%   /
+devfs                                201k   201k     0B   100%     680                   0  100%   /dev
+/dev/disk1s4                         121G   4.3G    33G    12%       4 9223372036854775803    0%   /private/var/vm
+map -hosts                             0B     0B     0B   100%       0                   0  100%   /net
+map auto_home                          0B     0B     0B   100%       0                   0  100%   /home
+/dev/disk4s1                         201M   198M   3.3M    99%     355          4294966924    0%   /Volumes/GlobalMeet
+/Volumes/GlobalMeet/GlobalMeet.app   201M   198M   3.3M    99%     355          4294966924    0%   /private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ fdisk -l
+fdisk: illegal option -- l
+usage: fdisk [-ieu] [-f mbrboot] [-c cyl -h head -s sect] [-S size] [-r] [-a style] disk
+	-i: initialize disk with new MBR
+	-u: update MBR code, preserve partition table
+	-e: edit MBRs on disk interactively
+	-f: specify non-standard MBR template
+	-chs: specify disk geometry
+	-S: specify disk size
+	-r: read partition specs from stdin (implies -i)
+	-a: auto-partition with the given style
+	-d: dump partition table
+	-y: don't ask any questions
+	-t: test if disk is partitioned
+`disk' is of the form /dev/rdisk0.
+auto-partition styles:
+  boothfs     8Mb boot plus HFS+ root partition (default)
+  hfs         Entire disk as one HFS+ partition
+  dos         Entire disk as one DOS partition
+  raid        Entire disk as one 0xAC partition
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ fdisk 
+usage: fdisk [-ieu] [-f mbrboot] [-c cyl -h head -s sect] [-S size] [-r] [-a style] disk
+	-i: initialize disk with new MBR
+	-u: update MBR code, preserve partition table
+	-e: edit MBRs on disk interactively
+	-f: specify non-standard MBR template
+	-chs: specify disk geometry
+	-S: specify disk size
+	-r: read partition specs from stdin (implies -i)
+	-a: auto-partition with the given style
+	-d: dump partition table
+	-y: don't ask any questions
+	-t: test if disk is partitioned
+`disk' is of the form /dev/rdisk0.
+auto-partition styles:
+  boothfs     8Mb boot plus HFS+ root partition (default)
+  hfs         Entire disk as one HFS+ partition
+  dos         Entire disk as one DOS partition
+  raid        Entire disk as one 0xAC partition
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ fdisk -i
+usage: fdisk [-ieu] [-f mbrboot] [-c cyl -h head -s sect] [-S size] [-r] [-a style] disk
+	-i: initialize disk with new MBR
+	-u: update MBR code, preserve partition table
+	-e: edit MBRs on disk interactively
+	-f: specify non-standard MBR template
+	-chs: specify disk geometry
+	-S: specify disk size
+	-r: read partition specs from stdin (implies -i)
+	-a: auto-partition with the given style
+	-d: dump partition table
+	-y: don't ask any questions
+	-t: test if disk is partitioned
+`disk' is of the form /dev/rdisk0.
+auto-partition styles:
+  boothfs     8Mb boot plus HFS+ root partition (default)
+  hfs         Entire disk as one HFS+ partition
+  dos         Entire disk as one DOS partition
+  raid        Entire disk as one 0xAC partition
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ netstat 
+Active Internet connections
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)    
+tcp4       0      0  192.168.1.80.65336     13.94.40.40.https      ESTABLISHED
+tcp4       0      0  192.168.1.80.65335     199.244.51.53.https    ESTABLISHED
+tcp4       0      0  192.168.1.80.65334     199.244.51.53.https    ESTABLISHED
+tcp4       0      0  192.168.1.80.65333     199.244.50.43.https    ESTABLISHED
+tcp4       0      0  192.168.1.80.65332     ec2-52-200-20-16.https ESTABLISHED
+tcp4       0      0  192.168.1.80.65331     ec2-52-200-20-16.https ESTABLISHED
+tcp4       0      0  192.168.1.80.65330     ec2-52-200-20-16.https ESTABLISHED
+tcp4       0      0  192.168.1.80.65329     ec2-52-200-20-16.https ESTABLISHED
+tcp4       0      0  192.168.1.80.65328     ec2-52-200-20-16.https ESTABLISHED
+tcp4       0      0  192.168.1.80.65327     ec2-52-200-20-16.https ESTABLISHED
+tcp4       0      0  192.168.1.80.65326     ec2-52-200-20-16.https ESTABLISHED
+tcp4       0      0  192.168.1.80.65315     74.125.24.189.https    ESTABLISHED
+tcp4       0      0  192.168.1.80.65307     del11s03-in-f10..https ESTABLISHED
+tcp4       0      0  192.168.1.80.65306     maa05s03-in-f14..https ESTABLISHED
+tcp4       0      0  192.168.1.80.65259     del03s01-in-f14..https ESTABLISHED
+tcp4       0      0  192.168.1.80.65242     245.184.244.35.b.https ESTABLISHED
+tcp4       0      0  192.168.1.80.65219     lb-140-82-114-25.https ESTABLISHED
+tcp4       0      0  192.168.1.80.65115     lb-140-82-114-25.https ESTABLISHED
+tcp4       0      0  192.168.1.80.64986     whatsapp-cdn-shv.https ESTABLISHED
+^C
+Javeds-MacBook-Air:19092019 javedalam$ netstat -ntlp 
+netstat: option requires an argument -- p
+Usage:	netstat [-AaLlnW] [-f address_family | -p protocol]
+	netstat [-gilns] [-f address_family]
+	netstat -i | -I interface [-w wait] [-abdgRtS]
+	netstat -s [-s] [-f address_family | -p protocol] [-w wait]
+	netstat -i | -I interface -s [-f address_family | -p protocol]
+	netstat -m [-m]
+	netstat -r [-Aaln] [-f address_family]
+	netstat -rs [-s]
+
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ netstat | head
+Active Internet connections
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)    
+tcp4       0      0  192.168.1.80.65339     199.244.50.43.https    ESTABLISHED
+tcp4       0      0  192.168.1.80.65338     199.244.50.43.https    ESTABLISHED
+tcp4       0      0  192.168.1.80.65336     13.94.40.40.https      ESTABLISHED
+tcp4       0      0  192.168.1.80.65335     199.244.51.53.https    ESTABLISHED
+tcp4       0      0  192.168.1.80.65330     ec2-52-200-20-16.https CLOSE_WAIT 
+tcp4       0      0  192.168.1.80.65315     74.125.24.189.https    ESTABLISHED
+tcp4       0      0  192.168.1.80.65307     del11s03-in-f10..https ESTABLISHED
+tcp4       0      0  192.168.1.80.65306     maa05s03-in-f14..https ESTABLISHED
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ netstat | tail
+kctl       0      0     47      8 com.apple.netsrc
+kctl       0      0     48      8 com.apple.netsrc
+kctl       0      0     49      8 com.apple.netsrc
+kctl       0      0     50      8 com.apple.netsrc
+kctl       0      0     52      8 com.apple.netsrc
+kctl       0      0     53      8 com.apple.netsrc
+kctl       0      0      1      9 com.apple.network.statistics
+kctl       0      0      2      9 com.apple.network.statistics
+kctl       0      0      3      9 com.apple.network.statistics
+kctl       0      0      4      9 com.apple.network.statistics
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ netstat -ntlp
+netstat: option requires an argument -- p
+Usage:	netstat [-AaLlnW] [-f address_family | -p protocol]
+	netstat [-gilns] [-f address_family]
+	netstat -i | -I interface [-w wait] [-abdgRtS]
+	netstat -s [-s] [-f address_family | -p protocol] [-w wait]
+	netstat -i | -I interface -s [-f address_family | -p protocol]
+	netstat -m [-m]
+	netstat -r [-Aaln] [-f address_family]
+	netstat -rs [-s]
+
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ netstat -a | grep -i "listen"
+^C
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ history 
+  319  cd target/
+  320  ls -l
+  321  pwd
+  322  cd ~/.jenkins/
+  323  ls -l
+  324  cd jobs/sample-maven-second-project/
+  325  ls -l
+  326  cd builds/
+  327  ls -l
+  328  cd ../../../
+  329  ls -l
+  330  cd workspace/sample-maven-second-project
+  331  ls -l
+  332  cd gameoflife-
+  333  cd gameoflife-build/
+  334  ls -l
+  335  cd target/
+  336  ls -l
+  337  ls -l
+  338  cd ..
+  339  ls -l
+  340  pwd
+  341  cd -
+  342  pwd
+  343  ls -l
+  344  cd ..
+  345  ls -l
+  346  pwd
+  347  cd ../../DevOpsLabs/JenkinsLabs3Days-3/
+  348  LS -L
+  349  ls -l
+  350  java -jar jenkins.war 
+  351  pwd
+  352  ls -l
+  353  cd Documents/MyGit/Jenkins
+  354  ls -l
+  355  mkdir 02-11-2019
+  356  cd 02-11-2019/
+  357  nano Lab-1
+  358  git add .
+  359  git commit -m "Jenkins-Day-5"
+  360  git branch
+  361  git push
+  362  ls -l
+  363  cd ..
+  364  ls -l
+  365  java -version
+  366  pwd
+  367  ls -
+  368  ls -l
+  369  pwd
+  370  cd Documents/
+  371  ls -l
+  372  cd DevOpsLabs/
+  373  ls -
+  374  ls -l
+  375  cd Ansible/
+  376  ls -l
+  377  cd ..
+  378  ls -l
+  379  mkdir Java
+  380  cd J
+  381  cd Java/
+  382  ls -l
+  383  nano helloWorld.java
+  384  javac helloWorld.java 
+  385  java helloWorld.java 
+  386  java helloWorld.java
+  387  nano helloWorld.java 
+  388  mv helloWorld.java HelloWorld.java
+  389  cat HelloWorld.
+  390  cat HelloWorld.java 
+  391  javac HelloWorld.
+  392  javac HelloWorld.java 
+  393  java HelloWorld.java 
+  394  cat HelloWorld.
+  395  cat HelloWorld
+  396  java HelloWorld
+  397  ls -l
+  398  cd ..
+  399  ls -l
+  400  mkdir DataStructureDepth
+  401  cd DataStructureDepth/
+  402  ls -l
+  403  nano helloworld.c
+  404  chmod +x helloworld.c 
+  405  ./helloworld.c 
+  406  cat helloworld.c 
+  407  ls -l
+  408  gcc -o helloworld.c 
+  409  gcc -o helloworld helloworld.c 
+  410  ./helloworld.c 
+  411  ./helloworld
+  412  ls -l
+  413  cat helloworld.c 
+  414  cat helloworld
+  415  ls -l
+  416  gcc -o helloworld helloworld.c 
+  417  ./helloworld
+  418  pwd
+  419  cd ..
+  420  ls -l
+  421  cd DataStructureDepth/
+  422  ls -l
+  423  cd ..
+  424  mv Java/ DataStructureDepth/
+  425  cd DataStructureDepth/
+  426  ls -l
+  427  mkdir C
+  428  mv helloworld* C/
+  429  ls -l
+  430  mkdir C++
+  431  cd C++/
+  432  ls -l
+  433  nano helloworld.cpp
+  434  gcc -o helloworld.cpp 
+  435  gcc -o helloworld helloworld.cpp 
+  436  g++ -o helloworld helloworld.cpp 
+  437  ls -l
+  438  ./helloworld 
+  439  cat helloworld.cpp 
+  440  PWD
+  441  cd ..; ls -l
+  442  mkdir 06-July-2019
+  443  cd 06-July-2019/
+  444  python3.6
+  445  ls -l
+  446  pwd
+  447  cd ..
+  448  ls -l
+  449  pw
+  450  pwd
+  451  ls -l
+  452  mkdir 13-July-2019
+  453  cd 13-July-2019/
+  454  nano distinct-elements.py
+  455  chmod +x distinct-elements.py 
+  456  ./distinct-elements.py 
+  457  cat distinct-elements.py 
+  458  python3.6
+  459  ls -l
+  460  pwd
+  461  cd ..
+  462  ls -l
+  463  mkdir 14-July-2019/
+  464  cd 14-July-2019/
+  465  nano toys.py
+  466  chmod +x toys.py 
+  467  ./toys.py 
+  468  cat toys.py 
+  469  python
+  470  ls -l
+  471  nano choco.py
+  472  chmod +x choco.py 
+  473  ./choco.py 
+  474  nano choco.py
+  475  python3.6
+  476  pwd
+  477  ls -l
+  478  cd ..
+  479  ls -l
+  480  cd ..
+  481  ls -l
+  482  cd Ansible/
+  483  ls -l
+  484  ls -l
+  485  cd Documents/DevOpsLabs/
+  486  ls -l
+  487  cd DataStructureDepth/
+  488  ls -l
+  489  cd C
+  490  ls -l
+  491  nano fun.c
+  492  gcc -o fun.c 
+  493  pwd
+  494  cd ..
+  495  ls -l
+  496  mkdir 07-July-2019
+  497  cd 07-July-2019/
+  498  ls -l
+  499  nano isPalendrome.py
+  500  pwd
+  501  cd Documents/DevOpsLabs/Docker5Days-Last/
+  502  ls -l
+  503  docker images
+  504  docker container run --publish 80:80 nginx
+  505  docker container run --publish 8080:80 nginx
+  506  pwd
+  507  ls -l
+  508  cd ..
+  509  ls -l
+  510  cd Ansible/
+  511  ls -l
+  512  git branch
+  513  pwd
+  514  cd ..
+  515  ls -l
+  516  git status
+  517  git branch
+  518  pwd
+  519  cd ..
+  520  ls -l
+  521  cd DevOps
+  522  ls -l
+  523  ls -l Ansible/*
+  524  cd ../DevOpsLabs/
+  525  ls -l
+  526  mkdir Linux
+  527  cd Linux/
+  528  ls -l
+  529  mkdir 18082019
+  530  cd 18082019/
+  531  git branch
+  532  git add .
+  533  git status
+  534  git commit -m "Added One Linux dir"
+  535  git push origin master
+  536  git init
+  537  pwd
+  538  git add .
+  539  git commit -m "Linux Dir"
+  540  git push 
+  541  git push origin master
+  542  ls -l
+  543  pwd
+  544  cd ..
+  545  ls -l
+  546  cd ..
+  547  ls -l
+  548  cd Linux/
+  549  ls -l
+  550  cd 18082019/
+  551  touch Lab-1
+  552  git add .
+  553  git status
+  554  git commit -m "Linux Dir"
+  555  git push origin master
+  556  git branch
+  557  git status
+  558  git push origin master --force
+  559  cd ..
+  560  ls -l
+  561  cd ..
+  562  ls -l
+  563  rm -rf Linux/*
+  564  ls -l
+  565  git status
+  566  cd ..
+  567  git branch
+  568  ls -l
+  569  cd DevOpsLabs/
+  570  ls -l
+  571  git clone https://github.com/xavyaly/LinuxCmds.git
+  572  ls -l
+  573  ls -l Linux*
+  574  cd LinuxCmds/
+  575  ls -l
+  576  mkdir 18092019
+  577  cd 18092019/
+  578  touch Lab-1
+  579  nano Lab-1 
+  580  cat Lab-1 
+  581  git status
+  582  git add .
+  583  git commit -m "XYZ"
+  584  git push origin master
+  585  cat /etc/passwd | grep -v "xavy"
+  586  cat /etc/passwd | grep -v "false"
+  587  cat /etc/passwd | grep "false"
+  588  cat /etc/passwd | grep "https://github.com/xavyaly/LinuxCmds.git"
+  589  cat /etc/passwd | grep "_displaypolicyd"
+  590  du -h
+  591  df -Ht
+  592  clear
+  593  pwd
+  594  cd ..
+  595  ls -l
+  596  cd ..
+  597  ls -l
+  598  cd LinuxCmds/
+  599  ls -l
+  600  cd 18092019/
+  601  ls -l
+  602  cat Lab-1 
+  603  nano Lab-1 
+  604  pwd
+  605  pwd
+  606  cal
+  607  echo 
+  608  echo "xavy"
+  609  echo "xavyadhjhii"
+  610  echo $2
+  611  echo "$2"
+  612  echo "2"
+  613  echo "@2"
+  614  echo $HOME
+  615  cal
+  616  date
+  617  date+%T
+  618  'date+%T'
+  619  date
+  620  tty
+  621  tty
+  622  whoami
+  623  id
+  624  id root
+  625  clear
+  626  date
+  627  date --help
+  628  whatis date
+  629  man date
+  630  man date
+  631  info date
+  632  pwd
+  633  cd ../../
+  634  pwd
+  635  cd -
+  636  cd ..
+  637  cd -
+  638  cd 
+  639  pwd
+  640  cd -
+  641  pwd
+  642  ls -l
+  643  cd ..
+  644  ls -l
+  645  cd 18092019/
+  646  ls -l
+  647  cd Lab-1 
+  648  ls 
+  649  ls -l
+  650  ls -ltr
+  651  cd ..
+  652  ls -l
+  653  cd ..
+  654  ls -l
+  655  ls
+  656  ls -l
+  657  ls -ltr
+  658  ls -la
+  659  pwd
+  660  cal
+  661  pwd
+  662  cd LinuxCmds/
+  663  ls -l
+  664  cd 18092019/
+  665  ls -l
+  666  mkdir XYZ
+  667  ls -l
+  668  touch f1
+  669  ls -l
+  670  ls -l *
+  671  ls -l
+  672  ls -l XYZ/*
+  673  ls -l XYZ*
+  674  touch f{1..6}
+  675  ls -l
+  676  cp f1 f10
+  677  ls -l
+  678  mv f1 f12
+  679  ls -l
+  680  ls -l
+  681  rmdir XYZ
+  682  mkdir XYZ
+  683  ls -l
+  684  mv f1 f2 XYZ/
+  685  ls -l
+  686  mv f1 XYZ/
+  687  mv f1 XYZ
+  688  cp f1 XYZ
+  689  ls -l
+  690  mv f4 XYZ
+  691  ls -l XYZ*
+  692  rmdir XYZ
+  693  rm -rf XYZ*
+  694  ls -l
+  695  ls -l
+  696  rm f10
+  697  file /etc/passwd
+  698  file f12 f3
+  699  mkdir XYZ
+  700  file XYZ
+  701  ls -l
+  702  mv f3 XYZ
+  703  file XYZ
+  704  stat XYZ/
+  705  ls -l
+  706  pwd
+  707  cat Lab-1 
+  708  cat /etc/passwd
+  709  cat /etc/passwd | grep "_coremediaiod"
+  710  cat /etc/passwd | grep -v "_coremediaiod"
+  711  head /etc/passwd
+  712  pwd
+  713  ls -l
+  714  rm XYZ/* f12 f5 f6
+  715  ls -l
+  716  rm -rf XYZ/*
+  717  ls -l
+  718  ls -l XYZ/*
+  719  rmdir XYZ/
+  720  ls -l
+  721  nano Lab-1 
+  722  git status
+  723  git branch
+  724  git add . 
+  725  git status
+  726  git commit -m "Linux Commands"
+  727  git push origin master
+  728  ls -l
+  729  cd ..
+  730  cd ..
+  731  ls -l
+  732  cd LinuxCmds/
+  733  ls -l
+  734  mkdir 19092019
+  735  cd 19092019/
+  736  touch Lab-1
+  737  ls -l
+  738  pwd
+  739  cat /etc/passwd 
+  740  cat /etc/passwd 
+  741  ls -l
+  742  clear
+  743  cat /etc/passwd
+  744  head /etc/passwd
+  745  head -n 12 /etc/passwd
+  746  cat /etc/passwd | grep -i "_datadetectors"
+  747  tail /etc/passwd
+  748  tail -n 20 /etc/passwd
+  749  wc /etc/passwd
+  750  nano sample
+  751  ls -l
+  752  cat sample1 
+  753  wc sample1 
+  754  cat sample1 | grep -i "hfjhlsfh"
+  755  cat sample1 | grep -i "flhfhfadjsh"
+  756  grep -i "flhfhfadjsh"
+  757  grep -i "flhfhfadjsh" * 
+  758  ls -l
+  759  nano sample2
+  760  ls -l
+  761  cat sample1 
+  762  cat sample2 
+  763  grep -i "hfjhlsfh"
+  764  grep -i "hfjhlsfh" * 
+  765  diff sample1 sample2
+  766  nano sample2 
+  767  cat sample1 
+  768  cat sample2
+  769  diff sample1 sample2
+  770  grep -i "hfjlhsl"
+  771  grep -i "hfjlhsl" * 
+  772  nano sample2
+  773  grep -i "hfjlhsl" * 
+  774  cat sample2 
+  775  cat >> sample2
+  776  cat sample2 
+  777  grep -i "hfjlhsl" * 
+  778  vim sample3
+  779  cat sample3
+  780  vim sample3
+  781  cat sample3
+  782  vim sample3
+  783  vim sample3
+  784  vim sample3
+  785  cat sample3
+  786  ls -l
+  787  nano sample4
+  788  cat sample4
+  789  ls -l
+  790  cat >> sample4
+  791  cat sample4
+  792  nano sample4
+  793  cat sample4
+  794  ls -l
+  795  alias jd="ls -l"
+  796  ls -l
+  797  jd
+  798  w
+  799  last 
+  800  last | head
+  801  lastb
+  802  du /etc/passwd
+  803  ls -l
+  804  du sample1
+  805  cat sample1
+  806  df
+  807  du -hT
+  808  df -Ht
+  809  fdisk -l
+  810  fdisk 
+  811  fdisk -i
+  812  netstat 
+  813  netstat -ntlp 
+  814  netstat | head
+  815  netstat | tail
+  816  netstat -ntlp
+  817  netstat -a | grep -i "listen"
+  818  history 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ !800
+last | head
+javedalam  ttys004                   Wed Sep 18 19:55   still logged in
+javedalam  ttys003                   Sun Sep  8 16:07   still logged in
+javedalam  ttys001                   Sat Aug 10 01:53   still logged in
+javedalam  ttys000                   Sat Aug 10 01:53   still logged in
+javedalam  console                   Sat Aug 10 01:45   still logged in
+reboot    ~                         Sat Aug 10 01:44 
+shutdown  ~                         Sat Aug 10 01:24 
+root      console                   Sat Aug 10 01:20 - shutdown  (00:04)
+javedalam  ttys001                   Sun Jul  7 10:30 - 10:30  (00:00)
+javedalam  ttys000                   Fri Jul  5 00:35 - 00:35  (00:00)
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ passwd 
+Changing password for javedalam.
+Old Password:
+New Password:
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+
+
+
+Editors:
+
+nano
+vi
+vim
+
+Example $ vim <file-name>
+# Press i for insert mode
+<write commands or any data>
+
+:q!	// quit, it will not save thing
+:wq	// save and exit, it will save all your data
+
+
+$ nano <file-name>
+# add lines or codes
+
+ctrl+x	// it will ask Y or N
+Enter	// Save and Exit
