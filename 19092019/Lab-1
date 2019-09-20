@@ -1,6 +1,4 @@
-_kadmin_changepw:*:219:-2:Kerberos Change Password Service:/var/empty:/usr/bin/false
-_devicemgr:*:220:220:Device Management Server:/var/empty:/usr/bin/false
-_webauthserver:*:221:221:Web Auth Server:/var/empty:/usr/bin/false
+authserver:*:221:221:Web Auth Server:/var/empty:/usr/bin/false
 _netbios:*:222:222:NetBIOS:/var/empty:/usr/bin/false
 _warmd:*:224:224:Warm Daemon:/var/empty:/usr/bin/false
 _dovenull:*:227:227:Dovecot Authentication:/var/empty:/usr/bin/false
@@ -1260,7 +1258,7 @@ Old Password:
 New Password:
 Javeds-MacBook-Air:19092019 javedalam$ 
 Javeds-MacBook-Air:19092019 javedalam$ 
-Javeds-MacBook-Air:19092019 javedalam$ 
+
 
 
 
