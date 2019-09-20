@@ -21,13 +21,11 @@ Su Mo Tu We Th Fr Sa
 15 16 17 18 19 20 21  
 22 23 24 25 26 27 28  
 29 30                 
-                      
+
 Javeds-MacBook-Air:18092019 javedalam$ date
 Wed Sep 18 19:57:44 IST 2019
 Javeds-MacBook-Air:18092019 javedalam$ 
-Javeds-MacBook-Air:18092019 javedalam$ 
 Javeds-MacBook-Air:18092019 javedalam$ date+%T
--bash: date+%T: command not found
 Javeds-MacBook-Air:18092019 javedalam$ 
 Javeds-MacBook-Air:18092019 javedalam$ 'date+%T'
 -bash: date+%T: command not found
