@@ -1,0 +1,78 @@
+Editors:
+
+nano
+vi
+vim
+
+Example $ vim <file-name>
+# Press i for insert mode
+<write commands or any data>
+
+:q!	// quit, it will not save thing
+:wq	// save and exit, it will save all your data
+
+
+$ nano <file-name>
+# add lines or codes
+
+ctrl+x	// it will ask Y or N
+Enter	// Save and Exit
+
+________________________________________________________________________________________________________________________________________________
+
+Linux Basic Commands:
+
+$ pwd	: present working directory
+
+
+
+_________________________________________________________________________________________
+
+Editors:
+
+$ vi
+$ vim
+
+Example:
+
+$ vim <file-name>		: Open a file
+// press “i” or “a” -> insert mode
+// write the commands
+:q!					: quit and exit; it will not save anything
+:wq!					: save and exit; it will save the recent Changes
+
+	
+$ nano
+
+To write the contents inside a file:
+
+$ nano <file-name>	: Enter it and write the contents
+					: ctrl+x -> Y/N	// ask for saving
+					: File name to write: Same name or rename option
+
+Example:
+
+$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+
+_________________________________________________________________________________________
+
+Important:
+
+$ head /etc/passwd		: read 10 lines default from top
+$ head -20 /etc/passwd		: read 20 lines from top
+$ tail /etc/passwd			: read 10 lines default from bottom
+$ tail -20 /etc/passwd		: read 20 lines from bottom
+
+$ cat /etc/passwd | grep -i "_nsurlstoraged"		: read a specific line
+_nsurlstoraged:*:243:243:NSURLStorage Daemon:/var/db/nsurlstoraged:/usr/bin/false
+
+$ cat /etc/passwd | grep -v "_nsurlstoraged"	: to avoid that specific line
+
+$ wc /etc/passwd			: word counts
+     108     292    6804 /etc/passwd

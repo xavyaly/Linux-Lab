@@ -1,0 +1,2226 @@
+29 30                 
+                      
+Javeds-MacBook-Air:19092019 javedalam$ cal 09 2020
+   September 2020     
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8  9 10 11 12  
+13 14 15 16 17 18 19  
+20 21 22 23 24 25 26  
+27 28 29 30           
+                      
+Javeds-MacBook-Air:19092019 javedalam$ echo "Deepak"
+Deepak
+Javeds-MacBook-Air:19092019 javedalam$ echo "Above command executed successfully"
+Above command executed successfully
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ echo $HOME
+/Users/javedalam
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ date
+Sat Sep 21 10:52:03 IST 2019
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ date+%T
+-bash: date+%T: command not found
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ tty
+/dev/ttys003
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 'date+%T'
+-bash: date+%T: command not found
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ whoami
+javedalam
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ id
+uid=501(javedalam) gid=20(staff) groups=20(staff),701(com.apple.sharepoint.group.1),12(everyone),61(localaccounts),79(_appserverusr),80(admin),81(_appserveradm),98(_lpadmin),703(com.apple.sharepoint.group.3),33(_appstore),100(_lpoperator),204(_developer),250(_analyticsusers),395(com.apple.access_ftp),398(com.apple.access_screensharing),399(com.apple.access_ssh),702(com.apple.sharepoint.group.2)
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ id root
+uid=0(root) gid=0(wheel) groups=0(wheel),703(com.apple.sharepoint.group.3),1(daemon),2(kmem),3(sys),4(tty),5(operator),8(procview),9(procmod),12(everyone),20(staff),29(certusers),61(localaccounts),80(admin),702(com.apple.sharepoint.group.2),701(com.apple.sharepoint.group.1),33(_appstore),98(_lpadmin),100(_lpoperator),204(_developer),250(_analyticsusers),395(com.apple.access_ftp),398(com.apple.access_screensharing),399(com.apple.access_ssh)
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ clear
+
+Javeds-MacBook-Air:19092019 javedalam$ date --help
+date: illegal option -- -
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ... 
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+Javeds-MacBook-Air:19092019 javedalam$ whatis date
+cal(1), ncal(1)          - displays a calendar and the date of Easter
+date(1)                  - display or set date and time
+iwidgets_datefield(n), iwidgets::datefield(n) - Create and manipulate a date field widget
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ man date 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ +DATE: %Y-%m-%d%nTIME: %H:%M:%S
+-bash: +DATE:: command not found
+Javeds-MacBook-Air:19092019 javedalam$ man cal
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ info date
+Javeds-MacBook-Air:19092019 javedalam$ pwd
+/Users/javedalam/Documents/DevOpsLabs/LinuxCmds/19092019
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ ls 
+Lab-1	sample1	sample2	sample3	sample4
+Javeds-MacBook-Air:19092019 javedalam$ ls -l 
+total 128
+-rw-r--r--  1 javedalam  staff  45702 Sep 19 20:18 Lab-1
+-rw-r--r--  1 javedalam  staff     41 Sep 19 19:42 sample1
+-rw-r--r--  1 javedalam  staff     41 Sep 19 19:50 sample2
+-rw-r--r--  1 javedalam  staff     59 Sep 19 20:00 sample3
+-rw-r--r--  1 javedalam  staff     79 Sep 19 20:02 sample4
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ pwd
+/Users/javedalam/Documents/DevOpsLabs/LinuxCmds/19092019
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ 
+Javeds-MacBook-Air:19092019 javedalam$ cd ..
+Javeds-MacBook-Air:LinuxCmds javedalam$ pwd
+/Users/javedalam/Documents/DevOpsLabs/LinuxCmds
+Javeds-MacBook-Air:LinuxCmds javedalam$ cd ..
+Javeds-MacBook-Air:DevOpsLabs javedalam$ pwd
+/Users/javedalam/Documents/DevOpsLabs
+Javeds-MacBook-Air:DevOpsLabs javedalam$ 
+Javeds-MacBook-Air:DevOpsLabs javedalam$ cd -
+/Users/javedalam/Documents/DevOpsLabs/LinuxCmds
+Javeds-MacBook-Air:LinuxCmds javedalam$ cd -
+/Users/javedalam/Documents/DevOpsLabs
+Javeds-MacBook-Air:DevOpsLabs javedalam$ 
+Javeds-MacBook-Air:DevOpsLabs javedalam$ pwd
+/Users/javedalam/Documents/DevOpsLabs
+Javeds-MacBook-Air:DevOpsLabs javedalam$ ls -l
+total 0
+drwxr-xr-x   5 javedalam  staff  160 Nov 26  2018 AmazonWebServices
+drwxr-xr-x  16 javedalam  staff  512 Feb 14  2019 Ansible
+drwxr-xr-x   9 javedalam  staff  288 Jul 14 10:37 DataStructureDepth
+drwxr-xr-x   9 javedalam  staff  288 Jan  9  2019 Docker5Days-Last
+drwxr-xr-x   9 javedalam  staff  288 Dec 25  2018 GitLabs3Days-1
+drwxr-xr-x  16 javedalam  staff  512 Jan 26  2019 JenkinsLabs3Days-3
+drwxr-xr-x   3 javedalam  staff   96 Dec 12  2018 KubernetesLast
+drwxr-xr-x   2 javedalam  staff   64 Sep 18 19:27 Linux
+drwxr-xr-x   6 javedalam  staff  192 Sep 19 19:33 LinuxCmds
+drwxr-xr-x  19 javedalam  staff  608 Feb 16  2019 Python5Days-4
+drwxr-xr-x   7 javedalam  staff  224 Nov 23  2018 ShellScriptingLabs5Days-2
+drwxr-xr-x   3 javedalam  staff   96 Dec  1  2018 SonarQube4Days-3
+Javeds-MacBook-Air:DevOpsLabs javedalam$ 
+Javeds-MacBook-Air:DevOpsLabs javedalam$ 
+Javeds-MacBook-Air:DevOpsLabs javedalam$ cd LinuxCmds/
+Javeds-MacBook-Air:LinuxCmds javedalam$ ls -l
+total 8
+drwxr-xr-x  3 javedalam  staff   96 Sep 18 20:24 18092019
+drwxr-xr-x  7 javedalam  staff  224 Sep 19 20:00 19092019
+-rw-r--r--  1 javedalam  staff   12 Sep 18 19:28 README.md
+Javeds-MacBook-Air:LinuxCmds javedalam$ 
+Javeds-MacBook-Air:LinuxCmds javedalam$ 
+Javeds-MacBook-Air:LinuxCmds javedalam$ mkdir 20092019
+Javeds-MacBook-Air:LinuxCmds javedalam$ cd 20092019/
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ pwd
+/Users/javedalam/Documents/DevOpsLabs/LinuxCmds/20092019
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ cd ../../../
+Javeds-MacBook-Air:Documents javedalam$ pwd
+/Users/javedalam/Documents
+Javeds-MacBook-Air:Documents javedalam$ 
+Javeds-MacBook-Air:Documents javedalam$ cd -
+/Users/javedalam/Documents/DevOpsLabs/LinuxCmds/20092019
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls ../
+18092019	19092019	20092019	README.md
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls ../../
+AmazonWebServices		Docker5Days-Last		KubernetesLast			Python5Days-4
+Ansible				GitLabs3Days-1			Linux				ShellScriptingLabs5Days-2
+DataStructureDepth		JenkinsLabs3Days-3		LinuxCmds			SonarQube4Days-3
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l ../../
+total 0
+drwxr-xr-x   5 javedalam  staff  160 Nov 26  2018 AmazonWebServices
+drwxr-xr-x  16 javedalam  staff  512 Feb 14  2019 Ansible
+drwxr-xr-x   9 javedalam  staff  288 Jul 14 10:37 DataStructureDepth
+drwxr-xr-x   9 javedalam  staff  288 Jan  9  2019 Docker5Days-Last
+drwxr-xr-x   9 javedalam  staff  288 Dec 25  2018 GitLabs3Days-1
+drwxr-xr-x  16 javedalam  staff  512 Jan 26  2019 JenkinsLabs3Days-3
+drwxr-xr-x   3 javedalam  staff   96 Dec 12  2018 KubernetesLast
+drwxr-xr-x   2 javedalam  staff   64 Sep 18 19:27 Linux
+drwxr-xr-x   7 javedalam  staff  224 Sep 21 10:59 LinuxCmds
+drwxr-xr-x  19 javedalam  staff  608 Feb 16  2019 Python5Days-4
+drwxr-xr-x   7 javedalam  staff  224 Nov 23  2018 ShellScriptingLabs5Days-2
+drwxr-xr-x   3 javedalam  staff   96 Dec  1  2018 SonarQube4Days-3
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ pwd
+/Users/javedalam/Documents/DevOpsLabs/LinuxCmds/20092019
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ mkdir xyz
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 0
+drwxr-xr-x  2 javedalam  staff  64 Sep 21 11:01 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ touch file
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 0
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:01 file
+drwxr-xr-x  2 javedalam  staff  64 Sep 21 11:01 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ touch file{1..6}
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 0
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file1
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file6
+drwxr-xr-x  2 javedalam  staff  64 Sep 21 11:01 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ cp file1 file10
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 0
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file1
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file6
+drwxr-xr-x  2 javedalam  staff  64 Sep 21 11:01 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ mv file1 file11
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 0
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file6
+drwxr-xr-x  2 javedalam  staff  64 Sep 21 11:01 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ cat file
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ pwd
+/Users/javedalam/Documents/DevOpsLabs/LinuxCmds/20092019
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 0
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file6
+drwxr-xr-x  2 javedalam  staff  64 Sep 21 11:01 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 0
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file6
+drwxr-xr-x  2 javedalam  staff  64 Sep 21 11:01 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ cd xyz/
+Javeds-MacBook-Air:xyz javedalam$ ls -l
+Javeds-MacBook-Air:xyz javedalam$ 
+Javeds-MacBook-Air:xyz javedalam$ touch l1
+Javeds-MacBook-Air:xyz javedalam$ ls -l
+total 0
+-rw-r--r--  1 javedalam  staff  0 Sep 21 11:06 l1
+Javeds-MacBook-Air:xyz javedalam$ cat l1 
+Javeds-MacBook-Air:xyz javedalam$ 
+Javeds-MacBook-Air:xyz javedalam$ cd ..
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 0
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file6
+drwxr-xr-x  3 javedalam  staff  96 Sep 21 11:06 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l ../
+total 8
+drwxr-xr-x   3 javedalam  staff   96 Sep 18 20:24 18092019
+drwxr-xr-x   7 javedalam  staff  224 Sep 19 20:00 19092019
+drwxr-xr-x  11 javedalam  staff  352 Sep 21 11:03 20092019
+-rw-r--r--   1 javedalam  staff   12 Sep 18 19:28 README.md
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l ../../
+total 0
+drwxr-xr-x   5 javedalam  staff  160 Nov 26  2018 AmazonWebServices
+drwxr-xr-x  16 javedalam  staff  512 Feb 14  2019 Ansible
+drwxr-xr-x   9 javedalam  staff  288 Jul 14 10:37 DataStructureDepth
+drwxr-xr-x   9 javedalam  staff  288 Jan  9  2019 Docker5Days-Last
+drwxr-xr-x   9 javedalam  staff  288 Dec 25  2018 GitLabs3Days-1
+drwxr-xr-x  16 javedalam  staff  512 Jan 26  2019 JenkinsLabs3Days-3
+drwxr-xr-x   3 javedalam  staff   96 Dec 12  2018 KubernetesLast
+drwxr-xr-x   2 javedalam  staff   64 Sep 18 19:27 Linux
+drwxr-xr-x   7 javedalam  staff  224 Sep 21 10:59 LinuxCmds
+drwxr-xr-x  19 javedalam  staff  608 Feb 16  2019 Python5Days-4
+drwxr-xr-x   7 javedalam  staff  224 Nov 23  2018 ShellScriptingLabs5Days-2
+drwxr-xr-x   3 javedalam  staff   96 Dec  1  2018 SonarQube4Days-3
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l ../../Linux
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ cd ../../../
+Javeds-MacBook-Air:Documents javedalam$ ls -l
+total 57272
+-rw-r--r--@  1 javedalam  staff      4967 Jan 17  2019 113197000_1547708530465.pdf
+-rw-r--r--@  1 javedalam  staff     15054 Apr  1 11:04 113197000_1554096860804.pdf
+-rw-r--r--@  1 javedalam  staff     19596 Apr  1 11:11 113197000_1554097286386.pdf
+-rw-r--r--@  1 javedalam  staff     87711 Jan 29  2019 16904630920001011920001408842.pdf
+drwxr-xr-x  11 javedalam  staff       352 Jan  9  2019 All-Complete-Documents
+drwxr-xr-x   5 javedalam  staff       160 Nov 23  2018 Amazon-Web-Services
+-rw-r--r--@  1 javedalam  staff      9787 Feb  7  2019 AssetAllocation.xlsx
+-rw-r--r--@  1 javedalam  staff    743305 Jan 31  2019 Course-Introduction.pptx
+drwxr-xr-x  20 javedalam  staff       640 Sep  1 12:50 DataStructureInDepth
+drwxr-xr-x   3 javedalam  staff        96 Aug  8 22:16 DevOps
+drwxr-xr-x  15 javedalam  staff       480 Sep 18 19:28 DevOpsLabs
+drwxr-xr-x   4 javedalam  staff       128 Jan 24  2018 DevOps_GitHub
+drwxr-xr-x   3 javedalam  staff        96 May 31  2018 DockerPractice
+drwxr-xr-x  25 javedalam  staff       800 Nov 23  2018 Extra
+-rw-r--r--@  1 javedalam  staff    215266 Jan 31  2019 Git-Workflow.pptx
+-rw-r--r--@  1 javedalam  staff     85872 Jan 31  2019 Git-vs-GitHub.pptx
+drwxr-xr-x   3 javedalam  staff        96 Dec  8  2018 GitForPractice
+-rw-r--r--@  1 javedalam  staff   2271347 Dec 31  2018 GoTo Opener.dmg
+drwxrwxrwx  17 javedalam  staff       544 Jul 21 10:08 HCL meeting new
+-rw-r--r--@  1 javedalam  staff     16361 Jul 15 18:49 HumanErrorAvoidanceCertificate.jpg
+drwxr-xr-x  15 javedalam  staff       480 Jan 22  2018 Install iPython
+drwxr-xr-x   3 javedalam  staff        96 May  9  2018 Java
+drwxr-xr-x   5 javedalam  staff       160 Apr 20 01:46 MARRIAGE-BUREAU
+drwxr-xr-x   8 javedalam  staff       256 Feb 18  2018 Machine Learning
+drwx------@ 81 javedalam  staff      2592 Jul 25 23:37 Mail - Javed Alam - Outlook_files
+-rw-r--r--@  1 javedalam  staff      9558 Jul 25 23:51 MailApproval.pdf
+drwxr-xr-x  23 javedalam  staff       736 Feb  8  2019 MyGit
+-rw-r--r--@  1 javedalam  staff     16223 Mar 18  2019 RRT - Template.xlsx
+-rw-r--r--@  1 javedalam  staff    123168 Apr 21 14:50 Repayment_Report.pdf
+-rw-r--r--@  1 javedalam  staff    152793 Jan 31  2019 Section-Introduction.pptx
+drwxr-xr-x   4 javedalam  staff       128 Jul  1  2018 Terraform
+drwxr-xr-x  12 javedalam  staff       384 Aug 18 15:42 Trasfer-Claims
+-rw-r--r--@  1 javedalam  staff    161346 Jan 31  2019 What-is-Git.pptx
+-rw-r--r--@  1 javedalam  staff  24261128 Jan 23  2019 cfn-ug.pdf
+drwxr-xr-x  10 javedalam  staff       320 Sep  9  2018 maven-test-git
+-rw-r--r--@  1 javedalam  staff    110094 Jan 25  2019 rheladvancedlinux_cheat_sheet_r1v1.pdf
+Javeds-MacBook-Air:Documents javedalam$ 
+Javeds-MacBook-Air:Documents javedalam$ cd DevOpsLabs/
+Javeds-MacBook-Air:DevOpsLabs javedalam$ ls -l
+total 0
+drwxr-xr-x   5 javedalam  staff  160 Nov 26  2018 AmazonWebServices
+drwxr-xr-x  16 javedalam  staff  512 Feb 14  2019 Ansible
+drwxr-xr-x   9 javedalam  staff  288 Jul 14 10:37 DataStructureDepth
+drwxr-xr-x   9 javedalam  staff  288 Jan  9  2019 Docker5Days-Last
+drwxr-xr-x   9 javedalam  staff  288 Dec 25  2018 GitLabs3Days-1
+drwxr-xr-x  16 javedalam  staff  512 Jan 26  2019 JenkinsLabs3Days-3
+drwxr-xr-x   3 javedalam  staff   96 Dec 12  2018 KubernetesLast
+drwxr-xr-x   2 javedalam  staff   64 Sep 18 19:27 Linux
+drwxr-xr-x   7 javedalam  staff  224 Sep 21 10:59 LinuxCmds
+drwxr-xr-x  19 javedalam  staff  608 Feb 16  2019 Python5Days-4
+drwxr-xr-x   7 javedalam  staff  224 Nov 23  2018 ShellScriptingLabs5Days-2
+drwxr-xr-x   3 javedalam  staff   96 Dec  1  2018 SonarQube4Days-3
+Javeds-MacBook-Air:DevOpsLabs javedalam$ 
+Javeds-MacBook-Air:DevOpsLabs javedalam$ 
+Javeds-MacBook-Air:DevOpsLabs javedalam$ touch test
+Javeds-MacBook-Air:DevOpsLabs javedalam$ pwd
+/Users/javedalam/Documents/DevOpsLabs
+Javeds-MacBook-Air:DevOpsLabs javedalam$ 
+Javeds-MacBook-Air:DevOpsLabs javedalam$ cd LinuxCmds/20092019/
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 0
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file6
+drwxr-xr-x  3 javedalam  staff  96 Sep 21 11:06 xyz
+Javeds-MacBook-Air:20092019 javedalam$  pwd
+/Users/javedalam/Documents/DevOpsLabs/LinuxCmds/20092019
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ cp ../../test .
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 0
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file6
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:08 test
+drwxr-xr-x  3 javedalam  staff  96 Sep 21 11:06 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l ../../
+total 0
+drwxr-xr-x   5 javedalam  staff  160 Nov 26  2018 AmazonWebServices
+drwxr-xr-x  16 javedalam  staff  512 Feb 14  2019 Ansible
+drwxr-xr-x   9 javedalam  staff  288 Jul 14 10:37 DataStructureDepth
+drwxr-xr-x   9 javedalam  staff  288 Jan  9  2019 Docker5Days-Last
+drwxr-xr-x   9 javedalam  staff  288 Dec 25  2018 GitLabs3Days-1
+drwxr-xr-x  16 javedalam  staff  512 Jan 26  2019 JenkinsLabs3Days-3
+drwxr-xr-x   3 javedalam  staff   96 Dec 12  2018 KubernetesLast
+drwxr-xr-x   2 javedalam  staff   64 Sep 18 19:27 Linux
+drwxr-xr-x   7 javedalam  staff  224 Sep 21 10:59 LinuxCmds
+drwxr-xr-x  19 javedalam  staff  608 Feb 16  2019 Python5Days-4
+drwxr-xr-x   7 javedalam  staff  224 Nov 23  2018 ShellScriptingLabs5Days-2
+drwxr-xr-x   3 javedalam  staff   96 Dec  1  2018 SonarQube4Days-3
+-rw-r--r--   1 javedalam  staff    0 Sep 21 11:07 test
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ mv ../../test . 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 0
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file6
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:07 test
+drwxr-xr-x  3 javedalam  staff  96 Sep 21 11:06 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l ../../
+total 0
+drwxr-xr-x   5 javedalam  staff  160 Nov 26  2018 AmazonWebServices
+drwxr-xr-x  16 javedalam  staff  512 Feb 14  2019 Ansible
+drwxr-xr-x   9 javedalam  staff  288 Jul 14 10:37 DataStructureDepth
+drwxr-xr-x   9 javedalam  staff  288 Jan  9  2019 Docker5Days-Last
+drwxr-xr-x   9 javedalam  staff  288 Dec 25  2018 GitLabs3Days-1
+drwxr-xr-x  16 javedalam  staff  512 Jan 26  2019 JenkinsLabs3Days-3
+drwxr-xr-x   3 javedalam  staff   96 Dec 12  2018 KubernetesLast
+drwxr-xr-x   2 javedalam  staff   64 Sep 18 19:27 Linux
+drwxr-xr-x   7 javedalam  staff  224 Sep 21 10:59 LinuxCmds
+drwxr-xr-x  19 javedalam  staff  608 Feb 16  2019 Python5Days-4
+drwxr-xr-x   7 javedalam  staff  224 Nov 23  2018 ShellScriptingLabs5Days-2
+drwxr-xr-x   3 javedalam  staff   96 Dec  1  2018 SonarQube4Days-3
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 0
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file6
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:07 test
+drwxr-xr-x  3 javedalam  staff  96 Sep 21 11:06 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ rm test 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 0
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file6
+drwxr-xr-x  3 javedalam  staff  96 Sep 21 11:06 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -ltr
+total 0
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file6
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file10
+drwxr-xr-x  3 javedalam  staff  96 Sep 21 11:06 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -la 
+total 0
+drwxr-xr-x  11 javedalam  staff  352 Sep 21 11:10 .
+drwxr-xr-x   7 javedalam  staff  224 Sep 21 10:59 ..
+-rw-r--r--   1 javedalam  staff    0 Sep 21 11:01 file
+-rw-r--r--   1 javedalam  staff    0 Sep 21 11:02 file10
+-rw-r--r--   1 javedalam  staff    0 Sep 21 11:02 file11
+-rw-r--r--   1 javedalam  staff    0 Sep 21 11:02 file2
+-rw-r--r--   1 javedalam  staff    0 Sep 21 11:02 file3
+-rw-r--r--   1 javedalam  staff    0 Sep 21 11:02 file4
+-rw-r--r--   1 javedalam  staff    0 Sep 21 11:02 file5
+-rw-r--r--   1 javedalam  staff    0 Sep 21 11:02 file6
+drwxr-xr-x   3 javedalam  staff   96 Sep 21 11:06 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l xyz/*
+-rw-r--r--  1 javedalam  staff  0 Sep 21 11:06 xyz/l1
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ rmdir xyz
+rmdir: xyz: Directory not empty
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ rm -rf xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ pwd
+/Users/javedalam/Documents/DevOpsLabs/LinuxCmds/20092019
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ cd ..
+Javeds-MacBook-Air:LinuxCmds javedalam$ ls -l
+total 8
+drwxr-xr-x   3 javedalam  staff   96 Sep 18 20:24 18092019
+drwxr-xr-x   7 javedalam  staff  224 Sep 19 20:00 19092019
+drwxr-xr-x  10 javedalam  staff  320 Sep 21 11:12 20092019
+-rw-r--r--   1 javedalam  staff   12 Sep 18 19:28 README.md
+Javeds-MacBook-Air:LinuxCmds javedalam$ 
+Javeds-MacBook-Air:LinuxCmds javedalam$ 
+Javeds-MacBook-Air:LinuxCmds javedalam$ 
+Javeds-MacBook-Air:LinuxCmds javedalam$ cd 20092019/
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ file /etc/passwd
+/etc/passwd: ASCII text
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l 
+total 0
+-rw-r--r--  1 javedalam  staff  0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff  0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff  0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff  0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff  0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff  0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff  0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff  0 Sep 21 11:02 file6
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ file .
+.: directory
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ file file
+file: empty
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ mkdir xyz
+Javeds-MacBook-Air:20092019 javedalam$ file xyz/
+xyz/: directory
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ stat
+450901616 701 crw--w---- 1 javedalam tty 268435459 0 "Sep 21 11:15:15 2019" "Sep 21 11:15:15 2019" "Sep 21 11:15:15 2019" "Jan  1 05:30:00 1970" 131072 0 0 (stdin)
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 0
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff   0 Sep 21 11:02 file6
+drwxr-xr-x  2 javedalam  staff  64 Sep 21 11:14 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ cat file
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ nano file
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 8
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff  215 Sep 21 11:18 file20
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file6
+drwxr-xr-x  2 javedalam  staff   64 Sep 21 11:14 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ cat file
+Javeds-MacBook-Air:20092019 javedalam$ cat file20
+$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ cat /etc/passwd
+##
+# User Database
+# 
+# Note that this file is consulted directly only when the system is running
+# in single-user mode.  At other times this information is provided by
+# Open Directory.
+#
+# See the opendirectoryd(8) man page for additional information about
+# Open Directory.
+##
+nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+root:*:0:0:System Administrator:/var/root:/bin/sh
+daemon:*:1:1:System Services:/var/root:/usr/bin/false
+_uucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
+_taskgated:*:13:13:Task Gate Daemon:/var/empty:/usr/bin/false
+_networkd:*:24:24:Network Services:/var/networkd:/usr/bin/false
+_installassistant:*:25:25:Install Assistant:/var/empty:/usr/bin/false
+_lp:*:26:26:Printing Services:/var/spool/cups:/usr/bin/false
+_postfix:*:27:27:Postfix Mail Server:/var/spool/postfix:/usr/bin/false
+_scsd:*:31:31:Service Configuration Service:/var/empty:/usr/bin/false
+_ces:*:32:32:Certificate Enrollment Service:/var/empty:/usr/bin/false
+_appstore:*:33:33:Mac App Store Service:/var/empty:/usr/bin/false
+_mcxalr:*:54:54:MCX AppLaunch:/var/empty:/usr/bin/false
+_appleevents:*:55:55:AppleEvents Daemon:/var/empty:/usr/bin/false
+_geod:*:56:56:Geo Services Daemon:/var/db/geod:/usr/bin/false
+_devdocs:*:59:59:Developer Documentation:/var/empty:/usr/bin/false
+_sandbox:*:60:60:Seatbelt:/var/empty:/usr/bin/false
+_mdnsresponder:*:65:65:mDNSResponder:/var/empty:/usr/bin/false
+_ard:*:67:67:Apple Remote Desktop:/var/empty:/usr/bin/false
+_www:*:70:70:World Wide Web Server:/Library/WebServer:/usr/bin/false
+_eppc:*:71:71:Apple Events User:/var/empty:/usr/bin/false
+_cvs:*:72:72:CVS Server:/var/empty:/usr/bin/false
+_svn:*:73:73:SVN Server:/var/empty:/usr/bin/false
+_mysql:*:74:74:MySQL Server:/var/empty:/usr/bin/false
+_sshd:*:75:75:sshd Privilege separation:/var/empty:/usr/bin/false
+_qtss:*:76:76:QuickTime Streaming Server:/var/empty:/usr/bin/false
+_cyrus:*:77:6:Cyrus Administrator:/var/imap:/usr/bin/false
+_mailman:*:78:78:Mailman List Server:/var/empty:/usr/bin/false
+_appserver:*:79:79:Application Server:/var/empty:/usr/bin/false
+_clamav:*:82:82:ClamAV Daemon:/var/virusmails:/usr/bin/false
+_amavisd:*:83:83:AMaViS Daemon:/var/virusmails:/usr/bin/false
+_jabber:*:84:84:Jabber XMPP Server:/var/empty:/usr/bin/false
+_appowner:*:87:87:Application Owner:/var/empty:/usr/bin/false
+_windowserver:*:88:88:WindowServer:/var/empty:/usr/bin/false
+_spotlight:*:89:89:Spotlight:/var/empty:/usr/bin/false
+_tokend:*:91:91:Token Daemon:/var/empty:/usr/bin/false
+_securityagent:*:92:92:SecurityAgent:/var/db/securityagent:/usr/bin/false
+_calendar:*:93:93:Calendar:/var/empty:/usr/bin/false
+_teamsserver:*:94:94:TeamsServer:/var/teamsserver:/usr/bin/false
+_update_sharing:*:95:-2:Update Sharing:/var/empty:/usr/bin/false
+_installer:*:96:-2:Installer:/var/empty:/usr/bin/false
+_atsserver:*:97:97:ATS Server:/var/empty:/usr/bin/false
+_ftp:*:98:-2:FTP Daemon:/var/empty:/usr/bin/false
+_unknown:*:99:99:Unknown User:/var/empty:/usr/bin/false
+_softwareupdate:*:200:200:Software Update Service:/var/db/softwareupdate:/usr/bin/false
+_coreaudiod:*:202:202:Core Audio Daemon:/var/empty:/usr/bin/false
+_screensaver:*:203:203:Screensaver:/var/empty:/usr/bin/false
+_locationd:*:205:205:Location Daemon:/var/db/locationd:/usr/bin/false
+_trustevaluationagent:*:208:208:Trust Evaluation Agent:/var/empty:/usr/bin/false
+_timezone:*:210:210:AutoTimeZoneDaemon:/var/empty:/usr/bin/false
+_lda:*:211:211:Local Delivery Agent:/var/empty:/usr/bin/false
+_cvmsroot:*:212:212:CVMS Root:/var/empty:/usr/bin/false
+_usbmuxd:*:213:213:iPhone OS Device Helper:/var/db/lockdown:/usr/bin/false
+_dovecot:*:214:6:Dovecot Administrator:/var/empty:/usr/bin/false
+_dpaudio:*:215:215:DP Audio:/var/empty:/usr/bin/false
+_postgres:*:216:216:PostgreSQL Server:/var/empty:/usr/bin/false
+_krbtgt:*:217:-2:Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_kadmin_admin:*:218:-2:Kerberos Admin Service:/var/empty:/usr/bin/false
+_kadmin_changepw:*:219:-2:Kerberos Change Password Service:/var/empty:/usr/bin/false
+_devicemgr:*:220:220:Device Management Server:/var/empty:/usr/bin/false
+_webauthserver:*:221:221:Web Auth Server:/var/empty:/usr/bin/false
+_netbios:*:222:222:NetBIOS:/var/empty:/usr/bin/false
+_warmd:*:224:224:Warm Daemon:/var/empty:/usr/bin/false
+_dovenull:*:227:227:Dovecot Authentication:/var/empty:/usr/bin/false
+_netstatistics:*:228:228:Network Statistics Daemon:/var/empty:/usr/bin/false
+_avbdeviced:*:229:-2:Ethernet AVB Device Daemon:/var/empty:/usr/bin/false
+_krb_krbtgt:*:230:-2:Open Directory Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_krb_kadmin:*:231:-2:Open Directory Kerberos Admin Service:/var/empty:/usr/bin/false
+_krb_changepw:*:232:-2:Open Directory Kerberos Change Password Service:/var/empty:/usr/bin/false
+_krb_kerberos:*:233:-2:Open Directory Kerberos:/var/empty:/usr/bin/false
+_krb_anonymous:*:234:-2:Open Directory Kerberos Anonymous:/var/empty:/usr/bin/false
+_assetcache:*:235:235:Asset Cache Service:/var/empty:/usr/bin/false
+_coremediaiod:*:236:236:Core Media IO Daemon:/var/empty:/usr/bin/false
+_launchservicesd:*:239:239:_launchservicesd:/var/empty:/usr/bin/false
+_iconservices:*:240:240:IconServices:/var/empty:/usr/bin/false
+_distnote:*:241:241:DistNote:/var/empty:/usr/bin/false
+_nsurlsessiond:*:242:242:NSURLSession Daemon:/var/db/nsurlsessiond:/usr/bin/false
+_nsurlstoraged:*:243:243:NSURLStorage Daemon:/var/db/nsurlstoraged:/usr/bin/false
+_displaypolicyd:*:244:244:Display Policy Daemon:/var/empty:/usr/bin/false
+_astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
+_krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
+_gamecontrollerd:*:247:247:Game Controller Daemon:/var/empty:/usr/bin/false
+_mbsetupuser:*:248:248:Setup User:/var/setup:/bin/bash
+_ondemand:*:249:249:On Demand Resource Daemon:/var/db/ondemand:/usr/bin/false
+_xserverdocs:*:251:251:macOS Server Documents Service:/var/empty:/usr/bin/false
+_wwwproxy:*:252:252:WWW Proxy:/var/empty:/usr/bin/false
+_mobileasset:*:253:253:MobileAsset User:/var/ma:/usr/bin/false
+_findmydevice:*:254:254:Find My Device Daemon:/var/db/findmydevice:/usr/bin/false
+_datadetectors:*:257:257:DataDetectors:/var/db/datadetectors:/usr/bin/false
+_captiveagent:*:258:258:captiveagent:/var/empty:/usr/bin/false
+_ctkd:*:259:259:ctkd Account:/var/empty:/usr/bin/false
+_applepay:*:260:260:applepay Account:/var/db/applepay:/usr/bin/false
+_hidd:*:261:261:HID Service User:/var/db/hidd:/usr/bin/false
+_cmiodalassistants:*:262:262:CoreMedia IO Assistants User:/var/db/cmiodalassistants:/usr/bin/false
+_analyticsd:*:263:263:Analytics Daemon:/var/db/analyticsd:/usr/bin/false
+_fpsd:*:265:265:FPS Daemon:/var/db/fpsd:/usr/bin/false
+_timed:*:266:266:Time Sync Daemon:/var/db/timed:/usr/bin/false
+_reportmemoryexception:*:269:269:ReportMemoryException:/var/db/reportmemoryexception:/usr/bin/false
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ head /etc/passwd
+##
+# User Database
+# 
+# Note that this file is consulted directly only when the system is running
+# in single-user mode.  At other times this information is provided by
+# Open Directory.
+#
+# See the opendirectoryd(8) man page for additional information about
+# Open Directory.
+##
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ head -20 /etc/passwd
+##
+# User Database
+# 
+# Note that this file is consulted directly only when the system is running
+# in single-user mode.  At other times this information is provided by
+# Open Directory.
+#
+# See the opendirectoryd(8) man page for additional information about
+# Open Directory.
+##
+nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+root:*:0:0:System Administrator:/var/root:/bin/sh
+daemon:*:1:1:System Services:/var/root:/usr/bin/false
+_uucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
+_taskgated:*:13:13:Task Gate Daemon:/var/empty:/usr/bin/false
+_networkd:*:24:24:Network Services:/var/networkd:/usr/bin/false
+_installassistant:*:25:25:Install Assistant:/var/empty:/usr/bin/false
+_lp:*:26:26:Printing Services:/var/spool/cups:/usr/bin/false
+_postfix:*:27:27:Postfix Mail Server:/var/spool/postfix:/usr/bin/false
+_scsd:*:31:31:Service Configuration Service:/var/empty:/usr/bin/false
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ tail /etc/passwd
+_datadetectors:*:257:257:DataDetectors:/var/db/datadetectors:/usr/bin/false
+_captiveagent:*:258:258:captiveagent:/var/empty:/usr/bin/false
+_ctkd:*:259:259:ctkd Account:/var/empty:/usr/bin/false
+_applepay:*:260:260:applepay Account:/var/db/applepay:/usr/bin/false
+_hidd:*:261:261:HID Service User:/var/db/hidd:/usr/bin/false
+_cmiodalassistants:*:262:262:CoreMedia IO Assistants User:/var/db/cmiodalassistants:/usr/bin/false
+_analyticsd:*:263:263:Analytics Daemon:/var/db/analyticsd:/usr/bin/false
+_fpsd:*:265:265:FPS Daemon:/var/db/fpsd:/usr/bin/false
+_timed:*:266:266:Time Sync Daemon:/var/db/timed:/usr/bin/false
+_reportmemoryexception:*:269:269:ReportMemoryException:/var/db/reportmemoryexception:/usr/bin/false
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ tail -20 /etc/passwd
+_displaypolicyd:*:244:244:Display Policy Daemon:/var/empty:/usr/bin/false
+_astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
+_krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
+_gamecontrollerd:*:247:247:Game Controller Daemon:/var/empty:/usr/bin/false
+_mbsetupuser:*:248:248:Setup User:/var/setup:/bin/bash
+_ondemand:*:249:249:On Demand Resource Daemon:/var/db/ondemand:/usr/bin/false
+_xserverdocs:*:251:251:macOS Server Documents Service:/var/empty:/usr/bin/false
+_wwwproxy:*:252:252:WWW Proxy:/var/empty:/usr/bin/false
+_mobileasset:*:253:253:MobileAsset User:/var/ma:/usr/bin/false
+_findmydevice:*:254:254:Find My Device Daemon:/var/db/findmydevice:/usr/bin/false
+_datadetectors:*:257:257:DataDetectors:/var/db/datadetectors:/usr/bin/false
+_captiveagent:*:258:258:captiveagent:/var/empty:/usr/bin/false
+_ctkd:*:259:259:ctkd Account:/var/empty:/usr/bin/false
+_applepay:*:260:260:applepay Account:/var/db/applepay:/usr/bin/false
+_hidd:*:261:261:HID Service User:/var/db/hidd:/usr/bin/false
+_cmiodalassistants:*:262:262:CoreMedia IO Assistants User:/var/db/cmiodalassistants:/usr/bin/false
+_analyticsd:*:263:263:Analytics Daemon:/var/db/analyticsd:/usr/bin/false
+_fpsd:*:265:265:FPS Daemon:/var/db/fpsd:/usr/bin/false
+_timed:*:266:266:Time Sync Daemon:/var/db/timed:/usr/bin/false
+_reportmemoryexception:*:269:269:ReportMemoryException:/var/db/reportmemoryexception:/usr/bin/false
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ cat /etc/passwd
+##
+# User Database
+# 
+# Note that this file is consulted directly only when the system is running
+# in single-user mode.  At other times this information is provided by
+# Open Directory.
+#
+# See the opendirectoryd(8) man page for additional information about
+# Open Directory.
+##
+nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+root:*:0:0:System Administrator:/var/root:/bin/sh
+daemon:*:1:1:System Services:/var/root:/usr/bin/false
+_uucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
+_taskgated:*:13:13:Task Gate Daemon:/var/empty:/usr/bin/false
+_networkd:*:24:24:Network Services:/var/networkd:/usr/bin/false
+_installassistant:*:25:25:Install Assistant:/var/empty:/usr/bin/false
+_lp:*:26:26:Printing Services:/var/spool/cups:/usr/bin/false
+_postfix:*:27:27:Postfix Mail Server:/var/spool/postfix:/usr/bin/false
+_scsd:*:31:31:Service Configuration Service:/var/empty:/usr/bin/false
+_ces:*:32:32:Certificate Enrollment Service:/var/empty:/usr/bin/false
+_appstore:*:33:33:Mac App Store Service:/var/empty:/usr/bin/false
+_mcxalr:*:54:54:MCX AppLaunch:/var/empty:/usr/bin/false
+_appleevents:*:55:55:AppleEvents Daemon:/var/empty:/usr/bin/false
+_geod:*:56:56:Geo Services Daemon:/var/db/geod:/usr/bin/false
+_devdocs:*:59:59:Developer Documentation:/var/empty:/usr/bin/false
+_sandbox:*:60:60:Seatbelt:/var/empty:/usr/bin/false
+_mdnsresponder:*:65:65:mDNSResponder:/var/empty:/usr/bin/false
+_ard:*:67:67:Apple Remote Desktop:/var/empty:/usr/bin/false
+_www:*:70:70:World Wide Web Server:/Library/WebServer:/usr/bin/false
+_eppc:*:71:71:Apple Events User:/var/empty:/usr/bin/false
+_cvs:*:72:72:CVS Server:/var/empty:/usr/bin/false
+_svn:*:73:73:SVN Server:/var/empty:/usr/bin/false
+_mysql:*:74:74:MySQL Server:/var/empty:/usr/bin/false
+_sshd:*:75:75:sshd Privilege separation:/var/empty:/usr/bin/false
+_qtss:*:76:76:QuickTime Streaming Server:/var/empty:/usr/bin/false
+_cyrus:*:77:6:Cyrus Administrator:/var/imap:/usr/bin/false
+_mailman:*:78:78:Mailman List Server:/var/empty:/usr/bin/false
+_appserver:*:79:79:Application Server:/var/empty:/usr/bin/false
+_clamav:*:82:82:ClamAV Daemon:/var/virusmails:/usr/bin/false
+_amavisd:*:83:83:AMaViS Daemon:/var/virusmails:/usr/bin/false
+_jabber:*:84:84:Jabber XMPP Server:/var/empty:/usr/bin/false
+_appowner:*:87:87:Application Owner:/var/empty:/usr/bin/false
+_windowserver:*:88:88:WindowServer:/var/empty:/usr/bin/false
+_spotlight:*:89:89:Spotlight:/var/empty:/usr/bin/false
+_tokend:*:91:91:Token Daemon:/var/empty:/usr/bin/false
+_securityagent:*:92:92:SecurityAgent:/var/db/securityagent:/usr/bin/false
+_calendar:*:93:93:Calendar:/var/empty:/usr/bin/false
+_teamsserver:*:94:94:TeamsServer:/var/teamsserver:/usr/bin/false
+_update_sharing:*:95:-2:Update Sharing:/var/empty:/usr/bin/false
+_installer:*:96:-2:Installer:/var/empty:/usr/bin/false
+_atsserver:*:97:97:ATS Server:/var/empty:/usr/bin/false
+_ftp:*:98:-2:FTP Daemon:/var/empty:/usr/bin/false
+_unknown:*:99:99:Unknown User:/var/empty:/usr/bin/false
+_softwareupdate:*:200:200:Software Update Service:/var/db/softwareupdate:/usr/bin/false
+_coreaudiod:*:202:202:Core Audio Daemon:/var/empty:/usr/bin/false
+_screensaver:*:203:203:Screensaver:/var/empty:/usr/bin/false
+_locationd:*:205:205:Location Daemon:/var/db/locationd:/usr/bin/false
+_trustevaluationagent:*:208:208:Trust Evaluation Agent:/var/empty:/usr/bin/false
+_timezone:*:210:210:AutoTimeZoneDaemon:/var/empty:/usr/bin/false
+_lda:*:211:211:Local Delivery Agent:/var/empty:/usr/bin/false
+_cvmsroot:*:212:212:CVMS Root:/var/empty:/usr/bin/false
+_usbmuxd:*:213:213:iPhone OS Device Helper:/var/db/lockdown:/usr/bin/false
+_dovecot:*:214:6:Dovecot Administrator:/var/empty:/usr/bin/false
+_dpaudio:*:215:215:DP Audio:/var/empty:/usr/bin/false
+_postgres:*:216:216:PostgreSQL Server:/var/empty:/usr/bin/false
+_krbtgt:*:217:-2:Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_kadmin_admin:*:218:-2:Kerberos Admin Service:/var/empty:/usr/bin/false
+_kadmin_changepw:*:219:-2:Kerberos Change Password Service:/var/empty:/usr/bin/false
+_devicemgr:*:220:220:Device Management Server:/var/empty:/usr/bin/false
+_webauthserver:*:221:221:Web Auth Server:/var/empty:/usr/bin/false
+_netbios:*:222:222:NetBIOS:/var/empty:/usr/bin/false
+_warmd:*:224:224:Warm Daemon:/var/empty:/usr/bin/false
+_dovenull:*:227:227:Dovecot Authentication:/var/empty:/usr/bin/false
+_netstatistics:*:228:228:Network Statistics Daemon:/var/empty:/usr/bin/false
+_avbdeviced:*:229:-2:Ethernet AVB Device Daemon:/var/empty:/usr/bin/false
+_krb_krbtgt:*:230:-2:Open Directory Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_krb_kadmin:*:231:-2:Open Directory Kerberos Admin Service:/var/empty:/usr/bin/false
+_krb_changepw:*:232:-2:Open Directory Kerberos Change Password Service:/var/empty:/usr/bin/false
+_krb_kerberos:*:233:-2:Open Directory Kerberos:/var/empty:/usr/bin/false
+_krb_anonymous:*:234:-2:Open Directory Kerberos Anonymous:/var/empty:/usr/bin/false
+_assetcache:*:235:235:Asset Cache Service:/var/empty:/usr/bin/false
+_coremediaiod:*:236:236:Core Media IO Daemon:/var/empty:/usr/bin/false
+_launchservicesd:*:239:239:_launchservicesd:/var/empty:/usr/bin/false
+_iconservices:*:240:240:IconServices:/var/empty:/usr/bin/false
+_distnote:*:241:241:DistNote:/var/empty:/usr/bin/false
+_nsurlsessiond:*:242:242:NSURLSession Daemon:/var/db/nsurlsessiond:/usr/bin/false
+_nsurlstoraged:*:243:243:NSURLStorage Daemon:/var/db/nsurlstoraged:/usr/bin/false
+_displaypolicyd:*:244:244:Display Policy Daemon:/var/empty:/usr/bin/false
+_astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
+_krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
+_gamecontrollerd:*:247:247:Game Controller Daemon:/var/empty:/usr/bin/false
+_mbsetupuser:*:248:248:Setup User:/var/setup:/bin/bash
+_ondemand:*:249:249:On Demand Resource Daemon:/var/db/ondemand:/usr/bin/false
+_xserverdocs:*:251:251:macOS Server Documents Service:/var/empty:/usr/bin/false
+_wwwproxy:*:252:252:WWW Proxy:/var/empty:/usr/bin/false
+_mobileasset:*:253:253:MobileAsset User:/var/ma:/usr/bin/false
+_findmydevice:*:254:254:Find My Device Daemon:/var/db/findmydevice:/usr/bin/false
+_datadetectors:*:257:257:DataDetectors:/var/db/datadetectors:/usr/bin/false
+_captiveagent:*:258:258:captiveagent:/var/empty:/usr/bin/false
+_ctkd:*:259:259:ctkd Account:/var/empty:/usr/bin/false
+_applepay:*:260:260:applepay Account:/var/db/applepay:/usr/bin/false
+_hidd:*:261:261:HID Service User:/var/db/hidd:/usr/bin/false
+_cmiodalassistants:*:262:262:CoreMedia IO Assistants User:/var/db/cmiodalassistants:/usr/bin/false
+_analyticsd:*:263:263:Analytics Daemon:/var/db/analyticsd:/usr/bin/false
+_fpsd:*:265:265:FPS Daemon:/var/db/fpsd:/usr/bin/false
+_timed:*:266:266:Time Sync Daemon:/var/db/timed:/usr/bin/false
+_reportmemoryexception:*:269:269:ReportMemoryException:/var/db/reportmemoryexception:/usr/bin/false
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ cat /etc/passwd | grep -i "_nsurlstoraged"
+_nsurlstoraged:*:243:243:NSURLStorage Daemon:/var/db/nsurlstoraged:/usr/bin/false
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ cat /etc/passwd | grep -v "_nsurlstoraged"
+##
+# User Database
+# 
+# Note that this file is consulted directly only when the system is running
+# in single-user mode.  At other times this information is provided by
+# Open Directory.
+#
+# See the opendirectoryd(8) man page for additional information about
+# Open Directory.
+##
+nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+root:*:0:0:System Administrator:/var/root:/bin/sh
+daemon:*:1:1:System Services:/var/root:/usr/bin/false
+_uucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
+_taskgated:*:13:13:Task Gate Daemon:/var/empty:/usr/bin/false
+_networkd:*:24:24:Network Services:/var/networkd:/usr/bin/false
+_installassistant:*:25:25:Install Assistant:/var/empty:/usr/bin/false
+_lp:*:26:26:Printing Services:/var/spool/cups:/usr/bin/false
+_postfix:*:27:27:Postfix Mail Server:/var/spool/postfix:/usr/bin/false
+_scsd:*:31:31:Service Configuration Service:/var/empty:/usr/bin/false
+_ces:*:32:32:Certificate Enrollment Service:/var/empty:/usr/bin/false
+_appstore:*:33:33:Mac App Store Service:/var/empty:/usr/bin/false
+_mcxalr:*:54:54:MCX AppLaunch:/var/empty:/usr/bin/false
+_appleevents:*:55:55:AppleEvents Daemon:/var/empty:/usr/bin/false
+_geod:*:56:56:Geo Services Daemon:/var/db/geod:/usr/bin/false
+_devdocs:*:59:59:Developer Documentation:/var/empty:/usr/bin/false
+_sandbox:*:60:60:Seatbelt:/var/empty:/usr/bin/false
+_mdnsresponder:*:65:65:mDNSResponder:/var/empty:/usr/bin/false
+_ard:*:67:67:Apple Remote Desktop:/var/empty:/usr/bin/false
+_www:*:70:70:World Wide Web Server:/Library/WebServer:/usr/bin/false
+_eppc:*:71:71:Apple Events User:/var/empty:/usr/bin/false
+_cvs:*:72:72:CVS Server:/var/empty:/usr/bin/false
+_svn:*:73:73:SVN Server:/var/empty:/usr/bin/false
+_mysql:*:74:74:MySQL Server:/var/empty:/usr/bin/false
+_sshd:*:75:75:sshd Privilege separation:/var/empty:/usr/bin/false
+_qtss:*:76:76:QuickTime Streaming Server:/var/empty:/usr/bin/false
+_cyrus:*:77:6:Cyrus Administrator:/var/imap:/usr/bin/false
+_mailman:*:78:78:Mailman List Server:/var/empty:/usr/bin/false
+_appserver:*:79:79:Application Server:/var/empty:/usr/bin/false
+_clamav:*:82:82:ClamAV Daemon:/var/virusmails:/usr/bin/false
+_amavisd:*:83:83:AMaViS Daemon:/var/virusmails:/usr/bin/false
+_jabber:*:84:84:Jabber XMPP Server:/var/empty:/usr/bin/false
+_appowner:*:87:87:Application Owner:/var/empty:/usr/bin/false
+_windowserver:*:88:88:WindowServer:/var/empty:/usr/bin/false
+_spotlight:*:89:89:Spotlight:/var/empty:/usr/bin/false
+_tokend:*:91:91:Token Daemon:/var/empty:/usr/bin/false
+_securityagent:*:92:92:SecurityAgent:/var/db/securityagent:/usr/bin/false
+_calendar:*:93:93:Calendar:/var/empty:/usr/bin/false
+_teamsserver:*:94:94:TeamsServer:/var/teamsserver:/usr/bin/false
+_update_sharing:*:95:-2:Update Sharing:/var/empty:/usr/bin/false
+_installer:*:96:-2:Installer:/var/empty:/usr/bin/false
+_atsserver:*:97:97:ATS Server:/var/empty:/usr/bin/false
+_ftp:*:98:-2:FTP Daemon:/var/empty:/usr/bin/false
+_unknown:*:99:99:Unknown User:/var/empty:/usr/bin/false
+_softwareupdate:*:200:200:Software Update Service:/var/db/softwareupdate:/usr/bin/false
+_coreaudiod:*:202:202:Core Audio Daemon:/var/empty:/usr/bin/false
+_screensaver:*:203:203:Screensaver:/var/empty:/usr/bin/false
+_locationd:*:205:205:Location Daemon:/var/db/locationd:/usr/bin/false
+_trustevaluationagent:*:208:208:Trust Evaluation Agent:/var/empty:/usr/bin/false
+_timezone:*:210:210:AutoTimeZoneDaemon:/var/empty:/usr/bin/false
+_lda:*:211:211:Local Delivery Agent:/var/empty:/usr/bin/false
+_cvmsroot:*:212:212:CVMS Root:/var/empty:/usr/bin/false
+_usbmuxd:*:213:213:iPhone OS Device Helper:/var/db/lockdown:/usr/bin/false
+_dovecot:*:214:6:Dovecot Administrator:/var/empty:/usr/bin/false
+_dpaudio:*:215:215:DP Audio:/var/empty:/usr/bin/false
+_postgres:*:216:216:PostgreSQL Server:/var/empty:/usr/bin/false
+_krbtgt:*:217:-2:Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_kadmin_admin:*:218:-2:Kerberos Admin Service:/var/empty:/usr/bin/false
+_kadmin_changepw:*:219:-2:Kerberos Change Password Service:/var/empty:/usr/bin/false
+_devicemgr:*:220:220:Device Management Server:/var/empty:/usr/bin/false
+_webauthserver:*:221:221:Web Auth Server:/var/empty:/usr/bin/false
+_netbios:*:222:222:NetBIOS:/var/empty:/usr/bin/false
+_warmd:*:224:224:Warm Daemon:/var/empty:/usr/bin/false
+_dovenull:*:227:227:Dovecot Authentication:/var/empty:/usr/bin/false
+_netstatistics:*:228:228:Network Statistics Daemon:/var/empty:/usr/bin/false
+_avbdeviced:*:229:-2:Ethernet AVB Device Daemon:/var/empty:/usr/bin/false
+_krb_krbtgt:*:230:-2:Open Directory Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_krb_kadmin:*:231:-2:Open Directory Kerberos Admin Service:/var/empty:/usr/bin/false
+_krb_changepw:*:232:-2:Open Directory Kerberos Change Password Service:/var/empty:/usr/bin/false
+_krb_kerberos:*:233:-2:Open Directory Kerberos:/var/empty:/usr/bin/false
+_krb_anonymous:*:234:-2:Open Directory Kerberos Anonymous:/var/empty:/usr/bin/false
+_assetcache:*:235:235:Asset Cache Service:/var/empty:/usr/bin/false
+_coremediaiod:*:236:236:Core Media IO Daemon:/var/empty:/usr/bin/false
+_launchservicesd:*:239:239:_launchservicesd:/var/empty:/usr/bin/false
+_iconservices:*:240:240:IconServices:/var/empty:/usr/bin/false
+_distnote:*:241:241:DistNote:/var/empty:/usr/bin/false
+_nsurlsessiond:*:242:242:NSURLSession Daemon:/var/db/nsurlsessiond:/usr/bin/false
+_displaypolicyd:*:244:244:Display Policy Daemon:/var/empty:/usr/bin/false
+_astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
+_krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
+_gamecontrollerd:*:247:247:Game Controller Daemon:/var/empty:/usr/bin/false
+_mbsetupuser:*:248:248:Setup User:/var/setup:/bin/bash
+_ondemand:*:249:249:On Demand Resource Daemon:/var/db/ondemand:/usr/bin/false
+_xserverdocs:*:251:251:macOS Server Documents Service:/var/empty:/usr/bin/false
+_wwwproxy:*:252:252:WWW Proxy:/var/empty:/usr/bin/false
+_mobileasset:*:253:253:MobileAsset User:/var/ma:/usr/bin/false
+_findmydevice:*:254:254:Find My Device Daemon:/var/db/findmydevice:/usr/bin/false
+_datadetectors:*:257:257:DataDetectors:/var/db/datadetectors:/usr/bin/false
+_captiveagent:*:258:258:captiveagent:/var/empty:/usr/bin/false
+_ctkd:*:259:259:ctkd Account:/var/empty:/usr/bin/false
+_applepay:*:260:260:applepay Account:/var/db/applepay:/usr/bin/false
+_hidd:*:261:261:HID Service User:/var/db/hidd:/usr/bin/false
+_cmiodalassistants:*:262:262:CoreMedia IO Assistants User:/var/db/cmiodalassistants:/usr/bin/false
+_analyticsd:*:263:263:Analytics Daemon:/var/db/analyticsd:/usr/bin/false
+_fpsd:*:265:265:FPS Daemon:/var/db/fpsd:/usr/bin/false
+_timed:*:266:266:Time Sync Daemon:/var/db/timed:/usr/bin/false
+_reportmemoryexception:*:269:269:ReportMemoryException:/var/db/reportmemoryexception:/usr/bin/false
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ wc /etc/passwd
+     108     292    6804 /etc/passwd
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 8
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff  215 Sep 21 11:18 file20
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file6
+drwxr-xr-x  2 javedalam  staff   64 Sep 21 11:14 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ vim file20 
+Javeds-MacBook-Air:20092019 javedalam$ cat file20
+$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ vim file20
+Javeds-MacBook-Air:20092019 javedalam$ cat file20
+$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 8
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff  471 Sep 21 11:31 file20
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file6
+drwxr-xr-x  2 javedalam  staff   64 Sep 21 11:14 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ alias ra='ls -l'
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 8
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff  471 Sep 21 11:31 file20
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file6
+drwxr-xr-x  2 javedalam  staff   64 Sep 21 11:14 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ra
+total 8
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff  471 Sep 21 11:31 file20
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file6
+drwxr-xr-x  2 javedalam  staff   64 Sep 21 11:14 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ w
+11:35  up 42 days,  9:54, 6 users, load averages: 4.16 3.70 3.63
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+javedalam console  -                10Aug19 42days -
+javedalam s000     -                10Aug19 14:05 -bash
+javedalam s001     -                10Aug19 14:05 -bash
+javedalam s003     -                08Sep19     - w
+javedalam s004     -                Wed19   14:05 -bash
+javedalam s005     -                10:53      41 -bash
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ last | head
+javedalam  ttys005                   Sat Sep 21 10:53   still logged in
+javedalam  ttys004                   Wed Sep 18 19:55   still logged in
+javedalam  ttys003                   Sun Sep  8 16:07   still logged in
+javedalam  ttys001                   Sat Aug 10 01:53   still logged in
+javedalam  ttys000                   Sat Aug 10 01:53   still logged in
+javedalam  console                   Sat Aug 10 01:45   still logged in
+reboot    ~                         Sat Aug 10 01:44 
+shutdown  ~                         Sat Aug 10 01:24 
+root      console                   Sat Aug 10 01:20 - shutdown  (00:04)
+javedalam  ttys001                   Sun Jul  7 10:30 - 10:30  (00:00)
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ lastb
+-bash: lastb: command not found
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ du 
+0	./xyz
+8	.
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ df -hT
+df: option requires an argument -- T
+usage: df [-b | -H | -h | -k | -m | -g | -P] [-ailn] [-T type] [-t] [filesystem ...]
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ df
+Filesystem                         512-blocks      Used Available Capacity iused               ifree %iused  Mounted on
+/dev/disk1s1                        236568496 163445264  63403600    73% 1438756 9223372036853337051    0%   /
+devfs                                     394       394         0   100%     682                   0  100%   /dev
+/dev/disk1s4                        236568496   8388800  63403600    12%       4 9223372036854775803    0%   /private/var/vm
+map -hosts                                  0         0         0   100%       0                   0  100%   /net
+map auto_home                               0         0         0   100%       0                   0  100%   /home
+/dev/disk4s1                           392984    386520      6464    99%     355          4294966924    0%   /Volumes/GlobalMeet
+/Volumes/GlobalMeet/GlobalMeet.app     392984    386520      6464    99%     355          4294966924    0%   /private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ fdisk -l
+fdisk: illegal option -- l
+usage: fdisk [-ieu] [-f mbrboot] [-c cyl -h head -s sect] [-S size] [-r] [-a style] disk
+	-i: initialize disk with new MBR
+	-u: update MBR code, preserve partition table
+	-e: edit MBRs on disk interactively
+	-f: specify non-standard MBR template
+	-chs: specify disk geometry
+	-S: specify disk size
+	-r: read partition specs from stdin (implies -i)
+	-a: auto-partition with the given style
+	-d: dump partition table
+	-y: don't ask any questions
+	-t: test if disk is partitioned
+`disk' is of the form /dev/rdisk0.
+auto-partition styles:
+  boothfs     8Mb boot plus HFS+ root partition (default)
+  hfs         Entire disk as one HFS+ partition
+  dos         Entire disk as one DOS partition
+  raid        Entire disk as one 0xAC partition
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ netstat 
+Active Internet connections
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)    
+tcp4       0      0  192.168.1.80.51012     74.125.24.189.https    ESTABLISHED
+tcp4       0      0  192.168.1.80.51011     maa03s23-in-f10..https ESTABLISHED
+tcp4       0      0  192.168.1.80.51006     13.94.40.40.https      ESTABLISHED
+tcp4       0      0  192.168.1.80.51002     ec2-52-4-191-97..https CLOSE_WAIT 
+tcp4       0      0  192.168.1.80.51000     192.229.232.200.https  ESTABLISHED
+tcp4       0      0  192.168.1.80.50999     13.76.217.211.https    ESTABLISHED
+tcp4       0      0  192.168.1.80.50990     172.217.194.189.https  ESTABLISHED
+tcp4       0      0  192.168.1.80.50980     sc-in-f189.1e100.https ESTABLISHED
+tcp4       0      0  192.168.1.80.50871     ec2-18-208-63-97.https ESTABLISHED
+tcp4       0      0  192.168.1.80.50863     lb-140-82-113-25.https ESTABLISHED
+tcp4       0      0  192.168.1.80.50860     lb-140-82-113-25.https ESTABLISHED
+tcp4       0      0  192.168.1.80.50834     kul01s10-in-f35..https ESTABLISHED
+tcp4       0      0  192.168.1.80.50801     lb-140-82-114-25.https ESTABLISHED
+tcp4       0      0  192.168.1.80.50782     lb-192-30-253-12.https ESTABLISHED
+tcp4       0      0  192.168.1.80.50741     maa05s03-in-f14..https ESTABLISHED
+tcp4       0      0  192.168.1.80.50740     del03s15-in-f10..https ESTABLISHED
+tcp4       0      0  192.168.1.80.50739     del03s09-in-f10..https ESTABLISHED
+tcp4       0      0  192.168.1.80.50738     maa05s03-in-f14..https ESTABLISHED
+tcp4       0      0  192.168.1.80.50598     20.189.78.37.https     ESTABLISHED
+tcp4       0      0  192.168.1.80.50569     del03s01-in-f14..https ESTABLISHED
+tcp4       0      0  192.168.1.80.50559     ec2-52-200-20-16.https ESTABLISHED
+tcp4       0      0  192.168.1.80.50529     ec2-52-49-64-89..https ESTABLISHED
+tcp4       0      0  192.168.1.80.50522     ec2-52-77-54-118.https ESTABLISHED
+tcp4       0      0  192.168.1.80.50505     ec2-54-199-203-2.https ESTABLISHED
+tcp4       0      0  192.168.1.80.50504     ec2-54-65-179-25.https ESTABLISHED
+tcp4       0      0  192.168.1.80.50411     whatsapp-cdn-shv.https ESTABLISHED
+tcp4       0      0  192.168.1.80.50380     ec2-34-249-23-13.https ESTABLISHED
+tcp4       0      0  192.168.1.80.50355     ec2-13-114-203-1.https ESTABLISHED
+tcp4       0      0  192.168.1.80.50343     ec2-54-254-238-1.https ESTABLISHED
+tcp4       0      0  192.168.1.80.50231     li1419-177.membe.https ESTABLISHED
+tcp4       0      0  192.168.1.80.50225     server-99-86-47-.https ESTABLISHED
+tcp4       0      0  192.168.1.80.50212     144.2.3.1.https        ESTABLISHED
+tcp4       0      0  192.168.1.80.50202     bam-7.nr-data.ne.https ESTABLISHED
+tcp4       0      0  192.168.1.80.50197     20.189.78.37.https     ESTABLISHED
+^C
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ netstat -ntlp
+netstat: option requires an argument -- p
+Usage:	netstat [-AaLlnW] [-f address_family | -p protocol]
+	netstat [-gilns] [-f address_family]
+	netstat -i | -I interface [-w wait] [-abdgRtS]
+	netstat -s [-s] [-f address_family | -p protocol] [-w wait]
+	netstat -i | -I interface -s [-f address_family | -p protocol]
+	netstat -m [-m]
+	netstat -r [-Aaln] [-f address_family]
+	netstat -rs [-s]
+
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ps -ef
+  UID   PID  PPID   C STIME   TTY           TIME CMD
+    0     1     0   0 10Aug19 ??         8:47.04 /sbin/launchd
+    0    61     1   0 10Aug19 ??         0:45.71 /usr/sbin/syslogd
+    0    62     1   0 10Aug19 ??         0:09.54 /usr/libexec/UserEventAgent (System)
+    0    65     1   0 10Aug19 ??         0:06.61 /System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld
+    0    66     1   0 10Aug19 ??         1:24.45 /usr/libexec/kextd
+    0    67     1   0 10Aug19 ??         2:21.16 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+    0    69     1   0 10Aug19 ??         0:04.44 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+   55    72     1   0 10Aug19 ??         0:01.32 /System/Library/CoreServices/appleeventsd --server
+    0    73     1   0 10Aug19 ??         1:33.27 /usr/sbin/systemstats --daemon
+    0    75     1   0 10Aug19 ??         1:20.40 /usr/libexec/configd
+    0    76     1   0 10Aug19 ??         1:29.31 /System/Library/CoreServices/powerd.bundle/powerd
+    0    79     1   0 10Aug19 ??         1:29.36 /usr/libexec/logd
+    0    80     1   0 10Aug19 ??         0:00.03 /usr/libexec/keybagd -t 15
+    0    87     1   0 10Aug19 ??         7:06.72 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+  240    88     1   0 10Aug19 ??         0:00.21 /System/Library/CoreServices/iconservicesd
+    0    89     1   0 10Aug19 ??         0:15.13 /usr/libexec/diskarbitrationd
+    0    92     1   0 10Aug19 ??         0:21.81 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd-helper -launchd
+    0    93     1   0 10Aug19 ??         0:56.20 /usr/libexec/coreduetd
+    0    96     1   0 10Aug19 ??         2:32.37 /usr/libexec/opendirectoryd
+    0    97     1   0 10Aug19 ??         0:26.49 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+    0    98     1   0 10Aug19 ??         3:29.32 /Library/StartupItems/MobileBrServ/mbbservice
+    0    99     1   0 10Aug19 ??         0:00.03 /Library/PrivilegedHelperTools/com.docker.vmnetd
+    0   100     1   0 10Aug19 ??         0:00.72 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbstated
+    0   101     1   0 10Aug19 ??         1:31.48 /System/Library/CoreServices/launchservicesd
+  266   102     1   0 10Aug19 ??         0:04.48 /usr/libexec/timed
+    0   103     1   0 10Aug19 ??         0:31.49 /usr/sbin/securityd -i
+  213   104     1   0 10Aug19 ??         0:01.35 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+  205   106     1   0 10Aug19 ??         1:46.28 /usr/libexec/locationd
+    0   108     1   0 10Aug19 ??         0:00.05 autofsd
+  244   109     1   0 10Aug19 ??         0:01.29 /usr/libexec/displaypolicyd -k 1
+    0   111     1   0 10Aug19 ??         0:48.06 /usr/libexec/dasd
+    0   112     1   0 10Aug19 ??         0:00.86 /System/Library/PrivateFrameworks/Heimdal.framework/Helpers/kdc
+  501   117     1   0 10Aug19 ??         1:01.81 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+    0   118     1   0 10Aug19 ??         0:00.35 /System/Library/CoreServices/logind
+    0   119     1   0 10Aug19 ??         0:01.33 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+    0   120     1   0 10Aug19 ??         0:00.04 /usr/sbin/KernelEventAgent
+    0   122     1   0 10Aug19 ??         0:08.25 /usr/sbin/bluetoothd
+  261   123     1   0 10Aug19 ??        10:38.99 /usr/libexec/hidd
+    0   125     1   0 10Aug19 ??         0:16.35 /usr/libexec/corebrightnessd --launchd
+    0   126     1   0 10Aug19 ??         0:03.11 /usr/libexec/AirPlayXPCHelper
+    0   127     1   0 10Aug19 ??         0:48.88 /usr/sbin/notifyd
+  241   128     1   0 10Aug19 ??         0:05.05 /usr/sbin/distnoted daemon
+    0   130     1   0 10Aug19 ??         0:28.91 /usr/sbin/cfprefsd daemon
+    0   137     1   0 10Aug19 ??         0:08.86 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+    0   154     1   0 10Aug19 ??         0:31.87 /System/Library/CoreServices/coreservicesd
+    0   170     1   0 10Aug19 ??         0:01.80 aslmanager
+    0   173     1   0 10Aug19 ??         0:55.39 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+    0   183     1   0 10Aug19 ??         0:05.60 /usr/libexec/nehelper
+  202   184     1   0 10Aug19 ??        16:09.85 /usr/sbin/coreaudiod
+    0   185     1   0 10Aug19 ??         1:37.77 /usr/libexec/trustd
+    0   187     1   0 10Aug19 ??         0:00.03 /System/Library/Frameworks/PCSC.framework/Versions/A/XPCServices/com.apple.ctkpcscd.xpc/Contents/MacOS/com.apple.ctkpcscd
+  259   194     1   0 10Aug19 ??         0:00.06 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -s
+    0   199     1   0 10Aug19 ??         0:19.20 /usr/libexec/mobileassetd
+  202   202     1   0 10Aug19 ??         0:00.71 /System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper
+  242   211     1   0 10Aug19 ??         0:09.36 /usr/libexec/nsurlsessiond --privileged
+   24   212     1   0 10Aug19 ??         1:09.03 /usr/libexec/symptomsd
+   65   214     1   0 10Aug19 ??         0:45.76 /usr/sbin/mDNSResponder
+    0   215     1   0 10Aug19 ??         0:09.54 /usr/sbin/mDNSResponderHelper
+    0   216     1   0 10Aug19 ??         0:16.76 /usr/libexec/lsd runAsRoot
+    0   218     1   0 10Aug19 ??         0:05.79 /usr/libexec/amfid
+    0   220     1   0 10Aug19 ??         0:15.13 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+  235   237     1   0 10Aug19 ??         0:02.44 /System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -d
+  235   240     1   0 10Aug19 ??         0:00.55 /usr/libexec/AssetCache/AssetCache
+    0   241     1   0 10Aug19 ??         0:00.07 /System/Library/CoreServices/ReportCrash daemon
+    0   242     1   0 10Aug19 ??         0:00.14 /usr/libexec/taskgated
+   88   243     1   0 10Aug19 ??       174:48.78 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+  243   244     1   0 10Aug19 ??         0:00.39 /usr/libexec/nsurlstoraged --privileged
+    0   245     1   0 10Aug19 ??         0:00.36 /System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents/MacOS/com.apple.ifdreader
+    0   246     1   0 10Aug19 ??         0:00.55 /usr/libexec/apfsd
+    0   248     1   0 10Aug19 ??         0:02.00 /usr/libexec/usbd
+    0   250     1   0 10Aug19 ??         0:00.34 /usr/libexec/tzd
+  200   255     1   0 10Aug19 ??         3:29.09 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+    0   256     1   0 10Aug19 ??         0:01.27 /System/Library/CoreServices/Software Update.app/Contents/Resources/suhelperd
+    0   258     1   0 10Aug19 ??         0:04.34 /usr/libexec/rtcreportingd
+    0   267     1   0 10Aug19 ??         0:03.68 /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+    0   269     1   0 10Aug19 ??         5:47.11 /usr/libexec/airportd
+    0   270     1   0 10Aug19 ??         0:02.12 /usr/libexec/watchdogd
+    0   276     1   0 10Aug19 ??         0:00.30 /usr/libexec/thermald
+    0   283     1   0 10Aug19 ??         0:00.25 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar -daemon
+  202   284     1   0 10Aug19 ??         0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+    0   296     1   0 10Aug19 ??         0:15.15 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd system
+    0   298     1   0 10Aug19 ??         0:01.09 /usr/libexec/secinitd
+    0   303     1   0 10Aug19 ??         5:01.96 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+    0   307     1   0 10Aug19 ??         0:00.60 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+    0   308     1   0 10Aug19 ??         0:00.21 /usr/libexec/colorsync.displayservices
+    0   309     1   0 10Aug19 ??         0:00.06 /usr/libexec/colorsyncd
+   88   310     1   0 10Aug19 ??         0:06.07 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+    0   320     1   0 10Aug19 ??         0:01.12 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+  258   343     1   0 10Aug19 ??         0:00.89 /usr/libexec/captiveagent
+  205   344     1   0 10Aug19 ??         0:06.30 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+    0   346     1   0 10Aug19 ??         0:04.20 /System/Library/CoreServices/iconservicesagent runAsRoot
+    0   347     1   0 10Aug19 ??         0:00.04 /usr/libexec/bootinstalld
+    0   353     1   0 10Aug19 ??         0:00.25 /System/Library/PrivateFrameworks/AccountPolicy.framework/XPCServices/com.apple.AccountPolicyHelper.xpc/Contents/MacOS/com.apple.AccountPolicyHelper
+    0   355     1   0 10Aug19 ??         0:09.18 /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent
+    0   358     1   0 10Aug19 ??         0:06.91 /System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/XPCServices/com.apple.PerformanceAnalysis.animationperfd.xpc/Contents/MacOS/com.apple.PerformanceAnalysis.animationperfd
+    0   359     1   0 10Aug19 ??         0:00.78 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+    0   360     1   0 10Aug19 ??         0:00.39 /usr/libexec/securityd_service
+  501   361     1   0 10Aug19 ??         0:00.38 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+  501   362     1   0 10Aug19 ??         0:51.95 /usr/sbin/cfprefsd agent
+  501   363     1   0 10Aug19 ??         0:21.61 /usr/libexec/UserEventAgent (Aqua)
+  501   365     1   0 10Aug19 ??         0:40.94 /usr/sbin/distnoted agent
+  501   368     1   0 10Aug19 ??         0:22.73 /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L
+  501   369     1   0 10Aug19 ??         0:20.77 /usr/libexec/lsd
+  501   370     1   0 10Aug19 ??         1:57.03 /usr/libexec/trustd --agent
+  501   371     1   0 10Aug19 ??         0:02.46 /usr/libexec/pboard
+  501   373     1   0 10Aug19 ??         0:07.62 /System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed
+  501   374     1   0 10Aug19 ??         0:00.88 /usr/libexec/languageassetd --firstLogin
+  501   375     1   0 10Aug19 ??         0:34.24 /usr/libexec/secinitd
+  501   376     1   0 10Aug19 ??         1:07.15 /usr/libexec/secd
+  501   377     1   0 10Aug19 ??         2:45.51 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+    0   378     1   0 10Aug19 ??         0:01.58 /usr/sbin/WirelessRadioManagerd
+  501   379     1   0 10Aug19 ??         0:34.68 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+  501   380     1   0 10Aug19 ??         0:05.24 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+  501   382     1   0 10Aug19 ??         0:06.95 /usr/libexec/rapportd
+  501   383     1   0 10Aug19 ??         0:13.22 /usr/sbin/usernoted
+  501   384     1   0 10Aug19 ??         0:11.95 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+  501   385     1   0 10Aug19 ??         0:00.58 /usr/libexec/networkserviceproxy
+  501   386     1   0 10Aug19 ??         1:47.76 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+  501   387     1   0 10Aug19 ??         1:07.93 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+  501   388     1   0 10Aug19 ??         0:00.15 /System/Library/CoreServices/APFSUserAgent
+  205   389     1   0 10Aug19 ??         0:01.00 /usr/libexec/secinitd
+  501   390     1   0 10Aug19 ??         0:05.76 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd
+  501   391     1   0 10Aug19 ??         1:53.80 /usr/libexec/nsurlsessiond
+  205   392     1   0 10Aug19 ??         0:00.68 /usr/sbin/cfprefsd agent
+  205   393     1   0 10Aug19 ??         0:01.89 /usr/libexec/trustd --agent
+  501   395     1   0 10Aug19 ??         0:34.87 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+    0   396     1   0 10Aug19 ??         0:04.66 /usr/sbin/spindump
+    0   397     1   0 10Aug19 ??         0:17.24 /usr/libexec/sysmond
+    0   398     1   0 10Aug19 ??         0:54.37 /System/Library/CoreServices/SubmitDiagInfo server-init
+  501   399     1   0 10Aug19 ??         0:02.81 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+  501   400     1   0 10Aug19 ??         0:01.49 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent
+  501   401     1   0 10Aug19 ??         0:03.34 /System/Library/Frameworks/AddressBook.framework/Executables/ContactsAccountsService
+  263   402     1   0 10Aug19 ??         0:15.95 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+  501   403     1   0 10Aug19 ??         0:19.97 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+    0   404     1   0 10Aug19 ??         0:00.62 /usr/sbin/wirelessproxd
+  501   405     1   0 10Aug19 ??         0:52.49 /usr/libexec/sharingd
+  501   406     1   0 10Aug19 ??         0:03.26 /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy
+  501   408     1   0 10Aug19 ??         0:00.28 /System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/Resources/cdpd
+  501   409     1   0 10Aug19 ??         0:00.71 /System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Helpers/ProtectedCloudKeySyncing
+  501   410     1   0 10Aug19 ??         0:00.46 /System/Library/CoreServices/EscrowSecurityAlert.app/Contents/MacOS/EscrowSecurityAlert
+  501   411     1   0 10Aug19 ??         0:08.14 /System/Library/CoreServices/Keychain Circle Notification.app/Contents/MacOS/Keychain Circle Notification
+  501   412     1   0 10Aug19 ??         0:04.18 /usr/libexec/fmfd
+  501   418     1   0 10Aug19 ??         0:19.92 /System/Library/PrivateFrameworks/CalendarNotification.framework/Versions/A/XPCServices/CalNCService.xpc/Contents/MacOS/CalNCService
+    0   419     1   0 10Aug19 ??         0:00.18 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+  501   420     1   0 10Aug19 ??         0:00.26 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled
+  501   421     1   0 10Aug19 ??         0:11.84 /usr/libexec/nsurlstoraged
+  501   422     1   0 10Aug19 ??         0:01.41 /System/Library/PrivateFrameworks/MessagesKit.framework/Resources/soagent.app/Contents/MacOS/soagent
+  501   423     1   0 10Aug19 ??         0:11.94 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+  265   424     1   0 10Aug19 ??         0:07.08 /System/Library/PrivateFrameworks/CoreADI.framework/adid
+  501   425     1   0 10Aug19 ??         0:11.27 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd
+  501   426     1   0 10Aug19 ??         0:00.36 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoteagent
+  501   427     1   0 10Aug19 ??         0:01.22 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+  501   431     1   0 10Aug19 ??         0:00.43 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/XPCServices/com.apple.DictionaryServiceHelper.xpc/Contents/MacOS/com.apple.DictionaryServiceHelper
+  501   432     1   0 10Aug19 ??         0:00.46 /System/Library/PrivateFrameworks/CommunicationsFilter.framework/CMFSyncAgent
+  501   434     1   0 10Aug19 ??         0:02.83 /System/Library/CoreServices/sharedfilelistd
+   97   436     1   0 10Aug19 ??         0:01.35 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+  501   444     1   0 10Aug19 ??         0:09.10 /System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent
+    0   445     1   0 10Aug19 ??         0:01.81 /usr/sbin/systemsoundserverd
+    0   449    73   0 10Aug19 ??         0:01.36 /usr/sbin/systemstats --logger-helper /private/var/db/systemstats
+    0   450     1   0 10Aug19 ??         0:00.12 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/XPCServices/com.apple.cmio.registerassistantservice.xpc/Contents/MacOS/com.apple.cmio.registerassistantservice
+  262   451     1   0 10Aug19 ??         0:01.58 /Library/CoreMediaIO/Plug-Ins/DAL/AppleCamera.plugin/Contents/Resources/AppleCameraAssistant
+  501   455     1   0 10Aug19 ??         0:00.73 /System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Support/followupd
+  501   456     1   0 10Aug19 ??         0:01.44 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+    0   458     1   0 10Aug19 ??         0:40.26 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+    0   459     1   0 10Aug19 ??         0:00.32 /usr/sbin/distnoted agent
+  501   460     1   0 10Aug19 ??         0:21.59 /System/Library/CoreServices/iconservicesagent
+  501   461     1   0 10Aug19 ??         0:01.80 /System/Library/CoreServices/pbs
+  501   465     1   0 10Aug19 ??         0:00.23 /usr/libexec/spindump_agent
+  501   469     1   0 10Aug19 ??         0:03.93 /System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -a
+  501   477     1   0 10Aug19 ??         0:01.32 /usr/libexec/swcd
+  501   478     1   0 10Aug19 ??         0:12.85 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd
+  501   479     1   0 10Aug19 ??         0:10.28 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+  501   481     1   0 10Aug19 ??         0:09.62 /System/Library/CoreServices/talagent
+  501   482     1   0 10Aug19 ??         0:49.88 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+  501   484     1   0 10Aug19 ??         0:00.85 /System/Library/CoreServices/backgroundtaskmanagementagent
+  501   485     1   0 10Aug19 ??         0:45.13 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+  501   486     1   0 10Aug19 ??         0:07.99 /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/universalAccessAuthWarn.app/Contents/MacOS/universalAccessAuthWarn launchd -s
+    0   495     1   0 10Aug19 ??         0:00.02 /System/Library/PrivateFrameworks/SystemAdministration.framework/XPCServices/writeconfig.xpc/Contents/MacOS/writeconfig
+  501   497     1   0 10Aug19 ??         0:01.60 /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/Frameworks/CloudPhotosConfigurationXPC.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration
+  501   504     1   0 10Aug19 ??         0:03.69 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+  501   505     1   0 10Aug19 ??         0:21.90 /usr/libexec/pkd
+    0   506     1   0 10Aug19 ??         0:05.83 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/system_installd
+  501   507     1   0 10Aug19 ??         0:15.13 /System/Library/CoreServices/cloudphotosd.app/Contents/MacOS/cloudphotosd
+    0   508     1   0 10Aug19 ??         4:38.09 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd
+  501   509     1   0 10Aug19 ??         0:06.56 /System/Library/CoreServices/diagnostics_agent
+    0   510     1   0 10Aug19 ??         0:00.30 /usr/bin/sysdiagnose
+  501   511     1   0 10Aug19 ??         5:33.88 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd
+  501   512     1   0 10Aug19 ??         0:00.32 /System/Library/PrivateFrameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent
+  501   520     1   0 10Aug19 ??         0:00.40 /System/Library/PrivateFrameworks/ClassKit.framework/Versions/A/progressd
+  501   521     1   0 10Aug19 ??         0:05.34 /System/Library/PrivateFrameworks/PassKitCore.framework/passd
+  501   522     1   0 10Aug19 ??         0:00.91 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+    0   524     1   0 10Aug19 ??         0:03.32 /usr/libexec/findmydeviced
+  501   525     1   0 10Aug19 ??         0:00.20 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+    0   526     1   0 10Aug19 ??         0:00.02 /System/Library/PrivateFrameworks/FindMyMac.framework/Resources/FindMyMacd
+  501   527     1   0 10Aug19 ??         0:04.61 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Support/photolibraryd
+  501   528     1   0 10Aug19 ??         0:18.49 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce
+  501   529     1   0 10Aug19 ??         0:00.99 /System/Library/CoreServices/ScopedBookmarkAgent
+  501   530     1   0 10Aug19 ??         0:00.20 /System/Library/CoreServices/NotificationCenter.app/Contents/XPCServices/com.apple.notificationcenterui.WeatherSummary.xpc/Contents/MacOS/com.apple.notificationcenterui.WeatherSummary
+    0   539     1   0 10Aug19 ??         0:11.13 /usr/sbin/filecoordinationd
+  501   543     1   0 10Aug19 ??         0:03.05 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/XPCServices/ContainerMetadataExtractor.xpc/Contents/MacOS/ContainerMetadataExtractor
+  501   546     1   0 10Aug19 ??         0:07.54 /System/Library/PrivateFrameworks/CloudServices.framework/Versions/A/XPCServices/com.apple.sbd.xpc/Contents/MacOS/com.apple.sbd
+  260   549     1   0 10Aug19 ??         0:00.65 /usr/libexec/nfcd
+  501   550     1   0 10Aug19 ??         0:38.35 /System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariBookmarksSyncAgent
+  501   554     1   0 10Aug19 ??         0:00.60 /System/Library/CoreServices/SocialPushAgent.app/Contents/MacOS/SocialPushAgent
+  200   561     1   0 10Aug19 ??         0:00.62 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdate_download_service
+  501   562     1   0 10Aug19 ??         0:00.41 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdate_notify_agent
+  501   568     1   0 10Aug19 ??         0:07.30 /System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent
+  501   570     1   0 10Aug19 ??         0:16.14 /System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension
+    0   592     1   0 10Aug19 ??         0:02.47 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+  205   596     1   0 10Aug19 ??         0:00.29 /usr/sbin/distnoted agent
+  265   602     1   0 10Aug19 ??         0:01.98 /System/Library/PrivateFrameworks/CoreFP.framework/Versions/A/fpsd
+  501   613     1   0 10Aug19 ??         0:06.22 /usr/libexec/adprivacyd
+  501   614     1   0 10Aug19 ??         0:00.68 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/media-indexer.xpc/Contents/MacOS/media-indexer
+  501   615     1   0 10Aug19 ??         0:11.44 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+  501   617     1   0 10Aug19 ??         0:00.20 /System/Library/Frameworks/ColorSync.framework/Support/colorsync.useragent
+  501   618     1   0 10Aug19 ??         0:00.56 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar
+  501   624     1   0 10Aug19 ??         0:02.03 /System/Library/Frameworks/MediaLibrary.framework/Versions/A/XPCServices/com.apple.MediaLibraryService.xpc/Contents/MacOS/com.apple.MediaLibraryService
+  501   625     1   0 10Aug19 ??         0:00.80 /System/Library/Frameworks/iTunesLibrary.framework/Versions/A/XPCServices/com.apple.iTunesLibraryService.xpc/Contents/MacOS/com.apple.iTunesLibraryService
+  501   635     1   0 10Aug19 ??         0:02.76 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Frameworks/PhotoLibraryServices.framework/Versions/A/XPCServices/com.apple.photomoments.xpc/Contents/MacOS/com.apple.photomoments
+  501   636     1   0 10Aug19 ??         0:06.92 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd
+  501   640     1   0 10Aug19 ??         0:00.03 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+  501   641     1   0 10Aug19 ??         0:21.53 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistant_service
+  501   642     1   0 10Aug19 ??         0:00.19 /System/Library/PrivateFrameworks/PhotoLibrary.framework/Versions/A/XPCServices/com.apple.PhotoIngestService.xpc/Contents/MacOS/com.apple.PhotoIngestService
+   89   643     1   0 10Aug19 ??         0:05.91 /usr/libexec/trustd --agent
+    0   652     1   0 10Aug19 ??         0:00.09 /usr/libexec/smd
+  501   663     1   0 10Aug19 ??         0:01.10 /System/Library/Frameworks/iTunesLibrary.framework/Versions/A/XPCServices/com.apple.iTunesLibraryService.xpc/Contents/MacOS/com.apple.iTunesLibraryService
+  501   669     1   0 10Aug19 ??         1:58.70 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+   89   693     1   0 10Aug19 ??         0:00.39 /usr/sbin/distnoted agent
+  501   785     1   0 10Aug19 ??         0:00.79 /usr/libexec/siriknowledged
+  501   786     1   0 10Aug19 ??         0:02.96 /System/Library/PrivateFrameworks/FMClient.framework/Versions/A/XPCServices/FMIPClientXPCService.xpc/Contents/MacOS/FMIPClientXPCService
+  501   800     1   0 10Aug19 ??         0:34.97 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+    0  1056     1   0 10Aug19 ??         0:00.02 /System/Library/PrivateFrameworks/InstallerDiagnostics.framework/Versions/A/Resources/installerdiagd
+  501  1301     1   0 10Aug19 ??         0:02.19 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/atsd
+  501  1596     1   0 10Aug19 ??         3:47.45 /Applications/Safari.app/Contents/MacOS/Safari -psn_0_163880
+  501  1597     1   0 10Aug19 ??         1:37.71 /Applications/App Store.app/Contents/MacOS/App Store -psn_0_167977
+  501  1598     1   0 10Aug19 ??         0:25.36 /Applications/Preview.app/Contents/MacOS/Preview -psn_0_172074
+  501  1599     1   0 10Aug19 ??        58:06.28 /Applications/Notes.app/Contents/MacOS/Notes -psn_0_176171
+  501  1600     1   0 10Aug19 ??         3:34.18 /Applications/Visual Studio Code.app/Contents/MacOS/Electron -psn_0_180268
+  501  1601     1   0 10Aug19 ??         0:00.00 /Applications/Final Video Player.app/Contents/MacOS/Final Video Player -psn_0_184365
+  501  1602     1   0 10Aug19 ??         0:00.01 /Applications/iTunes.app/Contents/MacOS/iTunes -psn_0_188462
+  501  1606     1   0 10Aug19 ??         4:42.00 /Applications/Utilities/Terminal.app/Contents/MacOS/Terminal -psn_0_192559
+  501  1607     1   0 10Aug19 ??         0:00.00 /Applications/Decompressor.app/Contents/MacOS/Decompressor -psn_0_196656
+  501  1608     1   0 10Aug19 ??         0:00.00 /Applications/zoom.us.app/Contents/MacOS/zoom.us -psn_0_200753
+  501  1609     1   0 10Aug19 ??         5:13.51 /Applications/Mail.app/Contents/MacOS/Mail -psn_0_204850
+  501  1611     1   0 10Aug19 ??         4:48.48 /Users/javedalam/Applications/GoToMeeting v9.app/Contents/MacOS/GoToMeeting v9 -psn_0_213044
+  501  1612     1   0 10Aug19 ??         7:32.21 /Applications/Skype.app/Contents/MacOS/Skype -psn_0_217141
+  501  1613     1   0 10Aug19 ??         1:26.18 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+  501  1614     1   0 10Aug19 ??         8:16.74 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+  501  1615     1   0 10Aug19 ??         6:55.17 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+  501  1618     1   0 10Aug19 ??         0:20.38 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+  501  1624     1   0 10Aug19 ??         0:07.69 /System/Library/PrivateFrameworks/CoreParsec.framework/parsecd
+  501  1625     1   0 10Aug19 ??         0:00.69 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501  1626     1   0 10Aug19 ??         0:06.94 /System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/XPCServices/WiFiProxy.xpc/Contents/MacOS/WiFiProxy
+  501  1630     1   0 10Aug19 ??         0:03.52 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+  247  1631     1   0 10Aug19 ??         0:09.91 /usr/libexec/gamecontrollerd
+  501  1632     1   0 10Aug19 ??         0:00.12 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501  1633     1   0 10Aug19 ??         0:01.37 /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.History.xpc/Contents/MacOS/com.apple.Safari.History
+  501  1637     1   0 10Aug19 ??         0:01.56 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+  501  1645     1   0 10Aug19 ??        41:34.25 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+  501  1646     1   0 10Aug19 ??         7:16.70 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+  501  1651     1   0 10Aug19 ??         0:02.09 /usr/libexec/videosubscriptionsd
+  501  1657     1   0 10Aug19 ??         0:17.25 /usr/libexec/studentd
+  501  1660     1   0 10Aug19 ??         0:10.88 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra
+  501  1663     1   0 10Aug19 ??         0:00.88 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdwrite
+  501  1664     1   0 10Aug19 ??         0:01.03 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501  1667     1   0 10Aug19 ??         0:01.00 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistoryPluginHelper
+  501  1668     1   0 10Aug19 ??         0:00.68 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501  1670     1   0 10Aug19 ??         0:00.71 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501  1696  1600   0 10Aug19 ??         0:34.66 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --type=gpu-process --enable-features=SharedArrayBuffer --disable-features=MacV2Sandbox,SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --gpu-preferences=KAAAAAAAAACAAAAAAQAAAAAAAAAAAGAAAAAAAAAAAAAIAAAAAAAAAGABAAArAAAAWAEAAAAAAABgAQAAAAAAAGgBAAAAAAAAcAEAAAAAAAB4AQAAAAAAAIABAAAAAAAAiAEAAAAAAACQAQAAAAAAAJgBAAAAAAAAoAEAAAAAAACoAQAAAAAAALABAAAAAAAAuAEAAAAAAADAAQAAAAAAAMgBAAAAAAAA0AEAAAAAAADYAQAAAAAAAOABAAAAAAAA6AEAAAAAAADwAQAAAAAAAPgBAAAAAAAAAAIAAAAAAAAIAgAAAAAAABACAAAAAAAAGAIAAAAAAAAgAgAAAAAAACgCAAAAAAAAMAIAAAAAAAA4AgAAAAAAAEACAAAAAAAASAIAAAAAAABQAgAAAAAAAFgCAAAAAAAAYAIAAAAAAABoAgAAAAAAAHACAAAAAAAAeAIAAAAAAACAAgAAAAAAAIgCAAAAAAAAkAIAAAAAAACYAgAAAAAAAKACAAAAAAAAqAIAAAAAAAAQAAAAAAAAAAAAAAAFAAAAEAAAAAAAAAAAAAAABwAAABAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAAAAAAADQAAABAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAEgAAABAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAAEAAAAFAAAAEAAAAAAAAAABAAAABwAAABAAAAAAAAAAAQAAAAsAAAAQAAAAAAAAAAEAAAAMAAAAEAAAAAAAAAABAAAADQAAABAAAAAAAAAAAQAAAA8AAAAQAAAAAAAAAAEAAAAQAAAAEAAAAAAAAAABAAAAEgAAABAAAAAAAAAAAQAAABMAAAAQAAAAAAAAAAQAAAAFAAAAEAAAAAAAAAAEAAAABwAAABAAAAAAAAAABAAAAAsAAAAQAAAAAAAAAAQAAAAMAAAAEAAAAAAAAAAEAAAADQAAABAAAAAAAAAABAAAAA8AAAAQAAAAAAAAAAQAAAAQAAAAEAAAAAAAAAAEAAAAEgAAABAAAAAAAAAABAAAABMAAAAQAAAAAAAAAAYAAAAFAAAAEAAAAAAAAAAGAAAABwAAABAAAAAAAAAABgAAAAsAAAAQAAAAAAAAAAYAAAANAAAAEAAAAAAAAAAGAAAADwAAABAAAAAAAAAABgAAABAAAAAQAAAAAAAAAAYAAAASAAAAEAAAAAAAAAAGAAAAEwAAABAAAAAAAAAABwAAAAUAAAAQAAAAAAAAAAcAAAAHAAAAEAAAAAAAAAAHAAAACwAAABAAAAAAAAAABwAAAA0AAAAQAAAAAAAAAAcAAAAPAAAAEAAAAAAAAAAHAAAAEAAAABAAAAAAAAAABwAAABIAAAAQAAAAAAAAAAcAAAATAAAA --service-request-channel-token=4733015030403835325
+  501  1697     1   0 10Aug19 ??         0:00.43 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501  1700     1   0 10Aug19 ??         0:00.29 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+  501  1701     1   0 10Aug19 ??         0:02.63 /System/Library/Image Capture/Support/icdd
+  501  1703     1   0 10Aug19 ??         0:26.53 /System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple.Safari.SafeBrowsing.Service
+  501  1708  1600   0 10Aug19 ??         1:37.06 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --type=renderer --disable-color-correct-rendering --no-sandbox --enable-features=SharedArrayBuffer --disable-features=MacV2Sandbox,SpareRendererForSitePerProcess --service-pipe-token=17809341139038126716 --lang=en-GB --app-path=/Applications/Visual Studio Code.app/Contents/Resources/app --user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.36.1 Chrome/69.0.3497.128 Electron/4.2.5 Safari/537.36 --node-integration=true --webview-tag=true --no-sandbox --background-color=#171717 --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=17809341139038126716 --renderer-client-id=4
+  501  1709     1   0 10Aug19 ??         0:02.25 /System/Library/PrivateFrameworks/PrintingPrivate.framework/Versions/A/PrintUITool
+  501  1711     1   0 10Aug19 ??         0:00.12 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501  1717     1   0 10Aug19 ??         0:00.16 /Applications/Skype.app/Contents/Frameworks/Electron Framework.framework/Resources/crashpad_handler --no-rate-limit --no-upload-gzip --database=/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/skype-preview Crashes --metrics-dir=/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/skype-preview Crashes --url=https://rink.hockeyapp.net/api/2/apps/590a6ee7ae5b40618f24655aa36fc84f/crashes/upload --handshake-fd=17
+  501  1719  1612   0 10Aug19 ??         0:15.80 /Applications/Skype.app/Contents/Frameworks/Skype Helper.app/Contents/MacOS/Skype Helper --type=gpu-process --no-sandbox --gpu-preferences=KAAAAAAAAACAAAAAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAAGABAAArAAAAWAEAAAAAAABgAQAAAAAAAGgBAAAAAAAAcAEAAAAAAAB4AQAAAAAAAIABAAAAAAAAiAEAAAAAAACQAQAAAAAAAJgBAAAAAAAAoAEAAAAAAACoAQAAAAAAALABAAAAAAAAuAEAAAAAAADAAQAAAAAAAMgBAAAAAAAA0AEAAAAAAADYAQAAAAAAAOABAAAAAAAA6AEAAAAAAADwAQAAAAAAAPgBAAAAAAAAAAIAAAAAAAAIAgAAAAAAABACAAAAAAAAGAIAAAAAAAAgAgAAAAAAACgCAAAAAAAAMAIAAAAAAAA4AgAAAAAAAEACAAAAAAAASAIAAAAAAABQAgAAAAAAAFgCAAAAAAAAYAIAAAAAAABoAgAAAAAAAHACAAAAAAAAeAIAAAAAAACAAgAAAAAAAIgCAAAAAAAAkAIAAAAAAACYAgAAAAAAAKACAAAAAAAAqAIAAAAAAAAQAAAAAAAAAAAAAAAFAAAAEAAAAAAAAAAAAAAABwAAABAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAAAAAAADQAAABAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAEgAAABAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAAEAAAAFAAAAEAAAAAAAAAABAAAABwAAABAAAAAAAAAAAQAAAAsAAAAQAAAAAAAAAAEAAAAMAAAAEAAAAAAAAAABAAAADQAAABAAAAAAAAAAAQAAAA8AAAAQAAAAAAAAAAEAAAAQAAAAEAAAAAAAAAABAAAAEgAAABAAAAAAAAAAAQAAABMAAAAQAAAAAAAAAAMAAAAFAAAAEAAAAAAAAAADAAAABwAAABAAAAAAAAAAAwAAAAsAAAAQAAAAAAAAAAMAAAAMAAAAEAAAAAAAAAADAAAADQAAABAAAAAAAAAAAwAAAA8AAAAQAAAAAAAAAAMAAAAQAAAAEAAAAAAAAAADAAAAEgAAABAAAAAAAAAAAwAAABMAAAAQAAAAAAAAAAUAAAAFAAAAEAAAAAAAAAAFAAAABwAAABAAAAAAAAAABQAAAAsAAAAQAAAAAAAAAAUAAAANAAAAEAAAAAAAAAAFAAAADwAAABAAAAAAAAAABQAAABAAAAAQAAAAAAAAAAUAAAASAAAAEAAAAAAAAAAFAAAAEwAAABAAAAAAAAAABgAAAAUAAAAQAAAAAAAAAAYAAAAHAAAAEAAAAAAAAAAGAAAACwAAABAAAAAAAAAABgAAAA0AAAAQAAAAAAAAAAYAAAAPAAAAEAAAAAAAAAAGAAAAEAAAABAAAAAAAAAABgAAABIAAAAQAAAAAAAAAAYAAAATAAAA --service-request-channel-token=4DF220C64B4455C7151DF66E7F9E8FB9
+  501  1720     1   0 10Aug19 ??         0:00.36 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501  1721  1612   0 10Aug19 ??        15:58.75 /Applications/Skype.app/Contents/Frameworks/Skype Helper.app/Contents/MacOS/Skype Helper --type=renderer --autoplay-policy=no-user-gesture-required --ms-disable-indexeddb-transaction-timeout --no-sandbox --service-pipe-token=A7A8A10AFE056D3A365E46B10C5630E5 --lang=en-GB --app-path=/Applications/Skype.app/Contents/Resources/app.asar --node-integration=false --webview-tag=true --no-sandbox --preload=/Applications/Skype.app/Contents/Resources/app.asar/Preload.js --background-color=#fff --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --enable-compositor-image-animations --service-request-channel-token=A7A8A10AFE056D3A365E46B10C5630E5 --renderer-client-id=4 --skype-process-type=Main
+  501  1722     1   0 10Aug19 ??         0:00.50 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501  1736  1600   0 10Aug19 ??         0:25.09 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --type=renderer --disable-color-correct-rendering --no-sandbox --enable-features=SharedArrayBuffer --disable-features=MacV2Sandbox,SpareRendererForSitePerProcess --service-pipe-token=16886495985030544691 --lang=en-GB --app-path=/Applications/Visual Studio Code.app/Contents/Resources/app --user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.36.1 Chrome/69.0.3497.128 Electron/4.2.5 Safari/537.36 --node-integration=true --webview-tag=true --no-sandbox --background-color=#171717 --disable-blink-features=Auxclick --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=16886495985030544691 --renderer-client-id=6
+  501  1738     1   0 10Aug19 ??         3:43.47 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+  501  1739     1   0 10Aug19 ??         0:00.03 SafeEjectGPUAgent
+  501  1740     1   0 10Aug19 ??         0:00.19 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents/XPCServices/SafeEjectGPUService.xpc/Contents/MacOS/SafeEjectGPUService
+  501  1742     1   0 10Aug19 ??         0:01.42 /usr/libexec/keyboardservicesd
+  501  1746     1   0 10Aug19 ??        20:11.47 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+  501  1747     1   0 10Aug19 ??         1:11.91 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent
+  501  1748     1   0 10Aug19 ??         0:07.11 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeassetd
+  501  1749     1   0 10Aug19 ??         0:00.04 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  501  1751     1   0 10Aug19 ??         0:07.92 /System/Library/CoreServices/FolderActionsDispatcher.app/Contents/MacOS/FolderActionsDispatcher launchd
+  501  1753     1   0 10Aug19 ??         0:01.29 /Users/javedalam/Library/Application Support/AppCommon/AppTech --protect
+  501  1756     1   0 10Aug19 ??         0:00.82 /usr/libexec/dmd
+  501  1757     1   0 10Aug19 ??         0:00.31 /Users/javedalam/Library/Application Support/AppPolicy/AppCart -i -c 216107 -isn 5316E0E4-478E-41C9-83AF-A0AE201D3113
+  501  1758     1   0 10Aug19 ??         2:21.55 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri launchd
+  501  1759     1   0 10Aug19 ??         0:00.01 /bin/sh /Users/javedalam/Library/Application Support/Blue Jeans/desktop/carmel-detector/startup/start-carmel-detector.sh
+  501  1764     1   0 10Aug19 ??         0:07.88 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd
+  501  1765     1   0 10Aug19 ??         0:13.98 /usr/libexec/knowledge-agent
+  501  1766     1   0 10Aug19 ??         0:01.94 /System/Library/CoreServices/cloudpaird
+  501  1768     1   0 10Aug19 ??         0:11.57 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent
+    0  1770     1   0 10Aug19 ??         0:00.22 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp -d
+  501  1771     1   0 10Aug19 ??         0:00.26 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp
+  501  1772     1   0 10Aug19 ??         0:00.17 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw
+  501  1773     1   0 10Aug19 ??         0:00.35 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501  1775  1759   0 10Aug19 ??         0:00.91 /Users/javedalam/Applications/Blue Jeans.app/Contents/MacOS/BlueJeans /Users/javedalam/Library/Application Support/Blue Jeans/desktop/carmel-detector/main.js
+  501  1781     1   0 10Aug19 ??         0:00.19 /Users/javedalam/Applications/GoToMeeting v9.app/Contents/Frameworks/Electron Framework.framework/Resources/crashpad_handler --no-rate-limit --no-upload-gzip --database=/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/GoToMeetingv9 Crashes --metrics-dir=/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/GoToMeetingv9 Crashes --url=http://GoToMeetingv9_electron.bugsplat.com/post/bp/crash/postBP.php --handshake-fd=21
+  501  1783  1611   0 10Aug19 ??         3:52.93 /Users/javedalam/Applications/GoToMeeting v9.app/Contents/Frameworks/GoToMeeting v9 Helper.app/Contents/MacOS/GoToMeeting v9 Helper --type=gpu-process --no-sandbox --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,1,5,12,27,30,43,47,56,62,70,73,74,75,76,83,84,86,94,95,96,100,103 --disable-gl-extensions=GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent --gpu-vendor-id=0x8086 --gpu-device-id=0x1626 --gpu-driver-vendor --gpu-driver-version --gpu-driver-date --gpu-active-vendor-id=0x8086 --gpu-active-device-id=0x1626 --service-request-channel-token=3168482B17B4D89F871E811A5A1B8C9B
+  501  1784  1611   0 10Aug19 ??         5:20.70 /Users/javedalam/Applications/GoToMeeting v9.app/Contents/Frameworks/GoToMeeting v9 Helper.app/Contents/MacOS/GoToMeeting v9 Helper --type=renderer --no-sandbox --service-pipe-token=F67FA64EF86FAC56500B428DB4D56285 --lang=en-GB --app-path=/Users/javedalam/Applications/GoToMeeting v9.app/Contents/Resources/app.asar --node-integration=false --webview-tag=false --no-sandbox --preload=/Users/javedalam/Applications/GoToMeeting v9.app/Contents/Resources/app.asar/app/windows/welcome-mat/welcome-mat-preload.js --context-isolation --background-color=#fff --context-id=2 --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,34037;2,12,34037;2,13,34037;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,34037;3,14,34037;3,15,3553;3,16,34037;3,17,34037;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,34037;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,34037;4,14,34037;4,15,3553;4,16,34037;4,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=F67FA64EF86FAC56500B428DB4D56285 --renderer-client-id=4
+  501  1785     1   0 10Aug19 ??         0:00.76 /System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacOS/ContextService
+  501  1791     1   0 10Aug19 ??         0:00.18 /Applications/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Resources/crashpad_handler --no-rate-limit --no-upload-gzip --database=/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/VSCode Crashes --metrics-dir=/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/VSCode Crashes --url=https://rink.hockeyapp.net/api/2/apps/21a48a66799e47fea4f52c0ff81e803d/crashes/upload --handshake-fd=68
+  501  1792  1708   0 10Aug19 ??         0:47.77 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --nolazy --inspect=63370 /Applications/Visual Studio Code.app/Contents/Resources/app/out/bootstrap-fork --type=extensionHost
+  501  1793  1708   0 10Aug19 ??         0:05.47 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper /Applications/Visual Studio Code.app/Contents/Resources/app/out/bootstrap-fork --type=watcherService
+  501  1806     1   0 10Aug19 ??         0:00.30 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storelegacy
+  200  1808     1   0 10Aug19 ??         0:00.51 /usr/sbin/cfprefsd agent
+  200  1810     1   0 10Aug19 ??         0:00.28 /usr/sbin/distnoted agent
+    0  1814     1   0 10Aug19 ??         0:00.17 /System/Library/Frameworks/PreferencePanes.framework/Versions/A/XPCServices/cacheAssistant.xpc/Contents/MacOS/cacheAssistant
+  501  1815     1   0 10Aug19 ??         0:00.29 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501  1822     1   0 10Aug19 ??         0:29.32 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice
+  501  1823     1   0 10Aug19 ??         0:20.83 /Applications/Docker.app/Contents/MacOS/Docker
+  501  1826     1   0 10Aug19 ??         0:00.34 /usr/libexec/findmydevice-user-agent
+  501  1828     1   0 10Aug19 ??         0:08.05 /System/Library/PrivateFrameworks/CommerceKit.framework/Resources/LaterAgent.app/Contents/MacOS/LaterAgent
+  501  1838     1   0 10Aug19 ??         0:00.32 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCServices/com.apple.CommerceKit.TransactionService.xpc/Contents/MacOS/com.apple.CommerceKit.TransactionService
+  501  1844     1   0 10Aug19 ??         0:00.31 /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.ImageDecoder.xpc/Contents/MacOS/com.apple.Safari.ImageDecoder
+    0  1845     1   0 10Aug19 ??         0:00.17 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+    0  1847     1   0 10Aug19 ??         0:02.23 /usr/libexec/dprivacyd
+  501  1862     1   0 10Aug19 ??         0:00.12 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501  1874     1   0 10Aug19 ??         0:00.16 /usr/libexec/loginitemregisterd
+  501  1875  1823   0 10Aug19 ??         0:07.90 /Applications/Docker.app/Contents/MacOS/com.docker.supervisor -watchdog fd:0
+  501  1877  1875   0 10Aug19 ??         0:00.23 com.docker.osxfs serve --address fd:3 --connect vms/0/connect --control fd:4 --log-destination asl
+  501  1878  1875   0 10Aug19 ??         1:44.09 com.docker.vpnkit --ethernet fd:3 --port vpnkit.port.sock --port hyperkit://:62373/./vms/0 --diagnostics fd:4 --pcap fd:5 --vsock-path vms/0/connect --host-names host.docker.internal,docker.for.mac.host.internal,docker.for.mac.localhost --gateway-names gateway.docker.internal,docker.for.mac.gateway.internal,docker.for.mac.http.internal --vm-names docker-for-desktop --listen-backlog 32 --mtu 1500 --allowed-bind-addresses 0.0.0.0 --http /Users/javedalam/Library/Group Containers/group.com.docker/http_proxy.json --dhcp /Users/javedalam/Library/Group Containers/group.com.docker/dhcp.json --port-max-idle-time 300 --max-connections 2000 --gateway-ip 192.168.65.1 --host-ip 192.168.65.2 --lowest-ip 192.168.65.3 --highest-ip 192.168.65.254 --log-destination asl --udpv4-forwards 123:127.0.0.1:62962 --gc-compact-interval 1800
+  501  1879  1875   0 10Aug19 ??         0:09.79 com.docker.driver.amd64-linux -addr fd:3 -debug
+  501  1880  1878   0 10Aug19 ??         0:00.00 (uname)
+  501  1885  1879   0 10Aug19 ??        74:09.90 com.docker.hyperkit -A -u -F vms/0/hyperkit.pid -c 2 -m 2048M -s 0:0,hostbridge -s 31,lpc -s 1:0,virtio-vpnkit,path=vpnkit.eth.sock,uuid=dc2423d9-63cd-452d-84b6-ea6c9b8c09d2 -U 0695e2d8-5fcf-400d-b28f-8b89e5e683c7 -s 2:0,ahci-hd,file:///Users/javedalam/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/Docker.qcow2?sync=os&buffered=1,format=qcow,qcow-config=discard=true;compact_after_unmaps=262144;keep_erased=262144;runtime_asserts=false -s 3,virtio-sock,guest_cid=3,path=vms/0,guest_forwards=2376;1525 -s 4,ahci-cd,/Applications/Docker.app/Contents/Resources/linuxkit/docker-for-mac.iso -s 5,ahci-cd,vms/0/config.iso -s 6,ahci-cd,/Applications/Docker.app/Contents/Resources/linuxkit/docker.iso -s 7,virtio-rnd -l com1,autopty=vms/0/tty,asl -f bootrom,/Applications/Docker.app/Contents/Resources/uefi/UEFI.fd,,
+  501  1888     1   0 10Aug19 ??         0:00.71 /System/Library/Frameworks/iTunesLibrary.framework/Versions/A/XPCServices/com.apple.iTunesLibraryService.xpc/Contents/MacOS/com.apple.iTunesLibraryService
+  501  1891     1   0 10Aug19 ??         0:03.77 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+    0  1893     1   0 10Aug19 ??         0:00.48 /usr/libexec/dmd
+  501  1897     1   0 10Aug19 ??         0:45.50 /System/Library/CoreServices/Siri.app/Contents/XPCServices/SiriNCService.xpc/Contents/MacOS/SiriNCService
+  501  1898     1   0 10Aug19 ??         0:07.86 /System/Library/PrivateFrameworks/SoftwareUpdate.framework/Resources/SoftwareUpdateNotificationManager.app/Contents/MacOS/SoftwareUpdateNotificationManager
+    0  2025     1   0 10Aug19 ??         0:00.20 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeinstalld
+  501  2033     1   0 10Aug19 ??         0:00.27 /usr/libexec/USBAgent
+  501  2038     1   0 10Aug19 ??         0:01.54 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+   89  2039     1   0 10Aug19 ??         2:07.79 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+  501  2040     1   0 10Aug19 ??         0:01.55 /System/Library/PrivateFrameworks/AssetsLibraryServices.framework/Versions/A/XPCServices/com.apple.Photos.Migration.xpc/Contents/MacOS/com.apple.Photos.Migration
+  501  2049     1   0 10Aug19 ??         0:02.02 /System/Library/PrivateFrameworks/AssetsLibraryServices.framework/Versions/A/XPCServices/com.apple.Photos.Migration.Reader.xpc/Contents/MacOS/com.apple.Photos.Migration.Reader
+    0  2245     1   0 10Aug19 ??         0:00.02 /usr/sbin/aslmanager -s /var/log/eventmonitor
+  501  2340     1   0 10Aug19 ??         0:00.18 /System/Library/PrivateFrameworks/AOSAccounts.framework/Versions/A/Resources/iCloudUserNotificationsd.app/Contents/MacOS/iCloudUserNotificationsd
+  501  2348     1   0 10Aug19 ??         0:08.03 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app/Contents/MacOS/storeuid
+  501  2374     1   0 10Aug19 ??         0:00.84 /System/Library/PrivateFrameworks/IMDPersistence.framework/IMAutomaticHistoryDeletionAgent.app/Contents/MacOS/IMAutomaticHistoryDeletionAgent
+  501  2377     1   0 10Aug19 ??         0:01.56 /System/Library/CoreServices/mapspushd
+    0  2378     1   0 10Aug19 ??         0:00.05 /usr/libexec/periodic-wrapper daily
+  501  2452     1   0 10Aug19 ??         0:01.09 /usr/libexec/silhouette
+  501  2485     1   0 10Aug19 ??         0:00.28 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/com.apple.siri.ClientFlow.ClientScripter.xpc/Contents/MacOS/com.apple.siri.ClientFlow.ClientScripter
+  501  2844     1   0 10Aug19 ??         0:00.24 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCServices/com.apple.CommerceKit.TransactionService.xpc/Contents/MacOS/com.apple.CommerceKit.TransactionService
+  501  2896     1   0 10Aug19 ??         0:00.18 /Applications/Visual Studio Code.app/Contents/Frameworks/Squirrel.framework/Resources/ShipIt com.microsoft.VSCode.ShipIt /Users/javedalam/Library/Caches/com.microsoft.VSCode.ShipIt/ShipItState.plist
+  501  3426     1   0 10Aug19 ??         0:00.69 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCServices/com.apple.CommerceKit.StoreAEService.xpc/Contents/MacOS/com.apple.CommerceKit.StoreAEService
+  501  3513     1   0 10Aug19 ??         0:37.64 /Applications/Numbers.app/Contents/MacOS/Numbers -psn_0_417894
+  501  3515     1   0 10Aug19 ??         0:00.72 /System/Library/PrivateFrameworks/CloudDocs.framework/PlugIns/com.apple.CloudDocs.MobileDocumentsFileProvider.appex/Contents/MacOS/com.apple.CloudDocs.MobileDocumentsFileProvider
+  501  3517     1   0 10Aug19 ??         0:00.23 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501  4546     1   0 10Aug19 ??         0:01.21 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd
+  501  4783     1   0 11Aug19 ??         0:00.64 /System/Library/PrivateFrameworks/DistributedEvaluation.framework/Versions/A/XPCServices/com.apple.siri-distributed-evaluation.xpc/Contents/MacOS/com.apple.siri-distributed-evaluation
+  501  4859     1   0 11Aug19 ??         0:00.27 /System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/UsageTrackingAgent
+  501  4871     1   0 11Aug19 ??         0:01.16 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Frameworks/PhotoLibraryServices.framework/Versions/A/XPCServices/com.apple.photomodel.xpc/Contents/MacOS/com.apple.photomodel
+    0  4895     1   0 11Aug19 ??         0:00.23 /usr/libexec/mobileactivationd
+  501  4909     1   0 11Aug19 ??         0:00.33 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501  4911     1   0 11Aug19 ??         0:00.30 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  257  4913     1   0 11Aug19 ??         0:00.08 /usr/libexec/DataDetectorsSourceAccess
+  501  4924     1   0 11Aug19 ??         0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+  501  4925     1   0 11Aug19 ??         0:00.23 /System/Library/Frameworks/MediaAccessibility.framework/Versions/A/XPCServices/com.apple.accessibility.mediaaccessibilityd.xpc/Contents/MacOS/com.apple.accessibility.mediaaccessibilityd
+  501  6430     1   0 17Aug19 ??         0:00.04 /System/Library/CoreServices/ReportCrash agent
+  501  6435     1   0 17Aug19 ??         0:30.05 /usr/libexec/SafariCloudHistoryPushAgent
+    0  6580     1   0 17Aug19 ??         0:00.22 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/hdiejectd
+    0  6582     1   0 17Aug19 ??         0:04.77 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid E85119B0-D954-4E28-9BA3-613F72C2B49A -post-exec 4
+  501  6626     1   0 17Aug19 ??         0:00.19 /usr/libexec/SafariPlugInUpdateNotifier
+  501  6708     1   0 17Aug19 ??         0:01.07 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+  501  7394     1   0 17Aug19 ??         0:00.26 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Versions/A/printtool agent
+  501  7396     1   0 17Aug19 ??         0:24.25 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+  501  7400     1   0 17Aug19 ??         0:00.53 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501  8757     1   0 18Aug19 ??         0:10.51 /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService
+    0  8944     1   0 18Aug19 ??         0:01.72 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd
+    0  8967     1   0 18Aug19 ??         0:00.02 /usr/libexec/periodic-wrapper weekly
+    0  8999     1   0 18Aug19 ??         0:00.01 /usr/libexec/periodic-wrapper monthly
+  501  9353     1   0 18Aug19 ??         0:04.33 /System/Library/PrivateFrameworks/BookKit.framework/Versions/A/XPCServices/com.apple.BKAgentService.xpc/Contents/MacOS/com.apple.BKAgentService
+  501 11106     1   0 25Aug19 ??         0:00.15 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
+    0 11108     1   0 25Aug19 ??         0:01.67 /System/Library/Frameworks/GSS.framework/Helpers/GSSCred
+  501 16698     1   0  1Sep19 ??         0:06.71 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+  501 17954     1   0  8Sep19 ??         0:03.98 /System/Library/CoreServices/OSDUIHelper.app/Contents/MacOS/OSDUIHelper
+  501 17955     1   0  8Sep19 ??         0:00.16 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501 19020     1   0  8Sep19 ??        22:57.34 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+  501 19024     1   0  8Sep19 ??         0:00.08 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --database=/Users/javedalam/Library/Application Support/Google/Chrome/Crashpad --metrics-dir=/Users/javedalam/Library/Application Support/Google/Chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=plat=OS X --annotation=prod=Chrome_Mac --annotation=ver=76.0.3809.132 --handshake-fd=8
+  501 19027 19020   0  8Sep19 ??        19:33.47 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (GPU).app/Contents/MacOS/Google Chrome Helper (GPU) --type=gpu-process --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --gpu-preferences=IAAAAAAAAAAgAAAAAAAAAAAAYAAAAAAACAAAAAAAAAAIAQAAIAAAAAABAAAAAAAACAEAAAAAAAAQAQAAAAAAABgBAAAAAAAAIAEAAAAAAAAoAQAAAAAAADABAAAAAAAAOAEAAAAAAABAAQAAAAAAAEgBAAAAAAAAUAEAAAAAAABYAQAAAAAAAGABAAAAAAAAaAEAAAAAAABwAQAAAAAAAHgBAAAAAAAAgAEAAAAAAACIAQAAAAAAAJABAAAAAAAAmAEAAAAAAACgAQAAAAAAAKgBAAAAAAAAsAEAAAAAAAC4AQAAAAAAAMABAAAAAAAAyAEAAAAAAADQAQAAAAAAANgBAAAAAAAA4AEAAAAAAADoAQAAAAAAAPABAAAAAAAA+AEAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAABgAAABAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAACgAAABAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAAAAAAANAAAAEAAAAAAAAAAAAAAADgAAABAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAAEAAAAGAAAAEAAAAAAAAAABAAAABwAAABAAAAAAAAAAAQAAAAgAAAAQAAAAAAAAAAEAAAAKAAAAEAAAAAAAAAABAAAACwAAABAAAAAAAAAAAQAAAA0AAAAQAAAAAAAAAAEAAAAOAAAAEAAAAAAAAAAEAAAAAAAAABAAAAAAAAAABAAAAAYAAAAQAAAAAAAAAAQAAAAHAAAAEAAAAAAAAAAEAAAACAAAABAAAAAAAAAABAAAAAoAAAAQAAAAAAAAAAQAAAALAAAAEAAAAAAAAAAEAAAADQAAABAAAAAAAAAABAAAAA4AAAAQAAAAAAAAAAYAAAAAAAAAEAAAAAAAAAAGAAAABgAAABAAAAAAAAAABgAAAAcAAAAQAAAAAAAAAAYAAAAIAAAAEAAAAAAAAAAGAAAACgAAABAAAAAAAAAABgAAAAsAAAAQAAAAAAAAAAYAAAANAAAAEAAAAAAAAAAGAAAADgAAAA== --service-request-channel-token=17222943520914408969
+  501 19028 19020   0  8Sep19 ??         3:57.26 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --service-sandbox-type=network --service-request-channel-token=4198206952190974534
+  501 19031     1   0  8Sep19 ??         0:00.25 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/XPCServices/AlertNotificationService.xpc/Contents/MacOS/AlertNotificationService
+  501 19035     1   0  8Sep19 ??         0:01.49 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+  501 19048 19020   0  8Sep19 ??         0:01.84 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --extension-process --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=4213103254251254496 --renderer-client-id=5 --no-v8-untrusted-code-mitigations --seatbelt-client=113
+  501 19098 19020   0  8Sep19 ??         0:35.32 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --service-sandbox-type=audio --message-loop-type-ui --service-request-channel-token=10998332627969309202
+  501 19099     1   0  8Sep19 ??         0:00.34 /usr/libexec/assertiond
+    0 20551     1   0 10Sep19 ??         0:07.60 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid 6A9CBBCE-9919-44D8-B742-EF64AFFDBD5B -post-exec 4
+    0 20806     1   0 10Sep19 ??         3:36.30 /usr/libexec/syspolicyd
+    0 20808     1   0 10Sep19 ??         0:27.48 /System/Library/PrivateFrameworks/StorageKit.framework/Resources/storagekitd
+    0 20809     1   0 10Sep19 ??         0:01.40 /usr/libexec/diskmanagementd
+  501 21013     1   0 10Sep19 ??         0:02.95 /usr/local/libexec/ServiceRecords.app/Contents/MacOS/ServiceRecords
+  501 21692     1   0 13Sep19 ??         0:02.75 /System/Library/Frameworks/CoreMIDI.framework/MIDIServer
+  501 22726 19020   0 14Sep19 ??         6:27.56 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=10837023044081846508 --renderer-client-id=155 --no-v8-untrusted-code-mitigations --seatbelt-client=170
+  501 25023     1   0 Tue05PM ??         0:00.05 /Applications/Skype.app/Contents/Frameworks/Squirrel.framework/Resources/ShipIt com.skype.skype.ShipIt /Users/javedalam/Library/Caches/com.skype.skype.ShipIt/ShipItState.plist
+  501 25381 19020   0 Wed07PM ??         0:32.81 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=2872101764538334195 --renderer-client-id=205 --no-v8-untrusted-code-mitigations --seatbelt-client=158
+  501 25421 19020   0 Wed07PM ??         6:03.93 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=11057111153493650291 --renderer-client-id=212 --no-v8-untrusted-code-mitigations --seatbelt-client=162
+  501 25422 19020   0 Wed07PM ??         0:49.39 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=7463502842308388777 --renderer-client-id=213 --no-v8-untrusted-code-mitigations --seatbelt-client=162
+  501 25424 19020   0 Wed07PM ??         0:00.82 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=1127326326940272577 --renderer-client-id=214 --no-v8-untrusted-code-mitigations --seatbelt-client=162
+  501 25430     1   0 Wed07PM ??         0:09.29 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid B507D3BB-AA94-44A3-8479-E5FED6B9881F -post-exec 4
+  501 25432 19020   0 Wed07PM ??         0:00.76 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=7361119549275230387 --renderer-client-id=215 --no-v8-untrusted-code-mitigations --seatbelt-client=157
+  501 25446     1   0 Wed07PM ??        32:03.31 /private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9/d/GlobalMeet.app/Contents/MacOS/GlobalMeet -psn_0_1806777
+  501 25459 25446   0 Wed07PM ??         3:05.96 /private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9/d/GlobalMeet.app/Contents/Frameworks/GlobalMeet Helper.app/Contents/MacOS/GlobalMeet Helper --type=gpu-process --disable-features=SpareRendererForSitePerProcess --gpu-preferences=KAAAAAAAAACAAAAAAQAAAAAAAAAAAGAAAAAAAAAAAAAIAAAAAAAAADgBAAAmAAAAMAEAAAAAAAA4AQAAAAAAAEABAAAAAAAASAEAAAAAAABQAQAAAAAAAFgBAAAAAAAAYAEAAAAAAABoAQAAAAAAAHABAAAAAAAAeAEAAAAAAACAAQAAAAAAAIgBAAAAAAAAkAEAAAAAAACYAQAAAAAAAKABAAAAAAAAqAEAAAAAAACwAQAAAAAAALgBAAAAAAAAwAEAAAAAAADIAQAAAAAAANABAAAAAAAA2AEAAAAAAADgAQAAAAAAAOgBAAAAAAAA8AEAAAAAAAD4AQAAAAAAAAACAAAAAAAACAIAAAAAAAAQAgAAAAAAABgCAAAAAAAAIAIAAAAAAAAoAgAAAAAAADACAAAAAAAAOAIAAAAAAABAAgAAAAAAAEgCAAAAAAAAUAIAAAAAAABYAgAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAGAAAAEAAAAAAAAAAAAAAABwAAABAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAAAAKAAAAEAAAAAAAAAAAAAAACwAAABAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAAAAAAABAAAAAAAAAAAQAAAAYAAAAQAAAAAAAAAAEAAAAHAAAAEAAAAAAAAAABAAAACAAAABAAAAAAAAAAAQAAAAoAAAAQAAAAAAAAAAEAAAALAAAAEAAAAAAAAAABAAAADQAAABAAAAAAAAAAAQAAAA4AAAAQAAAAAAAAAAQAAAAAAAAAEAAAAAAAAAAEAAAABgAAABAAAAAAAAAABAAAAAcAAAAQAAAAAAAAAAQAAAAIAAAAEAAAAAAAAAAEAAAACgAAABAAAAAAAAAABAAAAAsAAAAQAAAAAAAAAAQAAAANAAAAEAAAAAAAAAAEAAAADgAAABAAAAAAAAAABgAAAAAAAAAQAAAAAAAAAAYAAAAGAAAAEAAAAAAAAAAGAAAACAAAABAAAAAAAAAABgAAAAoAAAAQAAAAAAAAAAYAAAALAAAAEAAAAAAAAAAGAAAADQAAABAAAAAAAAAABgAAAA4AAAAQAAAAAAAAAAcAAAAAAAAAEAAAAAAAAAAHAAAABgAAABAAAAAAAAAABwAAAAgAAAAQAAAAAAAAAAcAAAAKAAAAEAAAAAAAAAAHAAAACwAAABAAAAAAAAAABwAAAA0AAAAQAAAAAAAAAAcAAAAOAAAA --service-request-channel-token=5876177942355721736
+  501 25460 25446   0 Wed07PM ??         0:01.43 /private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9/d/GlobalMeet.app/Contents/Frameworks/GlobalMeet Helper.app/Contents/MacOS/GlobalMeet Helper --type=renderer --autoplay-policy=no-user-gesture-required --disable-features=SpareRendererForSitePerProcess --service-pipe-token=16262617590326088469 --lang=en-GB --app-path=/private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9/d/GlobalMeet.app/Contents/Resources/app.asar --node-integration --no-sandbox --no-zygote --background-color=#FFF --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=16262617590326088469 --renderer-client-id=5 --no-v8-untrusted-code-mitigations
+  501 25461     1   0 Wed07PM ??         0:00.64 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+  501 25462     1   0 Wed07PM ??         0:00.39 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501 25463     1   0 Wed07PM ??         0:00.12 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501 25465     1   0 Wed07PM ??         0:00.04 /var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9/d/GlobalMeet.app/Contents/Frameworks/Electron Framework.framework/Resources/crashpad_handler --no-rate-limit --no-upload-gzip --database=/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/Main Process Crashes --metrics-dir=/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/Main Process Crashes --url=https://electron-bp.telemetry.globalmeet.com/post?token=QTpvwdsh2EOT42pYzN9iCllMVF81RDew --handshake-fd=73
+  501 25481 25446   0 Wed07PM ??         1:40.83 /private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9/d/GlobalMeet.app/Contents/Frameworks/GlobalMeet Helper.app/Contents/MacOS/GlobalMeet Helper --type=renderer --autoplay-policy=no-user-gesture-required --disable-features=SpareRendererForSitePerProcess --service-pipe-token=9935794734137694462 --lang=en-GB --app-path=/private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9/d/GlobalMeet.app/Contents/Resources/app.asar --no-sandbox --no-zygote --preload=/private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9/d/GlobalMeet.app/Contents/Resources/app.asar/preload.js --background-color=#FFF --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=9935794734137694462 --renderer-client-id=9 --no-v8-untrusted-code-mitigations {"env":"Prod","version":"6.9.2","identity":{"accessTokenPath":"/oauth2/token","authCodePath":"/oauth2/auth","logoutPath":"/users/logout","revokePath":"/oauth2/revoke?token=","redirect_uri":"urn:ietf:wg:oauth:2.0:oob:auto","access_type":"offline","scope":"app.globalmeet:webservices+app.globalmeet:uapi+app.globalmeet:pulsar+app.globalmeet:logging+app.globalmeet:screenshare+app.globalmeet:gmsearch+openid+profile+email+app.globalmeet:gmservices.core","client_id":"b90ca26a-1792-451e-9e1e-8456fffbe549","baseUrl":"https://login.globalmeet.com"},"ucaas":{"baseUrl":"https://crossbar.uc.globalmeet.com/v2/","sip":{"transportOptions":{"wsServers":["wss://ws.uc.globalmeet.com"],"maxReconnectionAttempts":3,"traceSip":true},"dtmfType":"rtp","rel100":"supported","userAgentString":"UCaaS Softphone","register":true,"log":{"level":"debug"},"sessionDescriptionHandlerFactoryOptions":{"peerConnectionOptions":{"rtcConfiguration":{"iceServers":[{"urls":"stun:stun.globalmeet.com:3478"},{"urls":"turn:turn.prod.wrtcg.globalmeet.com:443?transport=tcp"}]}}}}},"communityUrl":"https://www.mymeetinghelp.com/Home/GlobalMeet/GlobalMeet","crashReporterUrl":"https://electron-bp.telemetry.globalmeet.net","crashReporterToken":"QTpvwdsh2EOT42pYzN9iCllMVF81RDew","remoteConfigUrl":"https://convergencedesktop.globalmeet.com/env-config.json","downloadToolsUrl":"https://www.mymeetinghelp.com/Home/GlobalMeet/GlobalMeet/Tools_and_Settings/a_GlobalMeet_Apps/a_Downloads","supportUrl":"https://www.mymeetinghelp.com/Home/GlobalMeet/Contact_Us","learnMoreUrl":"https://www.mymeetinghelp.com/@api/deki/files/5000/GlobalMeet5_WhatsNew.pdf","provideFeedbackEmail":"desktopfeedback@pgi.com","releaseNotesUrl":"https://www.mymeetinghelp.com/Home/GlobalMeet/GlobalMeet/Documentation/a_Release_Notes/a_GlobalMeet_Release_Notes","pingUrl":"https://convergencedesktop.globalmeet.com/ping.txt","pingInterval":30000,"pingIntervalShort":10000,"invokeUrlWaitTime":60000,"privacypolicyUrl":"'https://www.pgi.com/privacy-policy/","useUapi":false,"networkChangeDelay":5000,"updatedNotificationExpiryDays":1,"identifier":2,"showWelcomeTour":true,"localeOptions":[{"lang":"English","code":"en"},{"lang":"Dutch","code":"nl"},{"lang":"German","code":"de"},{"lang":"French","code":"fr"},{"lang":"Japanese","code":"ja"}],"convergence_client":{"cookie_expiry":7200,"h_backend_url":"https://director.globalmeet.com","base_url":"https://web.globalmeet.com","web_meeting_servers":["https://web.globalmeet.com","https://web-na.globalmeet.com","https://web-eu.globalmeet.com","https://web-ap.globalmeet.com"],"email_support_urls":["www-na1.globalmeet.com","www-na2.globalmeet.com","www-na3.globalmeet.com"],"access_cookie":"Horses.Access","id_cookie":"Horses.ID","boot_cookie":"Horses.Boot","env_cookie":"Horses.Env","cookie_domain":"globalmeet.com","furlProxyEnabled":true},"appDetector":{"primaryPort":"8045","secondaryPort":"9501","launchProtocol":"gmmeet://launchRoom","launchProtocol1":"gmmeet://","allowedDomains":"[]","enableHttps":"true"},"office":{"clientId":"92460548-5858-440f-ae5a-f7136ba4ee58","openIdConnectUri":"https://login.microsoftonline.com/common/v2.0","redirectUri":"https://login.microsoftonline.com/common/oauth2/nativeclient","c2RedirectUri":"https://c2.qac.globalmeet.net/v1/redirect","c2RefreshUri":"https://c2.qac.globalmeet.net/v1/o365","c2ClientId":"4ea369b1-97b3-45b0-b41e-b248fe139d7e","scope":["openid","offline_access","Calendars.ReadWrite","Contacts.ReadWrite","Contacts.Read","People.Read","User.ReadWrite","User.ReadBasic.All","User.Read","MailboxSettings.Read"]},"env_value":"P","env_id":"prod","meeting_setting_url":"https://www.globalmeet.com/profile.php","gm5_meeting_settings_enabled":true,"gm5_meeting_settings_host":"https://settings.globalmeet.com","ws_host":"https://services.pgiconnect.com","gmsearch_host":"https://gmsearch.globalmeet.com","uapi_host":"https://uapi.globalmeet.com","pulsar_login_url":"https://mns-registry.globalmeet.com/login","recordingsUrl":"https://files.globalmeet.com","logging_service":{"base":"logsvc.globalmeet.com","log_path":"/logs"},"updates":{"updateInterval":21600,"app":{"enabled":true,"mac":{"url":"https://convergencedesktop.globalmeet.com/installers/5.29.4","version":"5.29.4","minVersion":"0.2.0","releaseNotes":""},"win":{"url":"https://convergencedesktop.globalmeet.com/installers/5.29.4","version":"5.29.4","minVersion":"0.2.0","releaseNotes":""},"msi":{"url":"https://convergencedesktop.globalmeet.com/installers/msi/5.29.4","version":"5.29.4","minVersion":"5.0.2","releaseNotes":""},"scheduledRelease":{"mac":{"url":"https://convergencedesktop.globalmeet.com/installers/5.29.4","version":"5.29.4","minVersion":"5.0.2","releaseNotes":""},"win":{"url":"https://convergencedesktop.globalmeet.com/installers/5.29.4","version":"5.29.4","minVersion":"5.0.2","releaseNotes":""},"msi":{"url":"https://convergencedesktop.globalmeet.com/installers/msi/5.29.4","version":"5.29.4","minVersion":"5.0.2","releaseNotes":""}},"rapidRelease":{"mac":{"url":"https://convergencedesktop.globalmeet.com/installers/5.29.1-rc.1873","version":"5.29.1-rc.1873","minVersion":"5.0.2","releaseNotes":""},"win":{"url":"https://convergencedesktop.globalmeet.com/installers/5.29.1-rc.1873","version":"5.29.1-rc.1873","minVersion":"5.0.2","releaseNotes":""}}},"content":{"version":"0.3.9","url":"https://s3.amazonaws.com/convergence-desktop-test/contents/0.3.9/index.html","minAppVersion":"0.2.0","enabled":false,"releaseNotes":""}}}
+  501 25508 19020   0 Wed07PM ??         0:03.44 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=3982082065706115374 --renderer-client-id=220 --no-v8-untrusted-code-mitigations --seatbelt-client=157
+  501 25514 19020   0 Wed07PM ??         0:34.59 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=11684781960211488146 --renderer-client-id=225 --no-v8-untrusted-code-mitigations --seatbelt-client=157
+  501 25518 19020   0 Wed07PM ??         0:18.54 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=10763775305195663145 --renderer-client-id=229 --no-v8-untrusted-code-mitigations --seatbelt-client=158
+   89 25541     1   0 Wed07PM ??         0:00.14 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  501 25680 19020   0 Wed07PM ??         0:20.86 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=1668039223372887386 --renderer-client-id=235 --no-v8-untrusted-code-mitigations --seatbelt-client=158
+  501 25681 19020   0 Wed07PM ??         0:12.30 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=17546515094652101312 --renderer-client-id=236 --no-v8-untrusted-code-mitigations --seatbelt-client=157
+  501 25683 19020   0 Wed07PM ??         0:05.82 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=15338055293207336132 --renderer-client-id=237 --no-v8-untrusted-code-mitigations --seatbelt-client=157
+    0 26327     1   0 Thu07PM ??         0:00.02 /usr/libexec/applessdstatistics
+  501 26858     1   0 Thu08PM ??         0:00.32 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  501 26859     1   0 Thu08PM ??         0:00.25 /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper
+  501 26860     1   0 Thu08PM ??         0:00.56 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+    0 26901     1   0  9:30PM ??         0:02.25 /usr/libexec/sandboxd
+    0 26939     1   0  9:30PM ??         0:04.81 /usr/libexec/PerfPowerServices
+  501 27042 19020   0  9:06AM ??         0:15.27 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=3881881737781611023 --renderer-client-id=268 --no-v8-untrusted-code-mitigations --seatbelt-client=167
+  501 27138 19020   0  9:27AM ??         0:05.08 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=5506532890940807717 --renderer-client-id=279 --no-v8-untrusted-code-mitigations --seatbelt-client=178
+  501 27139 19020   0  9:27AM ??         0:45.42 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --extension-process --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=13612709559844756176 --renderer-client-id=280 --no-v8-untrusted-code-mitigations --seatbelt-client=178
+  501 27226 19020   0  9:42AM ??         1:30.73 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=15982558112493845551 --renderer-client-id=292 --no-v8-untrusted-code-mitigations --seatbelt-client=182
+  501 27232     1   0  9:42AM ??         0:02.27 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  501 27233 19020   0  9:42AM ??         0:00.47 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=10101221322657012354 --renderer-client-id=296 --no-v8-untrusted-code-mitigations --seatbelt-client=182
+  501 27244     1   0  9:42AM ??         0:02.73 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  501 27253 19020   0  9:42AM ??         0:00.56 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=837467286460644248 --renderer-client-id=297 --no-v8-untrusted-code-mitigations --seatbelt-client=135
+  501 27255 19020   0  9:43AM ??         0:11.64 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=9421242347959777141 --renderer-client-id=298 --no-v8-untrusted-code-mitigations --seatbelt-client=135
+  501 27260     1   0  9:43AM ??         0:01.78 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  501 27262     1   0  9:43AM ??         0:03.78 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  501 27274 19020   0  9:45AM ??         0:06.79 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=10680049638272379417 --renderer-client-id=299 --no-v8-untrusted-code-mitigations --seatbelt-client=132
+  501 27281     1   0  9:46AM ??         0:00.57 /usr/local/libexec/AuthManager_Mac.app/Contents/MacOS/AuthManager_Mac
+  501 27294 19020   0  9:47AM ??         0:01.97 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=15967720841681925140 --renderer-client-id=305 --no-v8-untrusted-code-mitigations --seatbelt-client=185
+  501 27321 19020   0  9:49AM ??         0:46.50 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=9113225019982113261 --renderer-client-id=317 --no-v8-untrusted-code-mitigations --seatbelt-client=118
+  501 27337 19020   0  9:50AM ??         0:02.00 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=15854245260523133639 --renderer-client-id=329 --no-v8-untrusted-code-mitigations --seatbelt-client=118
+  501 27344 19020   0  9:51AM ??         0:01.66 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=4656773706456084101 --renderer-client-id=330 --no-v8-untrusted-code-mitigations --seatbelt-client=186
+  501 27345 19020   0  9:51AM ??         0:01.58 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=17589074532227874462 --renderer-client-id=331 --no-v8-untrusted-code-mitigations --seatbelt-client=185
+  501 27370     1   0 10:17AM ??         0:00.42 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent
+  222 27371     1   0 10:17AM ??         0:00.16 /usr/sbin/netbiosd
+  501 27373     1   0 10:17AM ??         0:00.13 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  501 27558 25446   0 10:41AM ??        39:27.87 /private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9/d/GlobalMeet.app/Contents/Frameworks/GlobalMeet Helper.app/Contents/MacOS/GlobalMeet Helper --type=renderer --autoplay-policy=no-user-gesture-required --disable-features=SpareRendererForSitePerProcess --service-pipe-token=4273341134665560041 --lang=en-GB --app-path=/private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9/d/GlobalMeet.app/Contents/Resources/app.asar --no-sandbox --no-zygote --preload=/private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9/d/GlobalMeet.app/Contents/Resources/app.asar/window/window-preload.js --background-color=#fbfcfd --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=4273341134665560041 --renderer-client-id=71 --no-v8-untrusted-code-mitigations {"locale":"en","useMainWindowAdapter":true,"windowName":"Meeting Room"}
+  501 27561 25446   0 10:42AM ??         7:48.30 /private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9/d/GlobalMeet.app/Contents/Frameworks/GlobalMeet Helper.app/Contents/MacOS/GlobalMeet Helper --type=renderer --autoplay-policy=no-user-gesture-required --disable-features=SpareRendererForSitePerProcess --service-pipe-token=8098998896359952805 --lang=en-GB --app-path=/private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9/d/GlobalMeet.app/Contents/Resources/app.asar --no-sandbox --no-zygote --preload=/private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9/d/GlobalMeet.app/Contents/Resources/app.asar/window/window-preload.js --background-color=#2f2f31 --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=8098998896359952805 --renderer-client-id=73 --no-v8-untrusted-code-mitigations {"windowName":"Unknown"}
+  501 27598 25446   0 10:45AM ??         0:00.59 /private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9/d/GlobalMeet.app/Contents/Frameworks/GlobalMeet Helper.app/Contents/MacOS/GlobalMeet Helper --type=renderer --autoplay-policy=no-user-gesture-required --disable-features=SpareRendererForSitePerProcess --service-pipe-token=9882220911368988265 --lang=en-GB --app-path=/private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9/d/GlobalMeet.app/Contents/Resources/app.asar --node-integration --no-sandbox --no-zygote --background-color=#fff --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=9882220911368988265 --renderer-client-id=75 --no-v8-untrusted-code-mitigations
+  501 28014 19020   0 11:28AM ??         0:02.17 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=12417378778997667446 --renderer-client-id=346 --no-v8-untrusted-code-mitigations --seatbelt-client=187
+  501 28015 19020   0 11:28AM ??         0:00.51 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=11242441671450693022 --renderer-client-id=347 --no-v8-untrusted-code-mitigations --seatbelt-client=186
+  501 28016 19020   0 11:28AM ??         0:00.14 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,14165684587384314036,16077249102596590291,131072 --lang=en-GB --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=12461859261005034707 --renderer-client-id=348 --no-v8-untrusted-code-mitigations --seatbelt-client=186
+  501 28018     1   0 11:28AM ??         0:00.08 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  501 28019     1   0 11:28AM ??         0:00.08 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  501 28020     1   0 11:28AM ??         0:00.06 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  501 28022     1   0 11:28AM ??         0:00.06 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  501 28023     1   0 11:28AM ??         0:00.15 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  501 28024     1   0 11:28AM ??         0:00.16 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  501 28025     1   0 11:28AM ??         0:00.67 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  501 28027     1   0 11:28AM ??         0:00.56 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  501 28029     1   0 11:28AM ??         0:00.53 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+    0  1671  1606   0 10Aug19 ttys000    0:00.05 login -pfl javedalam /bin/bash -c exec -la bash /bin/bash
+  501  1673  1671   0 10Aug19 ttys000    0:00.71 -bash
+    0  1684  1606   0 10Aug19 ttys001    0:00.03 login -pfl javedalam /bin/bash -c exec -la bash /bin/bash
+  501  1685  1684   0 10Aug19 ttys001    0:00.39 -bash
+    0 19368  1606   0  8Sep19 ttys003    0:00.12 login -pf javedalam
+  501 19369 19368   0  8Sep19 ttys003    0:04.53 -bash
+    0 28117 19369   0 11:40AM ttys003    0:00.01 ps -ef
+    0 25869  1606   0 Wed07PM ttys004    0:00.17 login -pf javedalam
+  501 25871 25869   0 Wed07PM ttys004    0:00.06 -bash
+    0 27658  1606   0 10:53AM ttys005    0:00.10 login -pf javedalam
+  501 27659 27658   0 10:53AM ttys005    0:00.03 -bash
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ps -ef | grep -i "bash"
+    0  1671  1606   0 10Aug19 ttys000    0:00.05 login -pfl javedalam /bin/bash -c exec -la bash /bin/bash
+  501  1673  1671   0 10Aug19 ttys000    0:00.71 -bash
+    0  1684  1606   0 10Aug19 ttys001    0:00.03 login -pfl javedalam /bin/bash -c exec -la bash /bin/bash
+  501  1685  1684   0 10Aug19 ttys001    0:00.39 -bash
+  501 19369 19368   0  8Sep19 ttys003    0:04.54 -bash
+  501 28122 19369   0 11:40AM ttys003    0:00.00 grep -i bash
+  501 25871 25869   0 Wed07PM ttys004    0:00.06 -bash
+  501 27659 27658   0 10:53AM ttys005    0:00.03 -bash
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ history 
+  476  pwd
+  477  ls -l
+  478  cd ..
+  479  ls -l
+  480  cd ..
+  481  ls -l
+  482  cd Ansible/
+  483  ls -l
+  484  ls -l
+  485  cd Documents/DevOpsLabs/
+  486  ls -l
+  487  cd DataStructureDepth/
+  488  ls -l
+  489  cd C
+  490  ls -l
+  491  nano fun.c
+  492  gcc -o fun.c 
+  493  pwd
+  494  cd ..
+  495  ls -l
+  496  mkdir 07-July-2019
+  497  cd 07-July-2019/
+  498  ls -l
+  499  nano isPalendrome.py
+  500  pwd
+  501  cd Documents/DevOpsLabs/Docker5Days-Last/
+  502  ls -l
+  503  docker images
+  504  docker container run --publish 80:80 nginx
+  505  docker container run --publish 8080:80 nginx
+  506  pwd
+  507  ls -l
+  508  cd ..
+  509  ls -l
+  510  cd Ansible/
+  511  ls -l
+  512  git branch
+  513  pwd
+  514  cd ..
+  515  ls -l
+  516  git status
+  517  git branch
+  518  pwd
+  519  cd ..
+  520  ls -l
+  521  cd DevOps
+  522  ls -l
+  523  ls -l Ansible/*
+  524  cd ../DevOpsLabs/
+  525  ls -l
+  526  mkdir Linux
+  527  cd Linux/
+  528  ls -l
+  529  mkdir 18082019
+  530  cd 18082019/
+  531  git branch
+  532  git add .
+  533  git status
+  534  git commit -m "Added One Linux dir"
+  535  git push origin master
+  536  git init
+  537  pwd
+  538  git add .
+  539  git commit -m "Linux Dir"
+  540  git push 
+  541  git push origin master
+  542  ls -l
+  543  pwd
+  544  cd ..
+  545  ls -l
+  546  cd ..
+  547  ls -l
+  548  cd Linux/
+  549  ls -l
+  550  cd 18082019/
+  551  touch Lab-1
+  552  git add .
+  553  git status
+  554  git commit -m "Linux Dir"
+  555  git push origin master
+  556  git branch
+  557  git status
+  558  git push origin master --force
+  559  cd ..
+  560  ls -l
+  561  cd ..
+  562  ls -l
+  563  rm -rf Linux/*
+  564  ls -l
+  565  git status
+  566  cd ..
+  567  git branch
+  568  ls -l
+  569  cd DevOpsLabs/
+  570  ls -l
+  571  git clone https://github.com/xavyaly/LinuxCmds.git
+  572  ls -l
+  573  ls -l Linux*
+  574  cd LinuxCmds/
+  575  ls -l
+  576  mkdir 18092019
+  577  cd 18092019/
+  578  touch Lab-1
+  579  nano Lab-1 
+  580  cat Lab-1 
+  581  git status
+  582  git add .
+  583  git commit -m "XYZ"
+  584  git push origin master
+  585  cat /etc/passwd | grep -v "xavy"
+  586  cat /etc/passwd | grep -v "false"
+  587  cat /etc/passwd | grep "false"
+  588  cat /etc/passwd | grep "https://github.com/xavyaly/LinuxCmds.git"
+  589  cat /etc/passwd | grep "_displaypolicyd"
+  590  du -h
+  591  df -Ht
+  592  clear
+  593  pwd
+  594  cd ..
+  595  ls -l
+  596  cd ..
+  597  ls -l
+  598  cd LinuxCmds/
+  599  ls -l
+  600  cd 18092019/
+  601  ls -l
+  602  cat Lab-1 
+  603  nano Lab-1 
+  604  pwd
+  605  pwd
+  606  cal
+  607  echo 
+  608  echo "xavy"
+  609  echo "xavyadhjhii"
+  610  echo $2
+  611  echo "$2"
+  612  echo "2"
+  613  echo "@2"
+  614  echo $HOME
+  615  cal
+  616  date
+  617  date+%T
+  618  'date+%T'
+  619  date
+  620  tty
+  621  tty
+  622  whoami
+  623  id
+  624  id root
+  625  clear
+  626  date
+  627  date --help
+  628  whatis date
+  629  man date
+  630  man date
+  631  info date
+  632  pwd
+  633  cd ../../
+  634  pwd
+  635  cd -
+  636  cd ..
+  637  cd -
+  638  cd 
+  639  pwd
+  640  cd -
+  641  pwd
+  642  ls -l
+  643  cd ..
+  644  ls -l
+  645  cd 18092019/
+  646  ls -l
+  647  cd Lab-1 
+  648  ls 
+  649  ls -l
+  650  ls -ltr
+  651  cd ..
+  652  ls -l
+  653  cd ..
+  654  ls -l
+  655  ls
+  656  ls -l
+  657  ls -ltr
+  658  ls -la
+  659  pwd
+  660  cal
+  661  pwd
+  662  cd LinuxCmds/
+  663  ls -l
+  664  cd 18092019/
+  665  ls -l
+  666  mkdir XYZ
+  667  ls -l
+  668  touch f1
+  669  ls -l
+  670  ls -l *
+  671  ls -l
+  672  ls -l XYZ/*
+  673  ls -l XYZ*
+  674  touch f{1..6}
+  675  ls -l
+  676  cp f1 f10
+  677  ls -l
+  678  mv f1 f12
+  679  ls -l
+  680  ls -l
+  681  rmdir XYZ
+  682  mkdir XYZ
+  683  ls -l
+  684  mv f1 f2 XYZ/
+  685  ls -l
+  686  mv f1 XYZ/
+  687  mv f1 XYZ
+  688  cp f1 XYZ
+  689  ls -l
+  690  mv f4 XYZ
+  691  ls -l XYZ*
+  692  rmdir XYZ
+  693  rm -rf XYZ*
+  694  ls -l
+  695  ls -l
+  696  rm f10
+  697  file /etc/passwd
+  698  file f12 f3
+  699  mkdir XYZ
+  700  file XYZ
+  701  ls -l
+  702  mv f3 XYZ
+  703  file XYZ
+  704  stat XYZ/
+  705  ls -l
+  706  pwd
+  707  cat Lab-1 
+  708  cat /etc/passwd
+  709  cat /etc/passwd | grep "_coremediaiod"
+  710  cat /etc/passwd | grep -v "_coremediaiod"
+  711  head /etc/passwd
+  712  pwd
+  713  ls -l
+  714  rm XYZ/* f12 f5 f6
+  715  ls -l
+  716  rm -rf XYZ/*
+  717  ls -l
+  718  ls -l XYZ/*
+  719  rmdir XYZ/
+  720  ls -l
+  721  nano Lab-1 
+  722  git status
+  723  git branch
+  724  git add . 
+  725  git status
+  726  git commit -m "Linux Commands"
+  727  git push origin master
+  728  ls -l
+  729  cd ..
+  730  cd ..
+  731  ls -l
+  732  cd LinuxCmds/
+  733  ls -l
+  734  mkdir 19092019
+  735  cd 19092019/
+  736  touch Lab-1
+  737  ls -l
+  738  pwd
+  739  cat /etc/passwd 
+  740  cat /etc/passwd 
+  741  ls -l
+  742  clear
+  743  cat /etc/passwd
+  744  head /etc/passwd
+  745  head -n 12 /etc/passwd
+  746  cat /etc/passwd | grep -i "_datadetectors"
+  747  tail /etc/passwd
+  748  tail -n 20 /etc/passwd
+  749  wc /etc/passwd
+  750  nano sample
+  751  ls -l
+  752  cat sample1 
+  753  wc sample1 
+  754  cat sample1 | grep -i "hfjhlsfh"
+  755  cat sample1 | grep -i "flhfhfadjsh"
+  756  grep -i "flhfhfadjsh"
+  757  grep -i "flhfhfadjsh" * 
+  758  ls -l
+  759  nano sample2
+  760  ls -l
+  761  cat sample1 
+  762  cat sample2 
+  763  grep -i "hfjhlsfh"
+  764  grep -i "hfjhlsfh" * 
+  765  diff sample1 sample2
+  766  nano sample2 
+  767  cat sample1 
+  768  cat sample2
+  769  diff sample1 sample2
+  770  grep -i "hfjlhsl"
+  771  grep -i "hfjlhsl" * 
+  772  nano sample2
+  773  grep -i "hfjlhsl" * 
+  774  cat sample2 
+  775  cat >> sample2
+  776  cat sample2 
+  777  grep -i "hfjlhsl" * 
+  778  vim sample3
+  779  cat sample3
+  780  vim sample3
+  781  cat sample3
+  782  vim sample3
+  783  vim sample3
+  784  vim sample3
+  785  cat sample3
+  786  ls -l
+  787  nano sample4
+  788  cat sample4
+  789  ls -l
+  790  cat >> sample4
+  791  cat sample4
+  792  nano sample4
+  793  cat sample4
+  794  ls -l
+  795  alias jd="ls -l"
+  796  ls -l
+  797  jd
+  798  w
+  799  last 
+  800  last | head
+  801  lastb
+  802  du /etc/passwd
+  803  ls -l
+  804  du sample1
+  805  cat sample1
+  806  df
+  807  du -hT
+  808  df -Ht
+  809  fdisk -l
+  810  fdisk 
+  811  fdisk -i
+  812  netstat 
+  813  netstat -ntlp 
+  814  netstat | head
+  815  netstat | tail
+  816  netstat -ntlp
+  817  netstat -a | grep -i "listen"
+  818  history 
+  819  last | head
+  820  passwd 
+  821  ls -l
+  822  pwd
+  823  nano Lab-1 
+  824  ls -l
+  825  git status
+  826  git add Lab-1 
+  827  git status
+  828  git add .
+  829  git status
+  830  git commit -m "19092019"
+  831  git branch
+  832  git push origin master
+  833  clear
+  834  man date
+  835  pwd
+  836  cal
+  837  cal 09 2020
+  838  echo "Deepak"
+  839  echo "Above command executed successfully"
+  840  echo $HOME
+  841  date
+  842  date+%T
+  843  tty
+  844  'date+%T'
+  845  whoami
+  846  id
+  847  id root
+  848  clear
+  849  date --help
+  850  whatis date
+  851  man date 
+  852  +DATE: %Y-%m-%d%nTIME: %H:%M:%S
+  853  man cal
+  854  info date
+  855  pwd
+  856  ls 
+  857  ls -l 
+  858  pwd
+  859  cd ..
+  860  pwd
+  861  cd ..
+  862  pwd
+  863  cd -
+  864  cd -
+  865  pwd
+  866  ls -l
+  867  cd LinuxCmds/
+  868  ls -l
+  869  mkdir 20092019
+  870  cd 20092019/
+  871  ls -l
+  872  pwd
+  873  cd ../../../
+  874  pwd
+  875  cd -
+  876  ls 
+  877  ls ../
+  878  ls ../../
+  879  ls -l ../../
+  880  pwd
+  881  ls -l
+  882  mkdir xyz
+  883  ls -l
+  884  touch file
+  885  ls -l
+  886  touch file{1..6}
+  887  ls -l
+  888  cp file1 file10
+  889  ls -l
+  890  mv file1 file11
+  891  ls -l
+  892  cat file
+  893  pwd
+  894  ls -l
+  895  ls -l
+  896  cd xyz/
+  897  ls -l
+  898  touch l1
+  899  ls -l
+  900  cat l1 
+  901  cd ..
+  902  ls -l
+  903  ls -l ../
+  904  ls -l ../../
+  905  ls -l ../../Linux
+  906  cd ../../../
+  907  ls -l
+  908  cd DevOpsLabs/
+  909  ls -l
+  910  touch test
+  911  pwd
+  912  cd LinuxCmds/20092019/
+  913  ls -l
+  914   pwd
+  915  cp ../../test .
+  916  ls -l
+  917  ls -l ../../
+  918  mv ../../test . 
+  919  ls -l
+  920  ls -l ../../
+  921  ls -l
+  922  rm test 
+  923  ls -l
+  924  ls -ltr
+  925  ls -la 
+  926  ls -l xyz/*
+  927  rmdir xyz
+  928  rm -rf xyz
+  929  pwd
+  930  cd ..
+  931  ls -l
+  932  cd 20092019/
+  933  file /etc/passwd
+  934  ls -l 
+  935  file .
+  936  file file
+  937  mkdir xyz
+  938  file xyz/
+  939  stat
+  940  ls -l
+  941  cat file
+  942  nano file
+  943  ls -l
+  944  cat file
+  945  cat file20
+  946  cat /etc/passwd
+  947  head /etc/passwd
+  948  head -20 /etc/passwd
+  949  tail /etc/passwd
+  950  tail -20 /etc/passwd
+  951  cat /etc/passwd
+  952  cat /etc/passwd | grep -i "_nsurlstoraged"
+  953  cat /etc/passwd | grep -v "_nsurlstoraged"
+  954  wc /etc/passwd
+  955  ls -l
+  956  vim file20 
+  957  cat file20
+  958  vim file20
+  959  cat file20
+  960  ls -l
+  961  alias ra='ls -l'
+  962  ls -l
+  963  ra
+  964  w
+  965  last | head
+  966  lastb
+  967  du 
+  968  df -hT
+  969  df
+  970  fdisk -l
+  971  netstat 
+  972  netstat -ntlp
+  973  ps -ef
+  974  ps -ef | grep -i "bash"
+  975  history 
+Javeds-MacBook-Air:20092019 javedalam$ !969
+df
+Filesystem                         512-blocks      Used Available Capacity iused               ifree %iused  Mounted on
+/dev/disk1s1                        236568496 163442696  63406168    73% 1438782 9223372036853337025    0%   /
+devfs                                     394       394         0   100%     682                   0  100%   /dev
+/dev/disk1s4                        236568496   8388800  63406168    12%       4 9223372036854775803    0%   /private/var/vm
+map -hosts                                  0         0         0   100%       0                   0  100%   /net
+map auto_home                               0         0         0   100%       0                   0  100%   /home
+/dev/disk4s1                           392984    386520      6464    99%     355          4294966924    0%   /Volumes/GlobalMeet
+/Volumes/GlobalMeet/GlobalMeet.app     392984    386520      6464    99%     355          4294966924    0%   /private/var/folders/mz/53xm61dj05x40qb1p_cgfz0w0000gn/T/AppTranslocation/E5BEEB51-1BE9-4083-BB1C-A6F3A74456C9
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ pwd
+/Users/javedalam/Documents/DevOpsLabs/LinuxCmds/20092019
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 8
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:01 file
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file10
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file11
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file2
+-rw-r--r--  1 javedalam  staff  471 Sep 21 11:31 file20
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file3
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file4
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file5
+-rw-r--r--  1 javedalam  staff    0 Sep 21 11:02 file6
+drwxr-xr-x  2 javedalam  staff   64 Sep 21 11:14 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ rm file*
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+total 0
+drwxr-xr-x  2 javedalam  staff  64 Sep 21 11:14 xyz
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ ls -l xyz/
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ rmdir xyz/
+Javeds-MacBook-Air:20092019 javedalam$ ls -l
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ pwd
+/Users/javedalam/Documents/DevOpsLabs/LinuxCmds/20092019
+Javeds-MacBook-Air:20092019 javedalam$ 
+Javeds-MacBook-Air:20092019 javedalam$ touch Lab-1
+Javeds-MacBook-Air:20092019 javedalam$ nano Lab-1 
+
