@@ -44,14 +44,12 @@ Sol-7
      1  #!/bin/bash
      2
      3  echo "Hello, LOGNAME: " $LOGNAME
-     4  echo "Current DATE is: " $date
-     5  echo "User is WHOAMI:  " $whoami
-     6  echo "Current DIRECTORY IS: " $pwd
+     4  echo "Current DATE is: " $(date)
+     5  echo "User is WHOAMI:  " $(whoami)
+     6  echo "Current DIRECTORY IS: " $(pwd)
+[cloudshell-user@ip-10-0-81-244 20_Interview_Questions]$
 [cloudshell-user@ip-10-0-81-244 20_Interview_Questions]$ ./date_time_username.sh 
 Hello, LOGNAME:  cloudshell-user
-Current DATE is: 
-User is WHOAMI:  
-Current DIRECTORY IS: 
-[cloudshell-user@ip-10-0-81-244 20_Interview_Questions]$ 
-
-
+Current DATE is:  Thu Aug 12 07:25:36 UTC 2021
+User is WHOAMI:   cloudshell-user
+Current DIRECTORY IS:  /home/cloudshell-user/Shell-Scripting/20_Interview_Questions
