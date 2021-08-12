@@ -242,7 +242,7 @@ Hint: reminder operator
 ./leap.sh: line 4: % 400: syntax error: operand expected (error token is "% 400")
 [cloudshell-user@ip-10-0-190-240 Challenges]$ 
 
-Question-8:
+Question-8: Interview Perspective
 
 Ping every server in the 25.227.36.x subnet where x is a number between 0 to 255
 If ping succeeded display the statement 
@@ -274,7 +274,101 @@ Solution:
     
  Question-9:
  
+ Calculate the GCD (Greatest Common Divisor) of two nos: num1 & num2 (passed as script arguments)
  
+ The GCD of 2 or more integers, which are not all zero, is the largest +ive integer that divides each of the integers.
+ 
+ Create a function names common_divisor that tests whether a num evenly divides num1 & num2
+ 
+ Hint: Remainders and loops 
+ 
+ O/P:
+ 
+ ./gcd.sh 25 5 
+ The gcd of 25 and 5 is: 5
+ ./gcd.sh 100 80
+ The gcd of 100 and 80 is: 20
+ ./gcd.sh 1000 600
+ The gcd of 1000 and 600 is: 200
+ ./gcd.sh -100 -88
+ The gcd of -100 and -88 is: 1 
+ ./gcd.sh 999 777
+ The gcd of 999 and 777 is: 111
+ 
+ Solution-9:
+ 
+ [cloudshell-user@ip-10-0-81-244 Challenges]$ cat -n gcd.sh 
+     1  #!/bin/bash
+     2
+     3  num1=$1
+     4  num2=$2
+     5  gcd=1
+     6  common_divisor() {
+     7          x=$1
+     8          if [ $(($num1 % $x)) -eq 0 ] && [ $(($num2 % $x)) -eq 0 ]; then
+     9                  return 1
+    10          else
+    11                  return 0
+    12          fi
+    13  }
+    14  for ((i=1;i<=$num1 && i<=$num2;i++)); do
+    15          common_divisor $i
+    16          if [ $? -eq 1 ]; then
+    17                  gcd=$i
+    18          fi
+    19  done
+    20
+    21  echo "The GCD of num1 & num2 is: $gcd"
+[cloudshell-user@ip-10-0-81-244 Challenges]$ ./gcd.sh 12 2
+The GCD of num1 & num2 is: 2
+[cloudshell-user@ip-10-0-81-244 Challenges]$ ./gcd.sh 999 777
+The GCD of num1 & num2 is: 111
+[cloudshell-user@ip-10-0-81-244 Challenges]$ echo $?
+0
+[cloudshell-user@ip-10-0-81-244 Challenges]$ ./gcd.sh 25 5
+The GCD of num1 & num2 is: 5
+[cloudshell-user@ip-10-0-81-244 Challenges]$ ./gcd.sh 1000 600
+The GCD of num1 & num2 is: 200
+[cloudshell-user@ip-10-0-81-244 Challenges]$ ./gcd.sh -100 -88
+The GCD of num1 & num2 is: 1
+[cloudshell-user@ip-10-0-81-244 Challenges]$
+
+Example-10:
+
+A script would automatically detect whether a server in your environment is down!
+Store all your hostnames that you want to monitor in a file names servers.txt as below.
+
+[cloudshell-user@ip-10-0-81-244 Challenges]$ cat -n server.txt 
+     1  server_1
+     2  server_2
+     3  server_3
+     4  server_4
+     5  server_5
+
+If there is server outage, send an email to yourself specifying which server is unreachable.
+
+Your script should run every 2 hours.
+
+Hint: Use mail and cron.
+
+Read about the cronjob
+
+Solution-10: Interview Perspective
+
+[cloudshell-user@ip-10-0-81-244 Challenges]$ cat -n outage.sh 
+     1  #!/bin/bash
+     2
+     3  servers=$(cat server.txt)
+     4
+     5  for i in $servers; do
+     6          ping -c 1 $i >> /dev/null 2>&1
+     7          if [ $? -ne 0 ]; then
+     8                  echo "Sending out an outage email."
+     9                  echo "$i is unreachable" | mail -s "$i outage" your_email
+    10          fi
+    11  done
+   
+
 
 
 
