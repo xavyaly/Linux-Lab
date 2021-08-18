@@ -21,7 +21,11 @@ ctrl+Z: take control back
 [cloudshell-user@ip-10-0-143-149 ~]$ ifup eth0  : enable the interface
 [cloudshell-user@ip-10-0-143-149 ~]$ ifdown eth0  : disable the interface
 
+ping: skipped
+
 [cloudshell-user@ip-10-0-143-149 ~]$ traceroute localhost : troubleshoot the network issues, print no of hopes taken to reach the target
+
+# Compare AWS Global Accelerator and Azure Network Watcher
 
 
 
